@@ -1,1 +1,18 @@
-"# Introducci a Seles Biom俤icas 2025-1" 
+# Introduccion a Se帽ales Biomedicas 2025-1"
+|-------|------------|
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Gabriel.png" width="200px" height="270px">| Gabriel Descripci贸n 1 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Valery.jpg" width="200px" height="270px">| Valery Descripci贸n 2 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Leo.jpeg" width="200px" height="270px">| Leo Descripci贸n 3 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Leo.png" width="200px" height="270px">| Luis Descripci贸n 4 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Alejandra.png" width="200px%" height="270px">| Alejandra Descripci贸n 5 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Leo.png" width="200px" height="270px">| Nataly Descripci贸n 6 |
+馃搶 Recuerda:
+
+## Proyecto
+Proyecto: Data augmentation of MODMA Dataset for Mental Disorders Diagnosis</p> 
+<p align="center">
+  <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1388245708000461-gr2.jpg" width="50%" height="50%">
+</p>
+<p align="center">
+  Dataset: Multi-modal open dataset for mental-disorder analysis.
+</p> 
