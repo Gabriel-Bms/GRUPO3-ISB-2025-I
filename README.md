@@ -1,11 +1,12 @@
 # Introduccion a Señales Biomedicas 2025-1"
+| Foto  | Descripción |
 |-------|------------|
-|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Gabriel.png" width="200px" height="270px">| Gabriel Descripción 1 |
-|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Valery.jpg" width="200px" height="270px">| Valery Descripción 2 |
-|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Leo.jpeg" width="200px" height="270px">| Leo Descripción 3 |
-|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Leo.png" width="200px" height="270px">| Luis Descripción 4 |
-|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Alejandra.png" width="200px%" height="270px">| Alejandra Descripción 5 |
-|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Imagenes/Leo.png" width="200px" height="270px">| Nataly Descripción 6 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Gabriel.png" width="200px" height="270px">| Gabriel Descripción 1 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Valery.jpg" width="200px" height="270px">| Valery Descripción 2 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Leo.jpeg" width="200px" height="270px">| Leo Descripción 3 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Leo.png" width="200px" height="270px">| Luis Descripción 4 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Alejandra.png" width="200px%" height="270px">| Alejandra Descripción 5 |
+|<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Leo.png" width="200px" height="270px">| Nataly Descripción 6 |
 📌 Recuerda:
 
 ## Proyecto
