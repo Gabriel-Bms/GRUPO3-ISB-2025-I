@@ -3,7 +3,7 @@
 ### 1. Abrir la consola de comandos
 ### 2. Escoger la ruta del directorio donde se va a crear el repositorio con el comando "cd (ruta del directorio)"
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 1/Lab1-Ruta.png">
-###3. Inicializar el repositorio local con el comando "git init"
+### 3. Inicializar el repositorio local con el comando "git init"
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 1/Lab1-IniciarLocal.png">
 
 ## Creación de Repositorio Remoto
