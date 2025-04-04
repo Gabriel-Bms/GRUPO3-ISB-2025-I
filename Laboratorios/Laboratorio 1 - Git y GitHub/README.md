@@ -38,13 +38,9 @@
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 1/Lab1-Send.png">
   
 ### 3. Verificar cambios en GitHub
->>>>>>> 87edb7a79adcdc391a863c0e703d72bf72e438e9
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 1/Lab1-Final.png">
 
 ## Obtener los cambios del Repositorio remoto
 1. En el caso de que la estructura de archivos se haya creado en GitHub, se pueden sincronizar con el repositorio local con "git pull origin (nombre de rama)"
-<<<<<<< HEAD
 2. Si se realiza algun cambio en el repositorio remoto, y luego se cambia algo en el local, primero se deben sincronizar los cambios del remoto con "git pull" y luego enviar los cambios del local con "git push"
-=======
 2. Si se realiza algun cambio en el repositorio remoto, y luego se cambia algo en el local, primero se deben sincronizar los cambios del remoto con "git pull" y luego enviar los cambios del local con "git push"
->>>>>>> 87edb7a79adcdc391a863c0e703d72bf72e438e9
