@@ -1,0 +1,41 @@
+{
+  "build": "py310hb0d8612_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "setuptools <74"
+  ],
+  "depends": [
+    "mkl_fft",
+    "mkl_random",
+    "python >=3.10,<3.11.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0",
+    "blas 1.0 mkl",
+    "mkl-service >=2.3.0,<3.0a0",
+    "mkl >=2023.1.0,<2024.0a0",
+    "numpy-base 2.2.4 py310h557a8af_0"
+  ],
+  "extracted_package_dir": "C:\\Users\\gabri\\anaconda3\\pkgs\\numpy-2.2.4-py310hb0d8612_0",
+  "files": [],
+  "fn": "numpy-2.2.4-py310hb0d8612_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\gabri\\anaconda3\\pkgs\\numpy-2.2.4-py310hb0d8612_0",
+    "type": 1
+  },
+  "md5": "8c1895a3c59f0a14a9f7b92869213b8e",
+  "name": "numpy",
+  "package_tarball_full_path": "C:\\Users\\gabri\\anaconda3\\pkgs\\numpy-2.2.4-py310hb0d8612_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy",
+  "sha256": "5f918f28dc11be01c2765d53db74ecadeb57c09efdd89010212b4cc7eb502c2f",
+  "size": 12284,
+  "subdir": "win-64",
+  "timestamp": 1742576960000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-2.2.4-py310hb0d8612_0.conda",
+  "version": "2.2.4"
+}

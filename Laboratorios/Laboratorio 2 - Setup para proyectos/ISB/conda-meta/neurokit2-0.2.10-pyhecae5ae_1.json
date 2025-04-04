@@ -1,0 +1,4104 @@
+{
+  "build": "pyhecae5ae_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python >=3.9",
+    "requests",
+    "scikit-learn",
+    "scipy"
+  ],
+  "extracted_package_dir": "C:\\Users\\gabri\\anaconda3\\pkgs\\neurokit2-0.2.10-pyhecae5ae_1",
+  "files": [
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/AUTHORS.rst",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/INSTALLER",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/LICENSE",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/METADATA",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/RECORD",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/REQUESTED",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/WHEEL",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/direct_url.json",
+    "Lib/site-packages/neurokit2-0.2.10.dist-info/top_level.txt",
+    "Lib/site-packages/neurokit2/__init__.py",
+    "Lib/site-packages/neurokit2/benchmark/__init__.py",
+    "Lib/site-packages/neurokit2/benchmark/benchmark_ecg.py",
+    "Lib/site-packages/neurokit2/benchmark/benchmark_utils.py",
+    "Lib/site-packages/neurokit2/bio/__init__.py",
+    "Lib/site-packages/neurokit2/bio/bio_analyze.py",
+    "Lib/site-packages/neurokit2/bio/bio_process.py",
+    "Lib/site-packages/neurokit2/complexity/TODO_entropy_wiener.py",
+    "Lib/site-packages/neurokit2/complexity/TODO_fractal_capacity.py",
+    "Lib/site-packages/neurokit2/complexity/__init__.py",
+    "Lib/site-packages/neurokit2/complexity/complexity.py",
+    "Lib/site-packages/neurokit2/complexity/complexity_decorrelation.py",
+    "Lib/site-packages/neurokit2/complexity/complexity_hjorth.py",
+    "Lib/site-packages/neurokit2/complexity/complexity_lempelziv.py",
+    "Lib/site-packages/neurokit2/complexity/complexity_lyapunov.py",
+    "Lib/site-packages/neurokit2/complexity/complexity_relativeroughness.py",
+    "Lib/site-packages/neurokit2/complexity/complexity_rqa.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_angular.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_approximate.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_attention.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_bubble.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_coalition.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_cosinesimilarity.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_cumulativeresidual.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_differential.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_dispersion.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_distribution.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_fuzzy.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_grid.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_hierarchical.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_increment.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_kl.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_kolmogorov.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_maximum.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_multiscale.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_ofentropy.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_permutation.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_phase.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_power.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_quadratic.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_range.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_rate.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_renyi.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_sample.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_shannon.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_shannon_joint.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_slope.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_spectral.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_svd.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_symbolicdynamic.py",
+    "Lib/site-packages/neurokit2/complexity/entropy_tsallis.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_correlation.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_density.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_dfa.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_higuchi.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_hurst.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_katz.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_linelength.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_nld.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_petrosian.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_psdslope.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_sda.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_sevcik.py",
+    "Lib/site-packages/neurokit2/complexity/fractal_tmf.py",
+    "Lib/site-packages/neurokit2/complexity/information_fisher.py",
+    "Lib/site-packages/neurokit2/complexity/information_fishershannon.py",
+    "Lib/site-packages/neurokit2/complexity/information_gain.py",
+    "Lib/site-packages/neurokit2/complexity/information_mutual.py",
+    "Lib/site-packages/neurokit2/complexity/optim_complexity_delay.py",
+    "Lib/site-packages/neurokit2/complexity/optim_complexity_dimension.py",
+    "Lib/site-packages/neurokit2/complexity/optim_complexity_k.py",
+    "Lib/site-packages/neurokit2/complexity/optim_complexity_optimize.py",
+    "Lib/site-packages/neurokit2/complexity/optim_complexity_tolerance.py",
+    "Lib/site-packages/neurokit2/complexity/utils_complexity_attractor.py",
+    "Lib/site-packages/neurokit2/complexity/utils_complexity_coarsegraining.py",
+    "Lib/site-packages/neurokit2/complexity/utils_complexity_embedding.py",
+    "Lib/site-packages/neurokit2/complexity/utils_complexity_ordinalpatterns.py",
+    "Lib/site-packages/neurokit2/complexity/utils_complexity_simulate.py",
+    "Lib/site-packages/neurokit2/complexity/utils_complexity_symbolize.py",
+    "Lib/site-packages/neurokit2/complexity/utils_entropy.py",
+    "Lib/site-packages/neurokit2/complexity/utils_fractal_mandelbrot.py",
+    "Lib/site-packages/neurokit2/complexity/utils_recurrence_matrix.py",
+    "Lib/site-packages/neurokit2/data/__init__.py",
+    "Lib/site-packages/neurokit2/data/data.py",
+    "Lib/site-packages/neurokit2/data/database.py",
+    "Lib/site-packages/neurokit2/data/read_acqknowledge.py",
+    "Lib/site-packages/neurokit2/data/read_bitalino.py",
+    "Lib/site-packages/neurokit2/data/read_video.py",
+    "Lib/site-packages/neurokit2/data/read_xdf.py",
+    "Lib/site-packages/neurokit2/data/write_csv.py",
+    "Lib/site-packages/neurokit2/ecg/__init__.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_analyze.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_clean.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_delineate.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_eventrelated.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_findpeaks.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_intervalrelated.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_invert.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_peaks.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_phase.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_plot.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_process.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_quality.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_rsp.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_segment.py",
+    "Lib/site-packages/neurokit2/ecg/ecg_simulate.py",
+    "Lib/site-packages/neurokit2/eda/__init__.py",
+    "Lib/site-packages/neurokit2/eda/eda_analyze.py",
+    "Lib/site-packages/neurokit2/eda/eda_autocor.py",
+    "Lib/site-packages/neurokit2/eda/eda_changepoints.py",
+    "Lib/site-packages/neurokit2/eda/eda_clean.py",
+    "Lib/site-packages/neurokit2/eda/eda_eventrelated.py",
+    "Lib/site-packages/neurokit2/eda/eda_findpeaks.py",
+    "Lib/site-packages/neurokit2/eda/eda_fixpeaks.py",
+    "Lib/site-packages/neurokit2/eda/eda_intervalrelated.py",
+    "Lib/site-packages/neurokit2/eda/eda_methods.py",
+    "Lib/site-packages/neurokit2/eda/eda_peaks.py",
+    "Lib/site-packages/neurokit2/eda/eda_phasic.py",
+    "Lib/site-packages/neurokit2/eda/eda_plot.py",
+    "Lib/site-packages/neurokit2/eda/eda_process.py",
+    "Lib/site-packages/neurokit2/eda/eda_simulate.py",
+    "Lib/site-packages/neurokit2/eda/eda_sympathetic.py",
+    "Lib/site-packages/neurokit2/eeg/__init__.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_1f.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_badchannels.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_diss.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_gfp.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_power.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_rereference.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_simulate.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_source.py",
+    "Lib/site-packages/neurokit2/eeg/eeg_source_extract.py",
+    "Lib/site-packages/neurokit2/eeg/mne_channel_add.py",
+    "Lib/site-packages/neurokit2/eeg/mne_channel_extract.py",
+    "Lib/site-packages/neurokit2/eeg/mne_crop.py",
+    "Lib/site-packages/neurokit2/eeg/mne_data.py",
+    "Lib/site-packages/neurokit2/eeg/mne_templateMRI.py",
+    "Lib/site-packages/neurokit2/eeg/mne_to_df.py",
+    "Lib/site-packages/neurokit2/eeg/utils.py",
+    "Lib/site-packages/neurokit2/emg/__init__.py",
+    "Lib/site-packages/neurokit2/emg/emg_activation.py",
+    "Lib/site-packages/neurokit2/emg/emg_amplitude.py",
+    "Lib/site-packages/neurokit2/emg/emg_analyze.py",
+    "Lib/site-packages/neurokit2/emg/emg_clean.py",
+    "Lib/site-packages/neurokit2/emg/emg_eventrelated.py",
+    "Lib/site-packages/neurokit2/emg/emg_intervalrelated.py",
+    "Lib/site-packages/neurokit2/emg/emg_methods.py",
+    "Lib/site-packages/neurokit2/emg/emg_plot.py",
+    "Lib/site-packages/neurokit2/emg/emg_process.py",
+    "Lib/site-packages/neurokit2/emg/emg_simulate.py",
+    "Lib/site-packages/neurokit2/eog/__init__.py",
+    "Lib/site-packages/neurokit2/eog/eog_analyze.py",
+    "Lib/site-packages/neurokit2/eog/eog_clean.py",
+    "Lib/site-packages/neurokit2/eog/eog_eventrelated.py",
+    "Lib/site-packages/neurokit2/eog/eog_features.py",
+    "Lib/site-packages/neurokit2/eog/eog_findpeaks.py",
+    "Lib/site-packages/neurokit2/eog/eog_intervalrelated.py",
+    "Lib/site-packages/neurokit2/eog/eog_peaks.py",
+    "Lib/site-packages/neurokit2/eog/eog_plot.py",
+    "Lib/site-packages/neurokit2/eog/eog_process.py",
+    "Lib/site-packages/neurokit2/eog/eog_simulate.py",
+    "Lib/site-packages/neurokit2/epochs/__init__.py",
+    "Lib/site-packages/neurokit2/epochs/epochs_average.py",
+    "Lib/site-packages/neurokit2/epochs/epochs_create.py",
+    "Lib/site-packages/neurokit2/epochs/epochs_plot.py",
+    "Lib/site-packages/neurokit2/epochs/epochs_to_array.py",
+    "Lib/site-packages/neurokit2/epochs/epochs_to_df.py",
+    "Lib/site-packages/neurokit2/epochs/eventrelated_utils.py",
+    "Lib/site-packages/neurokit2/events/__init__.py",
+    "Lib/site-packages/neurokit2/events/events_create.py",
+    "Lib/site-packages/neurokit2/events/events_find.py",
+    "Lib/site-packages/neurokit2/events/events_plot.py",
+    "Lib/site-packages/neurokit2/events/events_to_mne.py",
+    "Lib/site-packages/neurokit2/hrv/__init__.py",
+    "Lib/site-packages/neurokit2/hrv/hrv.py",
+    "Lib/site-packages/neurokit2/hrv/hrv_frequency.py",
+    "Lib/site-packages/neurokit2/hrv/hrv_nonlinear.py",
+    "Lib/site-packages/neurokit2/hrv/hrv_rqa.py",
+    "Lib/site-packages/neurokit2/hrv/hrv_rsa.py",
+    "Lib/site-packages/neurokit2/hrv/hrv_time.py",
+    "Lib/site-packages/neurokit2/hrv/hrv_utils.py",
+    "Lib/site-packages/neurokit2/hrv/intervals_process.py",
+    "Lib/site-packages/neurokit2/hrv/intervals_to_peaks.py",
+    "Lib/site-packages/neurokit2/hrv/intervals_utils.py",
+    "Lib/site-packages/neurokit2/markov/__init__.py",
+    "Lib/site-packages/neurokit2/markov/markov_mixingtime.py",
+    "Lib/site-packages/neurokit2/markov/markov_simulate.py",
+    "Lib/site-packages/neurokit2/markov/markov_test_homogeneity.py",
+    "Lib/site-packages/neurokit2/markov/markov_test_markovity.py",
+    "Lib/site-packages/neurokit2/markov/markov_test_random.py",
+    "Lib/site-packages/neurokit2/markov/markov_test_symmetry.py",
+    "Lib/site-packages/neurokit2/markov/transition_matrix.py",
+    "Lib/site-packages/neurokit2/microstates/__init__.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_classify.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_clean.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_complexity.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_dynamic.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_findnumber.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_peaks.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_plot.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_segment.py",
+    "Lib/site-packages/neurokit2/microstates/microstates_static.py",
+    "Lib/site-packages/neurokit2/misc/__init__.py",
+    "Lib/site-packages/neurokit2/misc/_warnings.py",
+    "Lib/site-packages/neurokit2/misc/check_random_state.py",
+    "Lib/site-packages/neurokit2/misc/check_type.py",
+    "Lib/site-packages/neurokit2/misc/copyfunction.py",
+    "Lib/site-packages/neurokit2/misc/expspace.py",
+    "Lib/site-packages/neurokit2/misc/fig2img.py",
+    "Lib/site-packages/neurokit2/misc/find_closest.py",
+    "Lib/site-packages/neurokit2/misc/find_consecutive.py",
+    "Lib/site-packages/neurokit2/misc/find_groups.py",
+    "Lib/site-packages/neurokit2/misc/find_knee.py",
+    "Lib/site-packages/neurokit2/misc/find_outliers.py",
+    "Lib/site-packages/neurokit2/misc/find_plateau.py",
+    "Lib/site-packages/neurokit2/misc/listify.py",
+    "Lib/site-packages/neurokit2/misc/parallel_run.py",
+    "Lib/site-packages/neurokit2/misc/progress_bar.py",
+    "Lib/site-packages/neurokit2/misc/replace.py",
+    "Lib/site-packages/neurokit2/misc/report.py",
+    "Lib/site-packages/neurokit2/misc/type_converters.py",
+    "Lib/site-packages/neurokit2/ppg/__init__.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_analyze.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_clean.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_eventrelated.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_findpeaks.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_intervalrelated.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_methods.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_peaks.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_plot.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_process.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_quality.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_segment.py",
+    "Lib/site-packages/neurokit2/ppg/ppg_simulate.py",
+    "Lib/site-packages/neurokit2/rsp/__init__.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_amplitude.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_analyze.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_clean.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_eventrelated.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_findpeaks.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_fixpeaks.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_intervalrelated.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_methods.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_peaks.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_phase.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_plot.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_process.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_rate.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_rav.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_rrv.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_rvt.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_simulate.py",
+    "Lib/site-packages/neurokit2/rsp/rsp_symmetry.py",
+    "Lib/site-packages/neurokit2/signal/__init__.py",
+    "Lib/site-packages/neurokit2/signal/signal_autocor.py",
+    "Lib/site-packages/neurokit2/signal/signal_binarize.py",
+    "Lib/site-packages/neurokit2/signal/signal_changepoints.py",
+    "Lib/site-packages/neurokit2/signal/signal_decompose.py",
+    "Lib/site-packages/neurokit2/signal/signal_detrend.py",
+    "Lib/site-packages/neurokit2/signal/signal_distort.py",
+    "Lib/site-packages/neurokit2/signal/signal_fillmissing.py",
+    "Lib/site-packages/neurokit2/signal/signal_filter.py",
+    "Lib/site-packages/neurokit2/signal/signal_findpeaks.py",
+    "Lib/site-packages/neurokit2/signal/signal_fixpeaks.py",
+    "Lib/site-packages/neurokit2/signal/signal_flatline.py",
+    "Lib/site-packages/neurokit2/signal/signal_formatpeaks.py",
+    "Lib/site-packages/neurokit2/signal/signal_interpolate.py",
+    "Lib/site-packages/neurokit2/signal/signal_merge.py",
+    "Lib/site-packages/neurokit2/signal/signal_noise.py",
+    "Lib/site-packages/neurokit2/signal/signal_period.py",
+    "Lib/site-packages/neurokit2/signal/signal_phase.py",
+    "Lib/site-packages/neurokit2/signal/signal_plot.py",
+    "Lib/site-packages/neurokit2/signal/signal_power.py",
+    "Lib/site-packages/neurokit2/signal/signal_psd.py",
+    "Lib/site-packages/neurokit2/signal/signal_rate.py",
+    "Lib/site-packages/neurokit2/signal/signal_recompose.py",
+    "Lib/site-packages/neurokit2/signal/signal_resample.py",
+    "Lib/site-packages/neurokit2/signal/signal_sanitize.py",
+    "Lib/site-packages/neurokit2/signal/signal_simulate.py",
+    "Lib/site-packages/neurokit2/signal/signal_smooth.py",
+    "Lib/site-packages/neurokit2/signal/signal_surrogate.py",
+    "Lib/site-packages/neurokit2/signal/signal_synchrony.py",
+    "Lib/site-packages/neurokit2/signal/signal_timefrequency.py",
+    "Lib/site-packages/neurokit2/signal/signal_zerocrossings.py",
+    "Lib/site-packages/neurokit2/stats/__init__.py",
+    "Lib/site-packages/neurokit2/stats/cluster.py",
+    "Lib/site-packages/neurokit2/stats/cluster_findnumber.py",
+    "Lib/site-packages/neurokit2/stats/cluster_quality.py",
+    "Lib/site-packages/neurokit2/stats/correlation.py",
+    "Lib/site-packages/neurokit2/stats/density.py",
+    "Lib/site-packages/neurokit2/stats/density_bandwidth.py",
+    "Lib/site-packages/neurokit2/stats/distance.py",
+    "Lib/site-packages/neurokit2/stats/fit_error.py",
+    "Lib/site-packages/neurokit2/stats/fit_loess.py",
+    "Lib/site-packages/neurokit2/stats/fit_mixture.py",
+    "Lib/site-packages/neurokit2/stats/fit_polynomial.py",
+    "Lib/site-packages/neurokit2/stats/hdi.py",
+    "Lib/site-packages/neurokit2/stats/mad.py",
+    "Lib/site-packages/neurokit2/stats/rescale.py",
+    "Lib/site-packages/neurokit2/stats/standardize.py",
+    "Lib/site-packages/neurokit2/stats/summary.py",
+    "Lib/site-packages/neurokit2/video/__init__.py",
+    "Lib/site-packages/neurokit2/video/video_blinks.py",
+    "Lib/site-packages/neurokit2/video/video_face.py",
+    "Lib/site-packages/neurokit2/video/video_plot.py",
+    "Lib/site-packages/neurokit2/video/video_ppg.py",
+    "Lib/site-packages/neurokit2/video/video_skin.py",
+    "Lib/site-packages/neurokit2/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/benchmark/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/benchmark/__pycache__/benchmark_ecg.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/benchmark/__pycache__/benchmark_utils.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/bio/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/bio/__pycache__/bio_analyze.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/bio/__pycache__/bio_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/TODO_entropy_wiener.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/TODO_fractal_capacity.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/complexity.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_decorrelation.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_hjorth.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_lempelziv.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_lyapunov.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_relativeroughness.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_rqa.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_angular.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_approximate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_attention.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_bubble.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_coalition.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_cosinesimilarity.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_cumulativeresidual.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_differential.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_dispersion.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_distribution.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_fuzzy.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_grid.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_hierarchical.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_increment.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_kl.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_kolmogorov.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_maximum.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_multiscale.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_ofentropy.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_permutation.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_phase.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_power.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_quadratic.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_range.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_rate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_renyi.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_sample.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_shannon.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_shannon_joint.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_slope.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_spectral.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_svd.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_symbolicdynamic.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_tsallis.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_correlation.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_density.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_dfa.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_higuchi.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_hurst.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_katz.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_linelength.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_nld.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_petrosian.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_psdslope.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_sda.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_sevcik.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_tmf.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/information_fisher.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/information_fishershannon.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/information_gain.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/information_mutual.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_delay.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_dimension.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_k.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_optimize.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_tolerance.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_attractor.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_coarsegraining.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_embedding.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_ordinalpatterns.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_symbolize.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_entropy.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_fractal_mandelbrot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/complexity/__pycache__/utils_recurrence_matrix.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/data.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/database.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/read_acqknowledge.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/read_bitalino.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/read_video.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/read_xdf.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/data/__pycache__/write_csv.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_analyze.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_clean.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_delineate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_eventrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_findpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_intervalrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_invert.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_peaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_phase.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_quality.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_rsp.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_segment.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_analyze.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_autocor.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_changepoints.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_clean.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_eventrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_findpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_fixpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_intervalrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_methods.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_peaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_phasic.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eda/__pycache__/eda_sympathetic.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_1f.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_badchannels.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_diss.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_gfp.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_power.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_rereference.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_source.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_source_extract.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/mne_channel_add.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/mne_channel_extract.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/mne_crop.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/mne_data.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/mne_templateMRI.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/mne_to_df.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eeg/__pycache__/utils.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_activation.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_amplitude.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_analyze.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_clean.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_eventrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_intervalrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_methods.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/emg/__pycache__/emg_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_analyze.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_clean.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_eventrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_features.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_findpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_intervalrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_peaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/eog/__pycache__/eog_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/epochs/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_average.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_create.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_to_array.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_to_df.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/epochs/__pycache__/eventrelated_utils.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/events/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/events/__pycache__/events_create.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/events/__pycache__/events_find.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/events/__pycache__/events_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/events/__pycache__/events_to_mne.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/hrv.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_frequency.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_nonlinear.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_rqa.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_rsa.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_time.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_utils.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/intervals_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/intervals_to_peaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/hrv/__pycache__/intervals_utils.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/markov_mixingtime.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/markov_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_homogeneity.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_markovity.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_random.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_symmetry.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/markov/__pycache__/transition_matrix.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_classify.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_clean.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_complexity.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_dynamic.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_findnumber.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_peaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_segment.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_static.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/_warnings.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/check_random_state.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/check_type.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/copyfunction.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/expspace.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/fig2img.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/find_closest.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/find_consecutive.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/find_groups.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/find_knee.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/find_outliers.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/find_plateau.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/listify.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/parallel_run.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/progress_bar.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/replace.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/report.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/misc/__pycache__/type_converters.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_analyze.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_clean.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_eventrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_findpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_intervalrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_methods.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_peaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_quality.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_segment.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_amplitude.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_analyze.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_clean.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_eventrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_findpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_fixpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_intervalrelated.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_methods.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_peaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_phase.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_process.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rav.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rrv.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rvt.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_symmetry.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_autocor.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_binarize.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_changepoints.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_decompose.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_detrend.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_distort.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_fillmissing.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_filter.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_findpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_fixpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_flatline.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_formatpeaks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_interpolate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_merge.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_noise.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_period.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_phase.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_power.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_psd.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_rate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_recompose.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_resample.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_sanitize.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_simulate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_smooth.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_surrogate.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_synchrony.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_timefrequency.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/signal/__pycache__/signal_zerocrossings.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/cluster.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/cluster_findnumber.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/cluster_quality.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/correlation.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/density.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/density_bandwidth.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/distance.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/fit_error.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/fit_loess.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/fit_mixture.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/fit_polynomial.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/hdi.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/mad.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/rescale.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/standardize.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/stats/__pycache__/summary.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/video/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/video/__pycache__/video_blinks.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/video/__pycache__/video_face.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/video/__pycache__/video_plot.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/video/__pycache__/video_ppg.cpython-310.pyc",
+    "Lib/site-packages/neurokit2/video/__pycache__/video_skin.cpython-310.pyc"
+  ],
+  "fn": "neurokit2-0.2.10-pyhecae5ae_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\gabri\\anaconda3\\pkgs\\neurokit2-0.2.10-pyhecae5ae_1",
+    "type": 1
+  },
+  "md5": "8a64e9343f413997aae44906f8f9de33",
+  "name": "neurokit2",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\gabri\\anaconda3\\pkgs\\neurokit2-0.2.10-pyhecae5ae_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "35ae0b56f3bc5bd7628b2a99706e77de9131da176b6a09ad0277965b255c8388",
+        "sha256_in_prefix": "35ae0b56f3bc5bd7628b2a99706e77de9131da176b6a09ad0277965b255c8388",
+        "size_in_bytes": 4020
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "89a0c90cb8331319e1baea34b004fd6121247e89d132c3fcd01c86353aac8733",
+        "sha256_in_prefix": "89a0c90cb8331319e1baea34b004fd6121247e89d132c3fcd01c86353aac8733",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "134ab58ac12bcac5914113ebb12a7dcc7baf21d339afbf63c5c9f77e5149ab81",
+        "sha256_in_prefix": "134ab58ac12bcac5914113ebb12a7dcc7baf21d339afbf63c5c9f77e5149ab81",
+        "size_in_bytes": 37421
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a7e0abaa788696dde61a4a41e32d64327739a7d49f30c44fa5bde6153d7c9bbd",
+        "sha256_in_prefix": "a7e0abaa788696dde61a4a41e32d64327739a7d49f30c44fa5bde6153d7c9bbd",
+        "size_in_bytes": 47569
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "608c63a8dfefa924d36226ea9cced57fc32575acce440841b07401ff1f6da8f6",
+        "sha256_in_prefix": "608c63a8dfefa924d36226ea9cced57fc32575acce440841b07401ff1f6da8f6",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/neurokit2-0.2.10.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e301409ccb89aa503efcee7d3a0b912eb18936e4eaad604c26bdffd5f80a5f06",
+        "sha256_in_prefix": "e301409ccb89aa503efcee7d3a0b912eb18936e4eaad604c26bdffd5f80a5f06",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/neurokit2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aca3168779f5dbd6b62e4c1a69f447d4fcccbc42e2661ad5bd40d929b62dbdee",
+        "sha256_in_prefix": "aca3168779f5dbd6b62e4c1a69f447d4fcccbc42e2661ad5bd40d929b62dbdee",
+        "size_in_bytes": 3110
+      },
+      {
+        "_path": "site-packages/neurokit2/benchmark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bb9f8d50b0fc6c6b8d7b971e53bd0cd1eac578b052d0981f8e1af40a25fa6c58",
+        "sha256_in_prefix": "bb9f8d50b0fc6c6b8d7b971e53bd0cd1eac578b052d0981f8e1af40a25fa6c58",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/neurokit2/benchmark/benchmark_ecg.py",
+        "path_type": "hardlink",
+        "sha256": "a85c4e1e3963d66b886ea71b7e56f3d219de4585c516ed6742645cf13fce53ee",
+        "sha256_in_prefix": "a85c4e1e3963d66b886ea71b7e56f3d219de4585c516ed6742645cf13fce53ee",
+        "size_in_bytes": 5347
+      },
+      {
+        "_path": "site-packages/neurokit2/benchmark/benchmark_utils.py",
+        "path_type": "hardlink",
+        "sha256": "620b2d1412660546f3dc6989b49bb848478df741bd10d6fdee1df755369117c9",
+        "sha256_in_prefix": "620b2d1412660546f3dc6989b49bb848478df741bd10d6fdee1df755369117c9",
+        "size_in_bytes": 2161
+      },
+      {
+        "_path": "site-packages/neurokit2/bio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7ce7e726992122924d6a05465a52de416ae5461b2e8012a64a1f6b881f6d3f1",
+        "sha256_in_prefix": "d7ce7e726992122924d6a05465a52de416ae5461b2e8012a64a1f6b881f6d3f1",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "site-packages/neurokit2/bio/bio_analyze.py",
+        "path_type": "hardlink",
+        "sha256": "5c430574b9434a4c3ea61f3e4302bfbc50dc3dfd6f68b3e3bb8f6421cba07b69",
+        "sha256_in_prefix": "5c430574b9434a4c3ea61f3e4302bfbc50dc3dfd6f68b3e3bb8f6421cba07b69",
+        "size_in_bytes": 11712
+      },
+      {
+        "_path": "site-packages/neurokit2/bio/bio_process.py",
+        "path_type": "hardlink",
+        "sha256": "26d8bf1d71fb0c055f3cde1380e9c6ac2f8572464b036d2f210deb1cedc4ff40",
+        "sha256_in_prefix": "26d8bf1d71fb0c055f3cde1380e9c6ac2f8572464b036d2f210deb1cedc4ff40",
+        "size_in_bytes": 7900
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/TODO_entropy_wiener.py",
+        "path_type": "hardlink",
+        "sha256": "cbef0bd82800eb4da4ce7d6515542d9ca237f7e7d418c627fd4296c83838310d",
+        "sha256_in_prefix": "cbef0bd82800eb4da4ce7d6515542d9ca237f7e7d418c627fd4296c83838310d",
+        "size_in_bytes": 3002
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/TODO_fractal_capacity.py",
+        "path_type": "hardlink",
+        "sha256": "3a38182177c50c6cc1abbb5d648c7f3ccfafa6a95893a8844cbdd7f0e64fe7dd",
+        "sha256_in_prefix": "3a38182177c50c6cc1abbb5d648c7f3ccfafa6a95893a8844cbdd7f0e64fe7dd",
+        "size_in_bytes": 3403
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7f559e881ffe2771b93a652c6caabac0c31762946b0b05f66d3c21c7959ef4ea",
+        "sha256_in_prefix": "7f559e881ffe2771b93a652c6caabac0c31762946b0b05f66d3c21c7959ef4ea",
+        "size_in_bytes": 7528
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/complexity.py",
+        "path_type": "hardlink",
+        "sha256": "335efe146706f9f3b5c9b43e37d344cd8848b0fdc6e9a0a1aa4d1e0dcbe49eed",
+        "sha256_in_prefix": "335efe146706f9f3b5c9b43e37d344cd8848b0fdc6e9a0a1aa4d1e0dcbe49eed",
+        "size_in_bytes": 8255
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/complexity_decorrelation.py",
+        "path_type": "hardlink",
+        "sha256": "06ba2a1e14e2082876fee6f2aeb5786b6db1a6ba0360a85b4b63541d62ae2e3f",
+        "sha256_in_prefix": "06ba2a1e14e2082876fee6f2aeb5786b6db1a6ba0360a85b4b63541d62ae2e3f",
+        "size_in_bytes": 3030
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/complexity_hjorth.py",
+        "path_type": "hardlink",
+        "sha256": "2a3cde9304ca2f3cd7540c0311acfe7f4e9fd873b1cb9642dd6123d37b59f0b8",
+        "sha256_in_prefix": "2a3cde9304ca2f3cd7540c0311acfe7f4e9fd873b1cb9642dd6123d37b59f0b8",
+        "size_in_bytes": 3457
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/complexity_lempelziv.py",
+        "path_type": "hardlink",
+        "sha256": "158ef1beb6a1572a103b37724b6b0592189af9ca2f2115b99527311ddf858ef4",
+        "sha256_in_prefix": "158ef1beb6a1572a103b37724b6b0592189af9ca2f2115b99527311ddf858ef4",
+        "size_in_bytes": 8876
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/complexity_lyapunov.py",
+        "path_type": "hardlink",
+        "sha256": "87d01c9d8ffd091accd45a21473b1b1eae5ba1429d50f0b367e698729a1b84f3",
+        "sha256_in_prefix": "87d01c9d8ffd091accd45a21473b1b1eae5ba1429d50f0b367e698729a1b84f3",
+        "size_in_bytes": 17196
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/complexity_relativeroughness.py",
+        "path_type": "hardlink",
+        "sha256": "eb2a80aee9ad6fb94950ed2421c128a304daf869906491b0ee02de15788e1a78",
+        "sha256_in_prefix": "eb2a80aee9ad6fb94950ed2421c128a304daf869906491b0ee02de15788e1a78",
+        "size_in_bytes": 1865
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/complexity_rqa.py",
+        "path_type": "hardlink",
+        "sha256": "fe538bf66b224df6e641a959f87948ea9810800bf1951cb90743026f286738c8",
+        "sha256_in_prefix": "fe538bf66b224df6e641a959f87948ea9810800bf1951cb90743026f286738c8",
+        "size_in_bytes": 12320
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_angular.py",
+        "path_type": "hardlink",
+        "sha256": "7123cbc15f7bac85d5e892354ecd937add6bfd7a1b7e07ac050001b8ba25ac7c",
+        "sha256_in_prefix": "7123cbc15f7bac85d5e892354ecd937add6bfd7a1b7e07ac050001b8ba25ac7c",
+        "size_in_bytes": 5378
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_approximate.py",
+        "path_type": "hardlink",
+        "sha256": "2ef37358471df0c037d942d0facb8b973bb2949a4d689a281fd42d438f88be6a",
+        "sha256_in_prefix": "2ef37358471df0c037d942d0facb8b973bb2949a4d689a281fd42d438f88be6a",
+        "size_in_bytes": 5131
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_attention.py",
+        "path_type": "hardlink",
+        "sha256": "4cb30ce5150c6640f53e18a93d23b7ec8341e9e8345cc215fb60f83eb145ae90",
+        "sha256_in_prefix": "4cb30ce5150c6640f53e18a93d23b7ec8341e9e8345cc215fb60f83eb145ae90",
+        "size_in_bytes": 4975
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_bubble.py",
+        "path_type": "hardlink",
+        "sha256": "70b872b5f62a823adddbd8c24a9b5b00ec6b1b8d1af6c3c552c0c87911904719",
+        "sha256_in_prefix": "70b872b5f62a823adddbd8c24a9b5b00ec6b1b8d1af6c3c552c0c87911904719",
+        "size_in_bytes": 2991
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_coalition.py",
+        "path_type": "hardlink",
+        "sha256": "ed18fe58f505f4fcebe7489365429af96efb33849316854b858aae0e7a13050d",
+        "sha256_in_prefix": "ed18fe58f505f4fcebe7489365429af96efb33849316854b858aae0e7a13050d",
+        "size_in_bytes": 6380
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_cosinesimilarity.py",
+        "path_type": "hardlink",
+        "sha256": "f6f551880ab0406e006adf2c206af3ed72a55ec889e32e42bf20e59a15da5041",
+        "sha256_in_prefix": "f6f551880ab0406e006adf2c206af3ed72a55ec889e32e42bf20e59a15da5041",
+        "size_in_bytes": 4294
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_cumulativeresidual.py",
+        "path_type": "hardlink",
+        "sha256": "3ce751b140327637e97fe78a769c394c16052497d796c92a6e4705da0ade48eb",
+        "sha256_in_prefix": "3ce751b140327637e97fe78a769c394c16052497d796c92a6e4705da0ade48eb",
+        "size_in_bytes": 3365
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_differential.py",
+        "path_type": "hardlink",
+        "sha256": "b684c69a2f51bae35353352536b403a69a012f15500432bf8fc292e0168848a8",
+        "sha256_in_prefix": "b684c69a2f51bae35353352536b403a69a012f15500432bf8fc292e0168848a8",
+        "size_in_bytes": 2600
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_dispersion.py",
+        "path_type": "hardlink",
+        "sha256": "83aa6f9160e9da0849035771db9f390908e46a23a607baa6296a41dc2be72f5a",
+        "sha256_in_prefix": "83aa6f9160e9da0849035771db9f390908e46a23a607baa6296a41dc2be72f5a",
+        "size_in_bytes": 4292
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_distribution.py",
+        "path_type": "hardlink",
+        "sha256": "e24a95406b0467f584d25b78f8f7108c89eb4d421e432add3ce8884e42351913",
+        "sha256_in_prefix": "e24a95406b0467f584d25b78f8f7108c89eb4d421e432add3ce8884e42351913",
+        "size_in_bytes": 3817
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_fuzzy.py",
+        "path_type": "hardlink",
+        "sha256": "8f3fe207f130bc1b95b177221b2cea6da3abd437da41d7a63e271a17f36d331f",
+        "sha256_in_prefix": "8f3fe207f130bc1b95b177221b2cea6da3abd437da41d7a63e271a17f36d331f",
+        "size_in_bytes": 3166
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_grid.py",
+        "path_type": "hardlink",
+        "sha256": "86f86cd26401348218fa17e064884768d3704b649ca660a9a586a0e8bdbb12ab",
+        "sha256_in_prefix": "86f86cd26401348218fa17e064884768d3704b649ca660a9a586a0e8bdbb12ab",
+        "size_in_bytes": 4585
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_hierarchical.py",
+        "path_type": "hardlink",
+        "sha256": "cd0a8079947ae7a690da4fc844d2a86cd8fa3662f7df79965724afe7437f0739",
+        "sha256_in_prefix": "cd0a8079947ae7a690da4fc844d2a86cd8fa3662f7df79965724afe7437f0739",
+        "size_in_bytes": 7284
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_increment.py",
+        "path_type": "hardlink",
+        "sha256": "7532c68eeeaacf85f795fd767a57b5ad940ea1bca4b41503afb6670b442b01ce",
+        "sha256_in_prefix": "7532c68eeeaacf85f795fd767a57b5ad940ea1bca4b41503afb6670b442b01ce",
+        "size_in_bytes": 5168
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_kl.py",
+        "path_type": "hardlink",
+        "sha256": "4857553e94306b5a8c14ff317c6fd461354dda72e5676bba2198910b54352b09",
+        "sha256_in_prefix": "4857553e94306b5a8c14ff317c6fd461354dda72e5676bba2198910b54352b09",
+        "size_in_bytes": 4915
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_kolmogorov.py",
+        "path_type": "hardlink",
+        "sha256": "beaaa902f94c7248ccefc1c5364d0756a8f6e88953d67002415b978e4708338b",
+        "sha256_in_prefix": "beaaa902f94c7248ccefc1c5364d0756a8f6e88953d67002415b978e4708338b",
+        "size_in_bytes": 3190
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_maximum.py",
+        "path_type": "hardlink",
+        "sha256": "c5e2eaae3a88b6b977204c64049dc4e1d031a6edd01f4600d9325b20dded7430",
+        "sha256_in_prefix": "c5e2eaae3a88b6b977204c64049dc4e1d031a6edd01f4600d9325b20dded7430",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_multiscale.py",
+        "path_type": "hardlink",
+        "sha256": "8eba3a437a6e67ca20c768e859d87e2604239af839b7eb1a4f3be0fd08ba4b16",
+        "sha256_in_prefix": "8eba3a437a6e67ca20c768e859d87e2604239af839b7eb1a4f3be0fd08ba4b16",
+        "size_in_bytes": 17111
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_ofentropy.py",
+        "path_type": "hardlink",
+        "sha256": "cf24f4830bff00b636b8d824100982f4bc7218ad1d1d3f142d4362cbe10f9e52",
+        "sha256_in_prefix": "cf24f4830bff00b636b8d824100982f4bc7218ad1d1d3f142d4362cbe10f9e52",
+        "size_in_bytes": 3216
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_permutation.py",
+        "path_type": "hardlink",
+        "sha256": "08e3c040c5dba7601c4f63107244dcabd4f8167a4f3b3619957b4eaaae6dc213",
+        "sha256_in_prefix": "08e3c040c5dba7601c4f63107244dcabd4f8167a4f3b3619957b4eaaae6dc213",
+        "size_in_bytes": 7257
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_phase.py",
+        "path_type": "hardlink",
+        "sha256": "cea89e844cf1976244e402b28ca1c4cb0ad574fe5826ae6521712d5407aabea5",
+        "sha256_in_prefix": "cea89e844cf1976244e402b28ca1c4cb0ad574fe5826ae6521712d5407aabea5",
+        "size_in_bytes": 5033
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_power.py",
+        "path_type": "hardlink",
+        "sha256": "86b37c0902780d315b468cbfe6feed6f320b997e9f9f269ddf2ccba1cf598109",
+        "sha256_in_prefix": "86b37c0902780d315b468cbfe6feed6f320b997e9f9f269ddf2ccba1cf598109",
+        "size_in_bytes": 3166
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_quadratic.py",
+        "path_type": "hardlink",
+        "sha256": "30d4c078f0cb90874ad88d2b8927f7e008460fc31cf804e42a11304ae4d35c6f",
+        "sha256_in_prefix": "30d4c078f0cb90874ad88d2b8927f7e008460fc31cf804e42a11304ae4d35c6f",
+        "size_in_bytes": 2508
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_range.py",
+        "path_type": "hardlink",
+        "sha256": "b377a4b67626643c78c96b73d1ebfc8140bfe36b4d3d610f06a210dd45ac8579",
+        "sha256_in_prefix": "b377a4b67626643c78c96b73d1ebfc8140bfe36b4d3d610f06a210dd45ac8579",
+        "size_in_bytes": 4172
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_rate.py",
+        "path_type": "hardlink",
+        "sha256": "eddba2d3924095217e6be9942fb500e19d114b91c356686025602ccb56c395a9",
+        "sha256_in_prefix": "eddba2d3924095217e6be9942fb500e19d114b91c356686025602ccb56c395a9",
+        "size_in_bytes": 6145
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_renyi.py",
+        "path_type": "hardlink",
+        "sha256": "005fbe3a29ff7e2cbc272b6812b0254c08ddb673f32e6f48cacc38e45dce85e4",
+        "sha256_in_prefix": "005fbe3a29ff7e2cbc272b6812b0254c08ddb673f32e6f48cacc38e45dce85e4",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_sample.py",
+        "path_type": "hardlink",
+        "sha256": "119e7e9002aada4cdb5ed283c57a3aeeddeff16cbf57fee8c19c120207d473dc",
+        "sha256_in_prefix": "119e7e9002aada4cdb5ed283c57a3aeeddeff16cbf57fee8c19c120207d473dc",
+        "size_in_bytes": 3230
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_shannon.py",
+        "path_type": "hardlink",
+        "sha256": "e5a3ef0e85739b3848d72b21dbd22c5ce01d14495ff63b88f5056c356b9d3403",
+        "sha256_in_prefix": "e5a3ef0e85739b3848d72b21dbd22c5ce01d14495ff63b88f5056c356b9d3403",
+        "size_in_bytes": 4867
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_shannon_joint.py",
+        "path_type": "hardlink",
+        "sha256": "d45c74d958d631ae604e842b13fe5b5feef5a483f3ea8487c01837b14db92fb6",
+        "sha256_in_prefix": "d45c74d958d631ae604e842b13fe5b5feef5a483f3ea8487c01837b14db92fb6",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_slope.py",
+        "path_type": "hardlink",
+        "sha256": "2af930ec7639b6724683ff195d9c99244979533327f3ec4275794567b2a0ef3d",
+        "sha256_in_prefix": "2af930ec7639b6724683ff195d9c99244979533327f3ec4275794567b2a0ef3d",
+        "size_in_bytes": 3938
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_spectral.py",
+        "path_type": "hardlink",
+        "sha256": "39a48cdf5ce203ce910fd8feeac29db9ec31ee83e59a8c6a1c9e55ef8c880ad2",
+        "sha256_in_prefix": "39a48cdf5ce203ce910fd8feeac29db9ec31ee83e59a8c6a1c9e55ef8c880ad2",
+        "size_in_bytes": 3496
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_svd.py",
+        "path_type": "hardlink",
+        "sha256": "ef843fe74ed9fb58ac77e41beba13c841bc27f5a105b4becda5696668dfb2aca",
+        "sha256_in_prefix": "ef843fe74ed9fb58ac77e41beba13c841bc27f5a105b4becda5696668dfb2aca",
+        "size_in_bytes": 2732
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_symbolicdynamic.py",
+        "path_type": "hardlink",
+        "sha256": "abfd4d14576c6406186f4a8bc825732823b623c66d8dd2a6e32ce9f26327f717",
+        "sha256_in_prefix": "abfd4d14576c6406186f4a8bc825732823b623c66d8dd2a6e32ce9f26327f717",
+        "size_in_bytes": 5303
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/entropy_tsallis.py",
+        "path_type": "hardlink",
+        "sha256": "e2a2057561c615456abe17bbb949a8f883875dc7c5f0c36d971b82aa696759a4",
+        "sha256_in_prefix": "e2a2057561c615456abe17bbb949a8f883875dc7c5f0c36d971b82aa696759a4",
+        "size_in_bytes": 2443
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_correlation.py",
+        "path_type": "hardlink",
+        "sha256": "f90d634d128a504afcec0b65d6eef2a07f2377753ceba13777f49ace1aefb709",
+        "sha256_in_prefix": "f90d634d128a504afcec0b65d6eef2a07f2377753ceba13777f49ace1aefb709",
+        "size_in_bytes": 6395
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_density.py",
+        "path_type": "hardlink",
+        "sha256": "a1d534a33065d0a94650deff28f12f8d83540a8d5d1100cac4409df23b78fdbc",
+        "sha256_in_prefix": "a1d534a33065d0a94650deff28f12f8d83540a8d5d1100cac4409df23b78fdbc",
+        "size_in_bytes": 5842
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_dfa.py",
+        "path_type": "hardlink",
+        "sha256": "18710ad93e1fd388fa88979afa93bb601dd3f6771617159baef9f978a09087eb",
+        "sha256_in_prefix": "18710ad93e1fd388fa88979afa93bb601dd3f6771617159baef9f978a09087eb",
+        "size_in_bytes": 25255
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_higuchi.py",
+        "path_type": "hardlink",
+        "sha256": "17c631a377d298c000029edbc09b6828f89cfa710f8fcc9634397b7833a579b6",
+        "sha256_in_prefix": "17c631a377d298c000029edbc09b6828f89cfa710f8fcc9634397b7833a579b6",
+        "size_in_bytes": 5361
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_hurst.py",
+        "path_type": "hardlink",
+        "sha256": "86172229d5661723d01a4942b1b9758cc6416991b0f3706a11c35a051dc05710",
+        "sha256_in_prefix": "86172229d5661723d01a4942b1b9758cc6416991b0f3706a11c35a051dc05710",
+        "size_in_bytes": 8916
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_katz.py",
+        "path_type": "hardlink",
+        "sha256": "6cbba36a0824e31173066d4765d5ad38fd285d9f52bc1fb06fae2e307db256b1",
+        "sha256_in_prefix": "6cbba36a0824e31173066d4765d5ad38fd285d9f52bc1fb06fae2e307db256b1",
+        "size_in_bytes": 2915
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_linelength.py",
+        "path_type": "hardlink",
+        "sha256": "e44323ef4265ca020a3db54b7d855b816313505ff6274681f9302d73957ba39c",
+        "sha256_in_prefix": "e44323ef4265ca020a3db54b7d855b816313505ff6274681f9302d73957ba39c",
+        "size_in_bytes": 2149
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_nld.py",
+        "path_type": "hardlink",
+        "sha256": "e5c97e08a7bc2fa89901b54eef4f5d0f246a7f349ec7b60d5d1e193b14ad3cb4",
+        "sha256_in_prefix": "e5c97e08a7bc2fa89901b54eef4f5d0f246a7f349ec7b60d5d1e193b14ad3cb4",
+        "size_in_bytes": 4554
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_petrosian.py",
+        "path_type": "hardlink",
+        "sha256": "7c7e60e38f1356588b16d71583d33fe8898885fe421b48da50ed11605150d84c",
+        "sha256_in_prefix": "7c7e60e38f1356588b16d71583d33fe8898885fe421b48da50ed11605150d84c",
+        "size_in_bytes": 3975
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_psdslope.py",
+        "path_type": "hardlink",
+        "sha256": "331e7d4413549fffd01e0764e91ff4e1e244d3c87b6d332ae13a2987d9d302f0",
+        "sha256_in_prefix": "331e7d4413549fffd01e0764e91ff4e1e244d3c87b6d332ae13a2987d9d302f0",
+        "size_in_bytes": 5905
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_sda.py",
+        "path_type": "hardlink",
+        "sha256": "0b381173fcb22db20c8fd416caeac2d823b0cea8e44435bda7c73ae68e9f11a0",
+        "sha256_in_prefix": "0b381173fcb22db20c8fd416caeac2d823b0cea8e44435bda7c73ae68e9f11a0",
+        "size_in_bytes": 5048
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_sevcik.py",
+        "path_type": "hardlink",
+        "sha256": "0e4c3045395c3541cb635d77da1e89b41f126aff038dc927abd55513b608b9f4",
+        "sha256_in_prefix": "0e4c3045395c3541cb635d77da1e89b41f126aff038dc927abd55513b608b9f4",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/fractal_tmf.py",
+        "path_type": "hardlink",
+        "sha256": "4aceef56bdd29dc112d9a9f79bb0a28b6af180a2690dfe3fdc4630cff4f3fdca",
+        "sha256_in_prefix": "4aceef56bdd29dc112d9a9f79bb0a28b6af180a2690dfe3fdc4630cff4f3fdca",
+        "size_in_bytes": 4893
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/information_fisher.py",
+        "path_type": "hardlink",
+        "sha256": "2206afc0e227aac0c4423e1e47c52bc23918032d2ea5840eb13b5417de16cd26",
+        "sha256_in_prefix": "2206afc0e227aac0c4423e1e47c52bc23918032d2ea5840eb13b5417de16cd26",
+        "size_in_bytes": 2660
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/information_fishershannon.py",
+        "path_type": "hardlink",
+        "sha256": "6786c71c5f3d545b82477cf705bd400c5561fd65246b27286dd0d3311a1b5651",
+        "sha256_in_prefix": "6786c71c5f3d545b82477cf705bd400c5561fd65246b27286dd0d3311a1b5651",
+        "size_in_bytes": 2282
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/information_gain.py",
+        "path_type": "hardlink",
+        "sha256": "6cd60ebb684897ab380b0debdf5a31c0e1ece1270c03a2deb3b16d352f6e07e0",
+        "sha256_in_prefix": "6cd60ebb684897ab380b0debdf5a31c0e1ece1270c03a2deb3b16d352f6e07e0",
+        "size_in_bytes": 4307
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/information_mutual.py",
+        "path_type": "hardlink",
+        "sha256": "2300f2dc26bda5c2f6540c4db1eceb64b6a4e9c1e5269e9806298872727603ad",
+        "sha256_in_prefix": "2300f2dc26bda5c2f6540c4db1eceb64b6a4e9c1e5269e9806298872727603ad",
+        "size_in_bytes": 8843
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/optim_complexity_delay.py",
+        "path_type": "hardlink",
+        "sha256": "90fd22568f02e673be87c8c5c46e15c87657a875432767539c6e137548442b26",
+        "sha256_in_prefix": "90fd22568f02e673be87c8c5c46e15c87657a875432767539c6e137548442b26",
+        "size_in_bytes": 30489
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/optim_complexity_dimension.py",
+        "path_type": "hardlink",
+        "sha256": "535fff59187c2c06473babf74b8b2ec38d51d9709f80dc59eecd72cde98ecd66",
+        "sha256_in_prefix": "535fff59187c2c06473babf74b8b2ec38d51d9709f80dc59eecd72cde98ecd66",
+        "size_in_bytes": 18106
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/optim_complexity_k.py",
+        "path_type": "hardlink",
+        "sha256": "76d3d7cea2565411b449df09a23617228b4281c53c88e68cde9ba57adab4b9c8",
+        "sha256_in_prefix": "76d3d7cea2565411b449df09a23617228b4281c53c88e68cde9ba57adab4b9c8",
+        "size_in_bytes": 6280
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/optim_complexity_optimize.py",
+        "path_type": "hardlink",
+        "sha256": "ab5fe14aaec97baff01fd85debe9263de336f901604f01672c0476cd9d51a1ee",
+        "sha256_in_prefix": "ab5fe14aaec97baff01fd85debe9263de336f901604f01672c0476cd9d51a1ee",
+        "size_in_bytes": 9977
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/optim_complexity_tolerance.py",
+        "path_type": "hardlink",
+        "sha256": "ca70855d3c08c846714b88024a8d5539f120a3c4e288880922a4efb344914965",
+        "sha256_in_prefix": "ca70855d3c08c846714b88024a8d5539f120a3c4e288880922a4efb344914965",
+        "size_in_bytes": 19292
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_complexity_attractor.py",
+        "path_type": "hardlink",
+        "sha256": "cd9a23d35825a6993d72f04527e15c07306614b9e8295a61b0faeead7931b4d8",
+        "sha256_in_prefix": "cd9a23d35825a6993d72f04527e15c07306614b9e8295a61b0faeead7931b4d8",
+        "size_in_bytes": 10482
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_complexity_coarsegraining.py",
+        "path_type": "hardlink",
+        "sha256": "48002d53801555b3df6e11cb137e484c1c72d79b5edc0b7af18ee234deda24cf",
+        "sha256_in_prefix": "48002d53801555b3df6e11cb137e484c1c72d79b5edc0b7af18ee234deda24cf",
+        "size_in_bytes": 9549
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_complexity_embedding.py",
+        "path_type": "hardlink",
+        "sha256": "249a80a44936f12efbc9589b40abe31c08f49dc676d28b97155ae9d67b45fb3c",
+        "sha256_in_prefix": "249a80a44936f12efbc9589b40abe31c08f49dc676d28b97155ae9d67b45fb3c",
+        "size_in_bytes": 6159
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_complexity_ordinalpatterns.py",
+        "path_type": "hardlink",
+        "sha256": "72e18d683ed35e2f3c98a3030bfc005631424ec986c4c964080282e00ff53e91",
+        "sha256_in_prefix": "72e18d683ed35e2f3c98a3030bfc005631424ec986c4c964080282e00ff53e91",
+        "size_in_bytes": 3626
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_complexity_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "69e98c8500c4d70604a444ba38d1a866a060393160a9e3aeae24275c4faacf3f",
+        "sha256_in_prefix": "69e98c8500c4d70604a444ba38d1a866a060393160a9e3aeae24275c4faacf3f",
+        "size_in_bytes": 9916
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_complexity_symbolize.py",
+        "path_type": "hardlink",
+        "sha256": "1ce2484151788adac752e4a5936a2008f9fe1cdf30985eabeb679204330d3f52",
+        "sha256_in_prefix": "1ce2484151788adac752e4a5936a2008f9fe1cdf30985eabeb679204330d3f52",
+        "size_in_bytes": 11427
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_entropy.py",
+        "path_type": "hardlink",
+        "sha256": "b35622b1db1d3ca5b9061000814717a39c8b2c6e29f4a8268530e2cf1ba5f5ca",
+        "sha256_in_prefix": "b35622b1db1d3ca5b9061000814717a39c8b2c6e29f4a8268530e2cf1ba5f5ca",
+        "size_in_bytes": 5775
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_fractal_mandelbrot.py",
+        "path_type": "hardlink",
+        "sha256": "96e76b639ed47a3e3a88326cdf7d2691b08c91db480779631b190516c117db1a",
+        "sha256_in_prefix": "96e76b639ed47a3e3a88326cdf7d2691b08c91db480779631b190516c117db1a",
+        "size_in_bytes": 8324
+      },
+      {
+        "_path": "site-packages/neurokit2/complexity/utils_recurrence_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "f2eab79ee896795f0c2928e6db73f0f8197e8f2904138bffd4e0e25d693948b9",
+        "sha256_in_prefix": "f2eab79ee896795f0c2928e6db73f0f8197e8f2904138bffd4e0e25d693948b9",
+        "size_in_bytes": 4885
+      },
+      {
+        "_path": "site-packages/neurokit2/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "39158b223096779f707b5bbd09784470737f2153549caf9b6bfa74eebfb718e0",
+        "sha256_in_prefix": "39158b223096779f707b5bbd09784470737f2153549caf9b6bfa74eebfb718e0",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/neurokit2/data/data.py",
+        "path_type": "hardlink",
+        "sha256": "5e9efe2290d0669f2002d291b05d6eb9435b6867a567d4be52aa014f496c9f07",
+        "sha256_in_prefix": "5e9efe2290d0669f2002d291b05d6eb9435b6867a567d4be52aa014f496c9f07",
+        "size_in_bytes": 7412
+      },
+      {
+        "_path": "site-packages/neurokit2/data/database.py",
+        "path_type": "hardlink",
+        "sha256": "1fd798c6c05cfa1af28d80baa5e989f467d473a892028cd527211e3cc57ffe03",
+        "sha256_in_prefix": "1fd798c6c05cfa1af28d80baa5e989f467d473a892028cd527211e3cc57ffe03",
+        "size_in_bytes": 3984
+      },
+      {
+        "_path": "site-packages/neurokit2/data/read_acqknowledge.py",
+        "path_type": "hardlink",
+        "sha256": "62d7b3e255fae693e3f1ef2794a195f48856cd9502bda4bcbcabd5fc8420a1a3",
+        "sha256_in_prefix": "62d7b3e255fae693e3f1ef2794a195f48856cd9502bda4bcbcabd5fc8420a1a3",
+        "size_in_bytes": 4600
+      },
+      {
+        "_path": "site-packages/neurokit2/data/read_bitalino.py",
+        "path_type": "hardlink",
+        "sha256": "61678820688a752656d32b08a90587b6b4201f440601dce1ae1ecfbacd54ea6a",
+        "sha256_in_prefix": "61678820688a752656d32b08a90587b6b4201f440601dce1ae1ecfbacd54ea6a",
+        "size_in_bytes": 4605
+      },
+      {
+        "_path": "site-packages/neurokit2/data/read_video.py",
+        "path_type": "hardlink",
+        "sha256": "983c7307ab69048e04303a86898f1c6e79931d6572e008585faf6fa1451c8c9c",
+        "sha256_in_prefix": "983c7307ab69048e04303a86898f1c6e79931d6572e008585faf6fa1451c8c9c",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "site-packages/neurokit2/data/read_xdf.py",
+        "path_type": "hardlink",
+        "sha256": "2d0e1a3a392dc2810ccffb4e268364e54c97e790f2938eba3b8a6a781719a4ca",
+        "sha256_in_prefix": "2d0e1a3a392dc2810ccffb4e268364e54c97e790f2938eba3b8a6a781719a4ca",
+        "size_in_bytes": 5837
+      },
+      {
+        "_path": "site-packages/neurokit2/data/write_csv.py",
+        "path_type": "hardlink",
+        "sha256": "484e8960c91b614dac53397e65ce8b79df82f1515573be6c44ce71568ac6a100",
+        "sha256_in_prefix": "484e8960c91b614dac53397e65ce8b79df82f1515573be6c44ce71568ac6a100",
+        "size_in_bytes": 1287
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9cca4c03a344a9e1291317fafab9774c7592f0e13d9c45098090b1b9ba08e64b",
+        "sha256_in_prefix": "9cca4c03a344a9e1291317fafab9774c7592f0e13d9c45098090b1b9ba08e64b",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_analyze.py",
+        "path_type": "hardlink",
+        "sha256": "1adb3f244e0ce5fc66b1cbcfebaf06fdf1d004b06bf8aefc907a1e5ca28c7289",
+        "sha256_in_prefix": "1adb3f244e0ce5fc66b1cbcfebaf06fdf1d004b06bf8aefc907a1e5ca28c7289",
+        "size_in_bytes": 4548
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_clean.py",
+        "path_type": "hardlink",
+        "sha256": "cc5a072d7d55480c759c8ee019e5579b085b84eef15cc3883bb39cf7d517b76f",
+        "sha256_in_prefix": "cc5a072d7d55480c759c8ee019e5579b085b84eef15cc3883bb39cf7d517b76f",
+        "size_in_bytes": 14572
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_delineate.py",
+        "path_type": "hardlink",
+        "sha256": "3acd2cdf32d2244e84a218da98172c363751e2d9d75f9d8c8a71c706314fe31c",
+        "sha256_in_prefix": "3acd2cdf32d2244e84a218da98172c363751e2d9d75f9d8c8a71c706314fe31c",
+        "size_in_bytes": 44890
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_eventrelated.py",
+        "path_type": "hardlink",
+        "sha256": "aa32b98e72f3f1c77f93cc9239c1bc8c66cde46279bb116903f4302b93a3ff33",
+        "sha256_in_prefix": "aa32b98e72f3f1c77f93cc9239c1bc8c66cde46279bb116903f4302b93a3ff33",
+        "size_in_bytes": 5994
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_findpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "6614bac41d831d52f9685dd55cdb3089afa6f11a099b60be62853b705a3e9349",
+        "sha256_in_prefix": "6614bac41d831d52f9685dd55cdb3089afa6f11a099b60be62853b705a3e9349",
+        "size_in_bytes": 51790
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_intervalrelated.py",
+        "path_type": "hardlink",
+        "sha256": "0c6bc73ca79dd99f6b2568715b81d14d8a04cda67c70248b4d2f5d84d806651a",
+        "sha256_in_prefix": "0c6bc73ca79dd99f6b2568715b81d14d8a04cda67c70248b4d2f5d84d806651a",
+        "size_in_bytes": 4282
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_invert.py",
+        "path_type": "hardlink",
+        "sha256": "ddff427a90b7f46df148271a146582039da5fa97c9c9da7c22d80054a9e33beb",
+        "sha256_in_prefix": "ddff427a90b7f46df148271a146582039da5fa97c9c9da7c22d80054a9e33beb",
+        "size_in_bytes": 3388
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_peaks.py",
+        "path_type": "hardlink",
+        "sha256": "1e8a47ae4f580182c6bc38c6b247da305ee13375c5cf12047d72d7a2f0a1e4ea",
+        "sha256_in_prefix": "1e8a47ae4f580182c6bc38c6b247da305ee13375c5cf12047d72d7a2f0a1e4ea",
+        "size_in_bytes": 17502
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_phase.py",
+        "path_type": "hardlink",
+        "sha256": "2fd8c0949e71c482115050933811c56b5305996510385998d64456761a8d13ff",
+        "sha256_in_prefix": "2fd8c0949e71c482115050933811c56b5305996510385998d64456761a8d13ff",
+        "size_in_bytes": 5377
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_plot.py",
+        "path_type": "hardlink",
+        "sha256": "27f720b31f91dbf0fc4dac3f7eb627bc721e3e5a4698049c4e242f8df4d4e210",
+        "sha256_in_prefix": "27f720b31f91dbf0fc4dac3f7eb627bc721e3e5a4698049c4e242f8df4d4e210",
+        "size_in_bytes": 3360
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_process.py",
+        "path_type": "hardlink",
+        "sha256": "ede86afca1a4116cd6bd7ac289c73ccd444e73fc87f13924d31fc33d3583d967",
+        "sha256_in_prefix": "ede86afca1a4116cd6bd7ac289c73ccd444e73fc87f13924d31fc33d3583d967",
+        "size_in_bytes": 5487
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_quality.py",
+        "path_type": "hardlink",
+        "sha256": "648e1c5fcbdd7c6423020230d16531a8a80c561c5841cb4587b0e2fefbcd0752",
+        "sha256_in_prefix": "648e1c5fcbdd7c6423020230d16531a8a80c561c5841cb4587b0e2fefbcd0752",
+        "size_in_bytes": 13469
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_rsp.py",
+        "path_type": "hardlink",
+        "sha256": "61673fd73c949ba96066ece2e10f17506c86a59006e2192366b94fe5d33ffa40",
+        "sha256_in_prefix": "61673fd73c949ba96066ece2e10f17506c86a59006e2192366b94fe5d33ffa40",
+        "size_in_bytes": 4608
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_segment.py",
+        "path_type": "hardlink",
+        "sha256": "eed959132ff70ebcfb0015e9fbb9fea238bcd095c7cf0e0e6db336ae4b940cac",
+        "sha256_in_prefix": "eed959132ff70ebcfb0015e9fbb9fea238bcd095c7cf0e0e6db336ae4b940cac",
+        "size_in_bytes": 5419
+      },
+      {
+        "_path": "site-packages/neurokit2/ecg/ecg_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "63e424a9bc0f2a6091a89c9206ed778307fec400da503c9bfb8aefbd3d8dfb01",
+        "sha256_in_prefix": "63e424a9bc0f2a6091a89c9206ed778307fec400da503c9bfb8aefbd3d8dfb01",
+        "size_in_bytes": 15524
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a0bcb47bc2b9fa2d608dbc2ca496028c84fe4db98ad403ee284c8249b0e6be4",
+        "sha256_in_prefix": "7a0bcb47bc2b9fa2d608dbc2ca496028c84fe4db98ad403ee284c8249b0e6be4",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_analyze.py",
+        "path_type": "hardlink",
+        "sha256": "8d1de66b807d9d1b98ddd739379273725b6eb0ac2fa3f454a3ff5d52b0d5c3ae",
+        "sha256_in_prefix": "8d1de66b807d9d1b98ddd739379273725b6eb0ac2fa3f454a3ff5d52b0d5c3ae",
+        "size_in_bytes": 4397
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_autocor.py",
+        "path_type": "hardlink",
+        "sha256": "90853b41a724e88024e614ec13d0836231d7652ed65a0995616bb199de685930",
+        "sha256_in_prefix": "90853b41a724e88024e614ec13d0836231d7652ed65a0995616bb199de685930",
+        "size_in_bytes": 2357
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_changepoints.py",
+        "path_type": "hardlink",
+        "sha256": "d88caac9adcd840a5883284d3d9b345e7dd94ed37294e9f50a169424bfcf76af",
+        "sha256_in_prefix": "d88caac9adcd840a5883284d3d9b345e7dd94ed37294e9f50a169424bfcf76af",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_clean.py",
+        "path_type": "hardlink",
+        "sha256": "8a61dfeda668835de00cbd01f6ba01abc2d65272dbb9bb0a14b553272f9ac7dd",
+        "sha256_in_prefix": "8a61dfeda668835de00cbd01f6ba01abc2d65272dbb9bb0a14b553272f9ac7dd",
+        "size_in_bytes": 4638
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_eventrelated.py",
+        "path_type": "hardlink",
+        "sha256": "ba51294239e12b37da2af2385b44d255169afe45be5ed47a4ac8076d07845a07",
+        "sha256_in_prefix": "ba51294239e12b37da2af2385b44d255169afe45be5ed47a4ac8076d07845a07",
+        "size_in_bytes": 6437
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_findpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "f07ee4b85083e238da6bc900b5f8fd209a0146a8c5738445730c108a2097b177",
+        "sha256_in_prefix": "f07ee4b85083e238da6bc900b5f8fd209a0146a8c5738445730c108a2097b177",
+        "size_in_bytes": 12988
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_fixpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "8d55902e4d4e2e84fab1f15601823da9e9f4c2f28db04d666e636ddcbeffb21a",
+        "sha256_in_prefix": "8d55902e4d4e2e84fab1f15601823da9e9f4c2f28db04d666e636ddcbeffb21a",
+        "size_in_bytes": 3002
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_intervalrelated.py",
+        "path_type": "hardlink",
+        "sha256": "495cbd1d882646e01e4e9bfa56b17d94490e326935d6749c97ff21524d9c08fe",
+        "sha256_in_prefix": "495cbd1d882646e01e4e9bfa56b17d94490e326935d6749c97ff21524d9c08fe",
+        "size_in_bytes": 5499
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_methods.py",
+        "path_type": "hardlink",
+        "sha256": "d4d1af1c8736dd7c1a707c7f13cb43d7ef32c1b467578527d845f120d3dc8aa1",
+        "sha256_in_prefix": "d4d1af1c8736dd7c1a707c7f13cb43d7ef32c1b467578527d845f120d3dc8aa1",
+        "size_in_bytes": 6621
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_peaks.py",
+        "path_type": "hardlink",
+        "sha256": "6af336a48693cf7a72af4b86a149e681e22d0f15c3fa1ca6844fc770987a0973",
+        "sha256_in_prefix": "6af336a48693cf7a72af4b86a149e681e22d0f15c3fa1ca6844fc770987a0973",
+        "size_in_bytes": 7635
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_phasic.py",
+        "path_type": "hardlink",
+        "sha256": "340eacbc633926c634e0506d08cc39e21e940a7218f6511e7efa89ed692d0d9f",
+        "sha256_in_prefix": "340eacbc633926c634e0506d08cc39e21e940a7218f6511e7efa89ed692d0d9f",
+        "size_in_bytes": 25715
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_plot.py",
+        "path_type": "hardlink",
+        "sha256": "fb4845c0769b0e259e161740959fe1c900e503af13deee5f566c3299eacc9693",
+        "sha256_in_prefix": "fb4845c0769b0e259e161740959fe1c900e503af13deee5f566c3299eacc9693",
+        "size_in_bytes": 10781
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_process.py",
+        "path_type": "hardlink",
+        "sha256": "c675920fd3363b1563e4c7fabc1a9c1eb02565d7a43f6d245afadc0afe6a9bc6",
+        "sha256_in_prefix": "c675920fd3363b1563e4c7fabc1a9c1eb02565d7a43f6d245afadc0afe6a9bc6",
+        "size_in_bytes": 4633
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "84ccc8b24c1c8f85aa93c0700401ffbe75b3778592ec01db0c92dd7793cc4663",
+        "sha256_in_prefix": "84ccc8b24c1c8f85aa93c0700401ffbe75b3778592ec01db0c92dd7793cc4663",
+        "size_in_bytes": 6198
+      },
+      {
+        "_path": "site-packages/neurokit2/eda/eda_sympathetic.py",
+        "path_type": "hardlink",
+        "sha256": "d51e37d4498e3afd4b7c8a3415d491a76ed50227f0a5f1ce252ffb36d1be0ff2",
+        "sha256_in_prefix": "d51e37d4498e3afd4b7c8a3415d491a76ed50227f0a5f1ce252ffb36d1be0ff2",
+        "size_in_bytes": 7608
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "08221eb1dcce4f74b3a9c251bd0f0a4be089829302cd774eeeca9635bf478f00",
+        "sha256_in_prefix": "08221eb1dcce4f74b3a9c251bd0f0a4be089829302cd774eeeca9635bf478f00",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_1f.py",
+        "path_type": "hardlink",
+        "sha256": "f529091de9a10b6a56a61c68056489dc8d6a8e4af20c7beadaa5af03a8306d51",
+        "sha256_in_prefix": "f529091de9a10b6a56a61c68056489dc8d6a8e4af20c7beadaa5af03a8306d51",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_badchannels.py",
+        "path_type": "hardlink",
+        "sha256": "a9151a08d4115e9db20db09d0646c2fd29ba086a413aa44619345d8bf05f663f",
+        "sha256_in_prefix": "a9151a08d4115e9db20db09d0646c2fd29ba086a413aa44619345d8bf05f663f",
+        "size_in_bytes": 4410
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_diss.py",
+        "path_type": "hardlink",
+        "sha256": "129f6d5bffcc9a063c89485ea2c4eea014c25bf8ee093d2dcf54c5e5e59c504d",
+        "sha256_in_prefix": "129f6d5bffcc9a063c89485ea2c4eea014c25bf8ee093d2dcf54c5e5e59c504d",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_gfp.py",
+        "path_type": "hardlink",
+        "sha256": "98ca9818a9e15b8c7a644c2e5a614fe8c4ce45548c2c6ee788c3a8b29edc9bd2",
+        "sha256_in_prefix": "98ca9818a9e15b8c7a644c2e5a614fe8c4ce45548c2c6ee788c3a8b29edc9bd2",
+        "size_in_bytes": 4869
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_power.py",
+        "path_type": "hardlink",
+        "sha256": "d299c99a40df3d3eba57d79ee17353012245155037cf265b4593be12de78b0f4",
+        "sha256_in_prefix": "d299c99a40df3d3eba57d79ee17353012245155037cf265b4593be12de78b0f4",
+        "size_in_bytes": 3963
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_rereference.py",
+        "path_type": "hardlink",
+        "sha256": "e3732eced29ee6f716e4aa02344f10e7daef799b0c952cbfa788d63ff2aa71a1",
+        "sha256_in_prefix": "e3732eced29ee6f716e4aa02344f10e7daef799b0c952cbfa788d63ff2aa71a1",
+        "size_in_bytes": 5622
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "640988e538ea99a94987dcef0281be333de64ee64bd116ccfdfbcd72f8add4b5",
+        "sha256_in_prefix": "640988e538ea99a94987dcef0281be333de64ee64bd116ccfdfbcd72f8add4b5",
+        "size_in_bytes": 3600
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_source.py",
+        "path_type": "hardlink",
+        "sha256": "5fc992888796d50488ce46e312313f514b001448a057d8882a070c8723741b4f",
+        "sha256_in_prefix": "5fc992888796d50488ce46e312313f514b001448a057d8882a070c8723741b4f",
+        "size_in_bytes": 2658
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/eeg_source_extract.py",
+        "path_type": "hardlink",
+        "sha256": "8ee110f28e21bac2cc409b882087a48b9e642a2fea230109649da51f041b309a",
+        "sha256_in_prefix": "8ee110f28e21bac2cc409b882087a48b9e642a2fea230109649da51f041b309a",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/mne_channel_add.py",
+        "path_type": "hardlink",
+        "sha256": "8ac405d1ea0a525a76df7d75a0531ea195a3424215359150a44d08d15de0971e",
+        "sha256_in_prefix": "8ac405d1ea0a525a76df7d75a0531ea195a3424215359150a44d08d15de0971e",
+        "size_in_bytes": 3693
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/mne_channel_extract.py",
+        "path_type": "hardlink",
+        "sha256": "a2c0013be6f4492407982ee9aa27357edf0691f52826bc6d3b46113109e62c6e",
+        "sha256_in_prefix": "a2c0013be6f4492407982ee9aa27357edf0691f52826bc6d3b46113109e62c6e",
+        "size_in_bytes": 3844
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/mne_crop.py",
+        "path_type": "hardlink",
+        "sha256": "2dc6e5a1dce72864f1ba117faef88dabf5d4c9423e89d12b7df970878dc807f1",
+        "sha256_in_prefix": "2dc6e5a1dce72864f1ba117faef88dabf5d4c9423e89d12b7df970878dc807f1",
+        "size_in_bytes": 4041
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/mne_data.py",
+        "path_type": "hardlink",
+        "sha256": "8da1a24ebee965985a8bb50e33cae346f9801ed9d71c1e54d43f8fa06d5b805b",
+        "sha256_in_prefix": "8da1a24ebee965985a8bb50e33cae346f9801ed9d71c1e54d43f8fa06d5b805b",
+        "size_in_bytes": 2308
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/mne_templateMRI.py",
+        "path_type": "hardlink",
+        "sha256": "39d2664fc979159fa43092c2a9f4b8c3c31a4460e30adb876ace26482b477371",
+        "sha256_in_prefix": "39d2664fc979159fa43092c2a9f4b8c3c31a4460e30adb876ace26482b477371",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/mne_to_df.py",
+        "path_type": "hardlink",
+        "sha256": "db46e359a633f4a081c45a0b038fc8b84716d3b21f11105bda9dda8446f25769",
+        "sha256_in_prefix": "db46e359a633f4a081c45a0b038fc8b84716d3b21f11105bda9dda8446f25769",
+        "size_in_bytes": 4424
+      },
+      {
+        "_path": "site-packages/neurokit2/eeg/utils.py",
+        "path_type": "hardlink",
+        "sha256": "f40d91c5d10a05a8167d77e6e51427f792318670f223a1316c00c286c2c0cd72",
+        "sha256_in_prefix": "f40d91c5d10a05a8167d77e6e51427f792318670f223a1316c00c286c2c0cd72",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d3c3b5824ece3cd18b98cf257a6faf3e94697ba1bb3488abc40cad267aa6c85",
+        "sha256_in_prefix": "3d3c3b5824ece3cd18b98cf257a6faf3e94697ba1bb3488abc40cad267aa6c85",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_activation.py",
+        "path_type": "hardlink",
+        "sha256": "ed6d8f7f4a4e0c40f1ee9c9257deb1d71999869a3958e7492852550449d40d41",
+        "sha256_in_prefix": "ed6d8f7f4a4e0c40f1ee9c9257deb1d71999869a3958e7492852550449d40d41",
+        "size_in_bytes": 15465
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_amplitude.py",
+        "path_type": "hardlink",
+        "sha256": "689df2c3d52eaa5c33aa1ff46b7381c8958a695bb6f3bde6f4d338459f718b42",
+        "sha256_in_prefix": "689df2c3d52eaa5c33aa1ff46b7381c8958a695bb6f3bde6f4d338459f718b42",
+        "size_in_bytes": 4227
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_analyze.py",
+        "path_type": "hardlink",
+        "sha256": "fb3e4027f7e2329f7d835b0d0a1555e815e3d7b363804934e3fe889bab212678",
+        "sha256_in_prefix": "fb3e4027f7e2329f7d835b0d0a1555e815e3d7b363804934e3fe889bab212678",
+        "size_in_bytes": 3915
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_clean.py",
+        "path_type": "hardlink",
+        "sha256": "277ebfcd6df5abef506b6052e4b558bf04fc9fdd9f61b4205638892a7077ae61",
+        "sha256_in_prefix": "277ebfcd6df5abef506b6052e4b558bf04fc9fdd9f61b4205638892a7077ae61",
+        "size_in_bytes": 3220
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_eventrelated.py",
+        "path_type": "hardlink",
+        "sha256": "49fe682b84e736005373613aa30524dff2e9bebdddaca49bab7972d2b266edbe",
+        "sha256_in_prefix": "49fe682b84e736005373613aa30524dff2e9bebdddaca49bab7972d2b266edbe",
+        "size_in_bytes": 4711
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_intervalrelated.py",
+        "path_type": "hardlink",
+        "sha256": "05005f6d0bdb3e1250b49e40f06c5f2b32bb4db78af44a0c935294c03ecd0972",
+        "sha256_in_prefix": "05005f6d0bdb3e1250b49e40f06c5f2b32bb4db78af44a0c935294c03ecd0972",
+        "size_in_bytes": 4382
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_methods.py",
+        "path_type": "hardlink",
+        "sha256": "7470fd93b7c392f253a38bdfe55c8ba8a231065f06fb9f713465220079caafb1",
+        "sha256_in_prefix": "7470fd93b7c392f253a38bdfe55c8ba8a231065f06fb9f713465220079caafb1",
+        "size_in_bytes": 5095
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_plot.py",
+        "path_type": "hardlink",
+        "sha256": "6357fc39485e46da8bb37abd49f379a0b6a0c9897deb75edfac7d37723eb0e02",
+        "sha256_in_prefix": "6357fc39485e46da8bb37abd49f379a0b6a0c9897deb75edfac7d37723eb0e02",
+        "size_in_bytes": 7862
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_process.py",
+        "path_type": "hardlink",
+        "sha256": "3a3bec94d47a744ea604b07ddf7a50129d868b3b9f2981eebd0b69f8955d5b2b",
+        "sha256_in_prefix": "3a3bec94d47a744ea604b07ddf7a50129d868b3b9f2981eebd0b69f8955d5b2b",
+        "size_in_bytes": 3681
+      },
+      {
+        "_path": "site-packages/neurokit2/emg/emg_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "e222e881dbe69fd827a05cf98ef693afefbb0363c0a81080b9a85c95566ea069",
+        "sha256_in_prefix": "e222e881dbe69fd827a05cf98ef693afefbb0363c0a81080b9a85c95566ea069",
+        "size_in_bytes": 3570
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "08598d9e7dc8dd469d5d13e307030d47ee81d84daa0d771e534166213710fe6f",
+        "sha256_in_prefix": "08598d9e7dc8dd469d5d13e307030d47ee81d84daa0d771e534166213710fe6f",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_analyze.py",
+        "path_type": "hardlink",
+        "sha256": "ecd9b894943ec243a768d9b0e96cc9bb0ce30d8adf46db2436bd39d7f98b8870",
+        "sha256_in_prefix": "ecd9b894943ec243a768d9b0e96cc9bb0ce30d8adf46db2436bd39d7f98b8870",
+        "size_in_bytes": 3868
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_clean.py",
+        "path_type": "hardlink",
+        "sha256": "8ceabf42e28a579a7c3a1a0911e5e9d8406a01fc9517f6fa98a7f52ba6a74df8",
+        "sha256_in_prefix": "8ceabf42e28a579a7c3a1a0911e5e9d8406a01fc9517f6fa98a7f52ba6a74df8",
+        "size_in_bytes": 8170
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_eventrelated.py",
+        "path_type": "hardlink",
+        "sha256": "53e7c0a537389710adb5b57cd3a95c131aeb009f2eab669dd533b3230189d3aa",
+        "sha256_in_prefix": "53e7c0a537389710adb5b57cd3a95c131aeb009f2eab669dd533b3230189d3aa",
+        "size_in_bytes": 3840
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_features.py",
+        "path_type": "hardlink",
+        "sha256": "998e204da82c4ef07583014c0ca4a0f4b76c96eb742c2fc18255cb311ceb8f92",
+        "sha256_in_prefix": "998e204da82c4ef07583014c0ca4a0f4b76c96eb742c2fc18255cb311ceb8f92",
+        "size_in_bytes": 8546
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_findpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "db95a99b7a8a8686ce0d005d9a497b8184b003934b38c76eb5a3dc0470129a4d",
+        "sha256_in_prefix": "db95a99b7a8a8686ce0d005d9a497b8184b003934b38c76eb5a3dc0470129a4d",
+        "size_in_bytes": 10384
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_intervalrelated.py",
+        "path_type": "hardlink",
+        "sha256": "9d3113502b2738e37a466f2a96e1e80442abe317e124b5e661120e7db2af1c72",
+        "sha256_in_prefix": "9d3113502b2738e37a466f2a96e1e80442abe317e124b5e661120e7db2af1c72",
+        "size_in_bytes": 3258
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_peaks.py",
+        "path_type": "hardlink",
+        "sha256": "cb8c5f1fae903a0977f19e6811808cda00dd22005ef8fd08883b5767a3d26817",
+        "sha256_in_prefix": "cb8c5f1fae903a0977f19e6811808cda00dd22005ef8fd08883b5767a3d26817",
+        "size_in_bytes": 3523
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_plot.py",
+        "path_type": "hardlink",
+        "sha256": "8458ae2aa3499f3b5fa0b5bc3f6ab72bab64237619268a57cb7b5b0ad138482f",
+        "sha256_in_prefix": "8458ae2aa3499f3b5fa0b5bc3f6ab72bab64237619268a57cb7b5b0ad138482f",
+        "size_in_bytes": 4420
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_process.py",
+        "path_type": "hardlink",
+        "sha256": "7216b40e93eacf70e3caaef710b9824120357f9fa785bb7eb36d3e8bc142e217",
+        "sha256_in_prefix": "7216b40e93eacf70e3caaef710b9824120357f9fa785bb7eb36d3e8bc142e217",
+        "size_in_bytes": 2936
+      },
+      {
+        "_path": "site-packages/neurokit2/eog/eog_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "90da732daaf5074bcdb7736e9a907b76808a5573fd912592be6182a6157b8413",
+        "sha256_in_prefix": "90da732daaf5074bcdb7736e9a907b76808a5573fd912592be6182a6157b8413",
+        "size_in_bytes": 1892
+      },
+      {
+        "_path": "site-packages/neurokit2/epochs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8186f2686cd4ff8e37cb0102eb27ee9fc4eb30eaf2d4b1913b306b2d61476daf",
+        "sha256_in_prefix": "8186f2686cd4ff8e37cb0102eb27ee9fc4eb30eaf2d4b1913b306b2d61476daf",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "site-packages/neurokit2/epochs/epochs_average.py",
+        "path_type": "hardlink",
+        "sha256": "d65c7385006c2b8b8fb7b472f9b2d193430dc8edb9a1db439d3df8460cb48373",
+        "sha256_in_prefix": "d65c7385006c2b8b8fb7b472f9b2d193430dc8edb9a1db439d3df8460cb48373",
+        "size_in_bytes": 2383
+      },
+      {
+        "_path": "site-packages/neurokit2/epochs/epochs_create.py",
+        "path_type": "hardlink",
+        "sha256": "210e7cea6269b57a13c69ec6b4a2be3e0bb6592746f3302128db96dc2b2a9e43",
+        "sha256_in_prefix": "210e7cea6269b57a13c69ec6b4a2be3e0bb6592746f3302128db96dc2b2a9e43",
+        "size_in_bytes": 7784
+      },
+      {
+        "_path": "site-packages/neurokit2/epochs/epochs_plot.py",
+        "path_type": "hardlink",
+        "sha256": "5150e64142a082aa2c373309f37de0655270a40f1a844d649a5311fb913aa0ab",
+        "sha256_in_prefix": "5150e64142a082aa2c373309f37de0655270a40f1a844d649a5311fb913aa0ab",
+        "size_in_bytes": 4862
+      },
+      {
+        "_path": "site-packages/neurokit2/epochs/epochs_to_array.py",
+        "path_type": "hardlink",
+        "sha256": "2789923f641e1030494c15951365e1b81f07b14ea09c309d9cf2d4c5b257a63d",
+        "sha256_in_prefix": "2789923f641e1030494c15951365e1b81f07b14ea09c309d9cf2d4c5b257a63d",
+        "size_in_bytes": 1626
+      },
+      {
+        "_path": "site-packages/neurokit2/epochs/epochs_to_df.py",
+        "path_type": "hardlink",
+        "sha256": "cba3b0e226fdcefe9696f4ae0998b8a2d0b04e460f23289635b48786833d85c5",
+        "sha256_in_prefix": "cba3b0e226fdcefe9696f4ae0998b8a2d0b04e460f23289635b48786833d85c5",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "site-packages/neurokit2/epochs/eventrelated_utils.py",
+        "path_type": "hardlink",
+        "sha256": "97bd3019dc7ae5617bd9be244f9e064a186b7e512f86327f7ee4c62f1280c5db",
+        "sha256_in_prefix": "97bd3019dc7ae5617bd9be244f9e064a186b7e512f86327f7ee4c62f1280c5db",
+        "size_in_bytes": 4187
+      },
+      {
+        "_path": "site-packages/neurokit2/events/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "886864a449f9c022d7e49b9cef3c3599d24cfb13b71d87dd0c14d5ffacbc6564",
+        "sha256_in_prefix": "886864a449f9c022d7e49b9cef3c3599d24cfb13b71d87dd0c14d5ffacbc6564",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "site-packages/neurokit2/events/events_create.py",
+        "path_type": "hardlink",
+        "sha256": "0195aca8fde27dfd6a3c21803bac4104186474a413813db275a291dc9396b358",
+        "sha256_in_prefix": "0195aca8fde27dfd6a3c21803bac4104186474a413813db275a291dc9396b358",
+        "size_in_bytes": 1821
+      },
+      {
+        "_path": "site-packages/neurokit2/events/events_find.py",
+        "path_type": "hardlink",
+        "sha256": "f94635272505c6f9fec0b8a0e1b535c91fc1f652766515ad40150bf883cd626f",
+        "sha256_in_prefix": "f94635272505c6f9fec0b8a0e1b535c91fc1f652766515ad40150bf883cd626f",
+        "size_in_bytes": 11091
+      },
+      {
+        "_path": "site-packages/neurokit2/events/events_plot.py",
+        "path_type": "hardlink",
+        "sha256": "1a73a95864a1e11b6e0c1ee049f2dc5972dddb8f686dbc028f8d11ee5a73d3f9",
+        "sha256_in_prefix": "1a73a95864a1e11b6e0c1ee049f2dc5972dddb8f686dbc028f8d11ee5a73d3f9",
+        "size_in_bytes": 3967
+      },
+      {
+        "_path": "site-packages/neurokit2/events/events_to_mne.py",
+        "path_type": "hardlink",
+        "sha256": "f8610616b5130e15ba568d89fde212ca73276cdf36416eb47d19393d443b96a4",
+        "sha256_in_prefix": "f8610616b5130e15ba568d89fde212ca73276cdf36416eb47d19393d443b96a4",
+        "size_in_bytes": 2061
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "18ab057e7c16238b3a980a7a7a69f9c18a3b5f14ad84cc06dd19c49b4e099db4",
+        "sha256_in_prefix": "18ab057e7c16238b3a980a7a7a69f9c18a3b5f14ad84cc06dd19c49b4e099db4",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/hrv.py",
+        "path_type": "hardlink",
+        "sha256": "2957553b242e58760b435e859c762d509afeeb5093cd198018fee4a6e310f744",
+        "sha256_in_prefix": "2957553b242e58760b435e859c762d509afeeb5093cd198018fee4a6e310f744",
+        "size_in_bytes": 6319
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/hrv_frequency.py",
+        "path_type": "hardlink",
+        "sha256": "11fe8825d2578895b82e3f9e0dd48aee98175e94b34451c0996dcc6cf00bc6f2",
+        "sha256_in_prefix": "11fe8825d2578895b82e3f9e0dd48aee98175e94b34451c0996dcc6cf00bc6f2",
+        "size_in_bytes": 11534
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/hrv_nonlinear.py",
+        "path_type": "hardlink",
+        "sha256": "405178e566aba8f79e6bb7f12464da8e0ebc76c0a58f0d5623735bd89ba3adce",
+        "sha256_in_prefix": "405178e566aba8f79e6bb7f12464da8e0ebc76c0a58f0d5623735bd89ba3adce",
+        "size_in_bytes": 30037
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/hrv_rqa.py",
+        "path_type": "hardlink",
+        "sha256": "a04f7ef5dc059c01064715e00431a051d8faa4147f720ba9c4058183d10a3482",
+        "sha256_in_prefix": "a04f7ef5dc059c01064715e00431a051d8faa4147f720ba9c4058183d10a3482",
+        "size_in_bytes": 3398
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/hrv_rsa.py",
+        "path_type": "hardlink",
+        "sha256": "a206b5bc4997ffaa8b1b8667c8aa92fc3d0ff6a135c1115e5f79b79c39f7b4f8",
+        "sha256_in_prefix": "a206b5bc4997ffaa8b1b8667c8aa92fc3d0ff6a135c1115e5f79b79c39f7b4f8",
+        "size_in_bytes": 23515
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/hrv_time.py",
+        "path_type": "hardlink",
+        "sha256": "945706188b339d848791a33db57bfb589c7612eca6e57ddb4d011d549d991a60",
+        "sha256_in_prefix": "945706188b339d848791a33db57bfb589c7612eca6e57ddb4d011d549d991a60",
+        "size_in_bytes": 13999
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/hrv_utils.py",
+        "path_type": "hardlink",
+        "sha256": "5e6ea1d0065b5765b2bab0c9c4c2493b4423a44b7a30538e056137a96d2bf49d",
+        "sha256_in_prefix": "5e6ea1d0065b5765b2bab0c9c4c2493b4423a44b7a30538e056137a96d2bf49d",
+        "size_in_bytes": 4933
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/intervals_process.py",
+        "path_type": "hardlink",
+        "sha256": "2dec7ace5d5952736454a153196bce9133513db861d55f214beb527c563d9611",
+        "sha256_in_prefix": "2dec7ace5d5952736454a153196bce9133513db861d55f214beb527c563d9611",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/intervals_to_peaks.py",
+        "path_type": "hardlink",
+        "sha256": "47ca913ea6411f69c6d3621cc67e407a2852e4db38f8e585036d92ea2206c73d",
+        "sha256_in_prefix": "47ca913ea6411f69c6d3621cc67e407a2852e4db38f8e585036d92ea2206c73d",
+        "size_in_bytes": 2910
+      },
+      {
+        "_path": "site-packages/neurokit2/hrv/intervals_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0966dcd383f186c6ff1133d08a30c49131ca4113b71170f353646add9266e519",
+        "sha256_in_prefix": "0966dcd383f186c6ff1133d08a30c49131ca4113b71170f353646add9266e519",
+        "size_in_bytes": 7239
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6b6066f150cad0ef3e27dbe1dbe6d253664b53e95d0d122e21fd2e4456713de2",
+        "sha256_in_prefix": "6b6066f150cad0ef3e27dbe1dbe6d253664b53e95d0d122e21fd2e4456713de2",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/markov_mixingtime.py",
+        "path_type": "hardlink",
+        "sha256": "edeff2816efdcfb59c1152bdb86602f8685a53e56dced4a94e6a02cc1870f404",
+        "sha256_in_prefix": "edeff2816efdcfb59c1152bdb86602f8685a53e56dced4a94e6a02cc1870f404",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/markov_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "1e927d1a8caa0aa8f0046a2aa47ef69c6aceca7b76ee49fd1aec97ce1b8a149c",
+        "sha256_in_prefix": "1e927d1a8caa0aa8f0046a2aa47ef69c6aceca7b76ee49fd1aec97ce1b8a149c",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/markov_test_homogeneity.py",
+        "path_type": "hardlink",
+        "sha256": "9f3ccd50f9e293b540a9bd67afb762233152697020bc0fa96b140fbaf9e41684",
+        "sha256_in_prefix": "9f3ccd50f9e293b540a9bd67afb762233152697020bc0fa96b140fbaf9e41684",
+        "size_in_bytes": 2506
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/markov_test_markovity.py",
+        "path_type": "hardlink",
+        "sha256": "618d757716c3c380bde8cc69881c2b2d0244b355b970bfca22d9e40503c27fe8",
+        "sha256_in_prefix": "618d757716c3c380bde8cc69881c2b2d0244b355b970bfca22d9e40503c27fe8",
+        "size_in_bytes": 3341
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/markov_test_random.py",
+        "path_type": "hardlink",
+        "sha256": "d93dc1985a751d702d8f45882e151e56da3e70e2aa4fcb79a88273cd65f7ef37",
+        "sha256_in_prefix": "d93dc1985a751d702d8f45882e151e56da3e70e2aa4fcb79a88273cd65f7ef37",
+        "size_in_bytes": 1865
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/markov_test_symmetry.py",
+        "path_type": "hardlink",
+        "sha256": "635b2fdc3f257e1dea2545c68141a1507df6de49790b5165214acffea0c41539",
+        "sha256_in_prefix": "635b2fdc3f257e1dea2545c68141a1507df6de49790b5165214acffea0c41539",
+        "size_in_bytes": 1737
+      },
+      {
+        "_path": "site-packages/neurokit2/markov/transition_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "555c86a01fa7ad27bdf3547cc07e4e306ab61b5dbf0f9c97f14145be4fd2c2d0",
+        "sha256_in_prefix": "555c86a01fa7ad27bdf3547cc07e4e306ab61b5dbf0f9c97f14145be4fd2c2d0",
+        "size_in_bytes": 6349
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "089ec8c03305d68cd72e2584068bfbea7f2b975e0c8925e0ffff3df215ee87fa",
+        "sha256_in_prefix": "089ec8c03305d68cd72e2584068bfbea7f2b975e0c8925e0ffff3df215ee87fa",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_classify.py",
+        "path_type": "hardlink",
+        "sha256": "17bde92f33c2ac4167dc67cb25ff266aab2e0ab6ca7e861a4fd0a95fbbbe3604",
+        "sha256_in_prefix": "17bde92f33c2ac4167dc67cb25ff266aab2e0ab6ca7e861a4fd0a95fbbbe3604",
+        "size_in_bytes": 2460
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_clean.py",
+        "path_type": "hardlink",
+        "sha256": "a996fc4cd2f0542e92c0394b9fc532452f8f79cc52e647cb956a192a7251d849",
+        "sha256_in_prefix": "a996fc4cd2f0542e92c0394b9fc532452f8f79cc52e647cb956a192a7251d849",
+        "size_in_bytes": 3329
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_complexity.py",
+        "path_type": "hardlink",
+        "sha256": "1f84a053ad3d985974f9cdcb728a0bde4b56f9c7e7b48febea926930aad6ab56",
+        "sha256_in_prefix": "1f84a053ad3d985974f9cdcb728a0bde4b56f9c7e7b48febea926930aad6ab56",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_dynamic.py",
+        "path_type": "hardlink",
+        "sha256": "c950fd622fc73ed9e834d9e4c136cd0ca823f5daef5ce6e1cec03fd000d6a750",
+        "sha256_in_prefix": "c950fd622fc73ed9e834d9e4c136cd0ca823f5daef5ce6e1cec03fd000d6a750",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_findnumber.py",
+        "path_type": "hardlink",
+        "sha256": "9f3b8715ac14ef78eaedc11d6eb5e1ebc7a1fb7d4aa6b5662b4f6f98e52e7eca",
+        "sha256_in_prefix": "9f3b8715ac14ef78eaedc11d6eb5e1ebc7a1fb7d4aa6b5662b4f6f98e52e7eca",
+        "size_in_bytes": 4713
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_peaks.py",
+        "path_type": "hardlink",
+        "sha256": "418d44ae8c79be8e6aad323bed761a3efec5a3e32a364b1a61f9f2e9aa09b4a3",
+        "sha256_in_prefix": "418d44ae8c79be8e6aad323bed761a3efec5a3e32a364b1a61f9f2e9aa09b4a3",
+        "size_in_bytes": 3783
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_plot.py",
+        "path_type": "hardlink",
+        "sha256": "54daa58ced92e38cf7d07d76c29d64c4c2ccadbd72f2deddeadd321bd2204d7a",
+        "sha256_in_prefix": "54daa58ced92e38cf7d07d76c29d64c4c2ccadbd72f2deddeadd321bd2204d7a",
+        "size_in_bytes": 4161
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_segment.py",
+        "path_type": "hardlink",
+        "sha256": "81c48a7fc68d30d45fe791a334e23ab043578522c27b50ecb985375e7cee476d",
+        "sha256_in_prefix": "81c48a7fc68d30d45fe791a334e23ab043578522c27b50ecb985375e7cee476d",
+        "size_in_bytes": 11449
+      },
+      {
+        "_path": "site-packages/neurokit2/microstates/microstates_static.py",
+        "path_type": "hardlink",
+        "sha256": "ebd082c294de44bc133b3757cd28c7fb2537dc75022d235889a8326c11a889e4",
+        "sha256_in_prefix": "ebd082c294de44bc133b3757cd28c7fb2537dc75022d235889a8326c11a889e4",
+        "size_in_bytes": 6410
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4cbf758a0b27063364eec7a8e0d7a1ec471357a0a480ab2c741aa7c67f0d7ffd",
+        "sha256_in_prefix": "4cbf758a0b27063364eec7a8e0d7a1ec471357a0a480ab2c741aa7c67f0d7ffd",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/_warnings.py",
+        "path_type": "hardlink",
+        "sha256": "ef39ee03bc267e44adcdab84e0d4059d35b7f417ffa901104dd2dd417ef5e9a6",
+        "sha256_in_prefix": "ef39ee03bc267e44adcdab84e0d4059d35b7f417ffa901104dd2dd417ef5e9a6",
+        "size_in_bytes": 271
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/check_random_state.py",
+        "path_type": "hardlink",
+        "sha256": "65d2bd25f5d7139a5a41ce377b9af5c557d973488470b3447c75e8bb774208bc",
+        "sha256_in_prefix": "65d2bd25f5d7139a5a41ce377b9af5c557d973488470b3447c75e8bb774208bc",
+        "size_in_bytes": 5552
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/check_type.py",
+        "path_type": "hardlink",
+        "sha256": "e79835a3162fa06df7093fe98c269e5f48e6903db32b03d9cf6a78882f894483",
+        "sha256_in_prefix": "e79835a3162fa06df7093fe98c269e5f48e6903db32b03d9cf6a78882f894483",
+        "size_in_bytes": 1198
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/copyfunction.py",
+        "path_type": "hardlink",
+        "sha256": "f1fc3ba259a7afa692b18a6ab2296d4920a4544584bd91956a46f4784fd35ad9",
+        "sha256_in_prefix": "f1fc3ba259a7afa692b18a6ab2296d4920a4544584bd91956a46f4784fd35ad9",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/expspace.py",
+        "path_type": "hardlink",
+        "sha256": "4abe21e373aa22785d7b89c34c0c16758e8347681683adbc5c226e3abb16faa8",
+        "sha256_in_prefix": "4abe21e373aa22785d7b89c34c0c16758e8347681683adbc5c226e3abb16faa8",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/fig2img.py",
+        "path_type": "hardlink",
+        "sha256": "92cf4e514fe0c9c9539ec18b724a82f17d6cb373248c6884616b18f7a8964a07",
+        "sha256_in_prefix": "92cf4e514fe0c9c9539ec18b724a82f17d6cb373248c6884616b18f7a8964a07",
+        "size_in_bytes": 945
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/find_closest.py",
+        "path_type": "hardlink",
+        "sha256": "2bddc8f42f793222b145b707dc04f7b52c99179124b88969d5662b2e2822cc19",
+        "sha256_in_prefix": "2bddc8f42f793222b145b707dc04f7b52c99179124b88969d5662b2e2822cc19",
+        "size_in_bytes": 3426
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/find_consecutive.py",
+        "path_type": "hardlink",
+        "sha256": "e320719718a374fd24f413ccbb5c508b9281cbb294f25a04673f8fc112e7d07c",
+        "sha256_in_prefix": "e320719718a374fd24f413ccbb5c508b9281cbb294f25a04673f8fc112e7d07c",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/find_groups.py",
+        "path_type": "hardlink",
+        "sha256": "ce23637600340cb03caa43792c321aaafac5f3ec53ecd29db2a2c21d55c9e7f7",
+        "sha256_in_prefix": "ce23637600340cb03caa43792c321aaafac5f3ec53ecd29db2a2c21d55c9e7f7",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/find_knee.py",
+        "path_type": "hardlink",
+        "sha256": "a1ce6552ffbcb6afa6186f19b13fc56f4f351bf81bf5209891ad9d024ebd418a",
+        "sha256_in_prefix": "a1ce6552ffbcb6afa6186f19b13fc56f4f351bf81bf5209891ad9d024ebd418a",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/find_outliers.py",
+        "path_type": "hardlink",
+        "sha256": "7ea37d0460e6b57c375ea392123b6035944e7da218f5df5ec1b244e941d39487",
+        "sha256_in_prefix": "7ea37d0460e6b57c375ea392123b6035944e7da218f5df5ec1b244e941d39487",
+        "size_in_bytes": 4051
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/find_plateau.py",
+        "path_type": "hardlink",
+        "sha256": "58584037b513957d4d9ffba6f2b811247c84931c9050edbe3aa50f943805b873",
+        "sha256_in_prefix": "58584037b513957d4d9ffba6f2b811247c84931c9050edbe3aa50f943805b873",
+        "size_in_bytes": 3005
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/listify.py",
+        "path_type": "hardlink",
+        "sha256": "bf434ef5ea2c62b00993bdfe6d3046c90791232f865b9c756f0a55acf5b10a5f",
+        "sha256_in_prefix": "bf434ef5ea2c62b00993bdfe6d3046c90791232f865b9c756f0a55acf5b10a5f",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/parallel_run.py",
+        "path_type": "hardlink",
+        "sha256": "35cba1ea4b4a5db92f3637d9b1f51dfb1a157b1d598daa6b0da59cabd67a3613",
+        "sha256_in_prefix": "35cba1ea4b4a5db92f3637d9b1f51dfb1a157b1d598daa6b0da59cabd67a3613",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/progress_bar.py",
+        "path_type": "hardlink",
+        "sha256": "a6c056776763cb358322ece1e37f5a7cccfbb8875e299d859a1984fc4705c764",
+        "sha256_in_prefix": "a6c056776763cb358322ece1e37f5a7cccfbb8875e299d859a1984fc4705c764",
+        "size_in_bytes": 1109
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/replace.py",
+        "path_type": "hardlink",
+        "sha256": "9a4eb73b47e9d4a184f5a150baad12ae8fdcf4caf863b0b2d69d763689ba5633",
+        "sha256_in_prefix": "9a4eb73b47e9d4a184f5a150baad12ae8fdcf4caf863b0b2d69d763689ba5633",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/report.py",
+        "path_type": "hardlink",
+        "sha256": "a7e265970a1daa498e4391415fbf7df403dfa103e8b750c2e86051ed94a30112",
+        "sha256_in_prefix": "a7e265970a1daa498e4391415fbf7df403dfa103e8b750c2e86051ed94a30112",
+        "size_in_bytes": 7456
+      },
+      {
+        "_path": "site-packages/neurokit2/misc/type_converters.py",
+        "path_type": "hardlink",
+        "sha256": "9e89279dd26403c0296f1fec8629ed6010863ee43361dff22e06153f76b2c4d1",
+        "sha256_in_prefix": "9e89279dd26403c0296f1fec8629ed6010863ee43361dff22e06153f76b2c4d1",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "524694c5f03641ac18612e9743a05a34b5f432d4365e82953ce6faf1f28f0277",
+        "sha256_in_prefix": "524694c5f03641ac18612e9743a05a34b5f432d4365e82953ce6faf1f28f0277",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_analyze.py",
+        "path_type": "hardlink",
+        "sha256": "5d52d99133c9bb093bf89b660ba08b3b76df0bd4bfdb8c2f497168e3aefdf88e",
+        "sha256_in_prefix": "5d52d99133c9bb093bf89b660ba08b3b76df0bd4bfdb8c2f497168e3aefdf88e",
+        "size_in_bytes": 4193
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_clean.py",
+        "path_type": "hardlink",
+        "sha256": "9c06570af9b5c6eb062cd43ff749e45126c572a6ced5af4f43f54308a0351cf3",
+        "sha256_in_prefix": "9c06570af9b5c6eb062cd43ff749e45126c572a6ced5af4f43f54308a0351cf3",
+        "size_in_bytes": 4274
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_eventrelated.py",
+        "path_type": "hardlink",
+        "sha256": "427da36b63afba64e003bca5fc8fbcf9bca37fd5ebcb3a9f1e80d6d4530bb924",
+        "sha256_in_prefix": "427da36b63afba64e003bca5fc8fbcf9bca37fd5ebcb3a9f1e80d6d4530bb924",
+        "size_in_bytes": 2862
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_findpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "765e98ab80842c8014f8d754a733042935c0393e9be683e98c551282fc91a573",
+        "sha256_in_prefix": "765e98ab80842c8014f8d754a733042935c0393e9be683e98c551282fc91a573",
+        "size_in_bytes": 17445
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_intervalrelated.py",
+        "path_type": "hardlink",
+        "sha256": "c04fae27b00ac46546762fd91fad3505fca49cc1cde8700543113a3e938979f6",
+        "sha256_in_prefix": "c04fae27b00ac46546762fd91fad3505fca49cc1cde8700543113a3e938979f6",
+        "size_in_bytes": 4151
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_methods.py",
+        "path_type": "hardlink",
+        "sha256": "7e53e8d4b080d4d93473818f8c9441cd04b151de5dd303ce07c135256562c95b",
+        "sha256_in_prefix": "7e53e8d4b080d4d93473818f8c9441cd04b151de5dd303ce07c135256562c95b",
+        "size_in_bytes": 8434
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_peaks.py",
+        "path_type": "hardlink",
+        "sha256": "691908d0877d032d3597c4fbe5ed2cb08d7d929185ea78c58c0516e55b280685",
+        "sha256_in_prefix": "691908d0877d032d3597c4fbe5ed2cb08d7d929185ea78c58c0516e55b280685",
+        "size_in_bytes": 6757
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_plot.py",
+        "path_type": "hardlink",
+        "sha256": "c574d2829c895cee5b7c8ec1e3f0086fd00af03aa362bf5a737b1c7ae442fee7",
+        "sha256_in_prefix": "c574d2829c895cee5b7c8ec1e3f0086fd00af03aa362bf5a737b1c7ae442fee7",
+        "size_in_bytes": 5875
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_process.py",
+        "path_type": "hardlink",
+        "sha256": "6eea10f5e6739d6ba5b6ce8e6caf7a16058eefc84d2e363e572ef3338f78d0e9",
+        "sha256_in_prefix": "6eea10f5e6739d6ba5b6ce8e6caf7a16058eefc84d2e363e572ef3338f78d0e9",
+        "size_in_bytes": 4033
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_quality.py",
+        "path_type": "hardlink",
+        "sha256": "e2dbae15c60fadd71d50b9598b680b79e212caf2fb9f62f6cecff05fa7ac26f1",
+        "sha256_in_prefix": "e2dbae15c60fadd71d50b9598b680b79e212caf2fb9f62f6cecff05fa7ac26f1",
+        "size_in_bytes": 7226
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_segment.py",
+        "path_type": "hardlink",
+        "sha256": "977cf786fa082e21d4a5720eddd8d817b2c382c83a110b9bebbd0446e4b1db05",
+        "sha256_in_prefix": "977cf786fa082e21d4a5720eddd8d817b2c382c83a110b9bebbd0446e4b1db05",
+        "size_in_bytes": 2597
+      },
+      {
+        "_path": "site-packages/neurokit2/ppg/ppg_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "16113f431b1a06bfcc980efa731101cc2649e5d1f6a1342370d99e07382739f6",
+        "sha256_in_prefix": "16113f431b1a06bfcc980efa731101cc2649e5d1f6a1342370d99e07382739f6",
+        "size_in_bytes": 11257
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4aca460f2d77fce15c3c0ba35f08d21c8d432d8190f356db4a334bbfbef9efd7",
+        "sha256_in_prefix": "4aca460f2d77fce15c3c0ba35f08d21c8d432d8190f356db4a334bbfbef9efd7",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_amplitude.py",
+        "path_type": "hardlink",
+        "sha256": "d5c99770617476aed3741ef6e7e2e5d120073bd35974a8dc0aa6c4bb622c73f8",
+        "sha256_in_prefix": "d5c99770617476aed3741ef6e7e2e5d120073bd35974a8dc0aa6c4bb622c73f8",
+        "size_in_bytes": 4516
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_analyze.py",
+        "path_type": "hardlink",
+        "sha256": "e21a524719b0e9ebde8d282f564373c3e9f06b10aa83cf7d9d24f3bc4e269486",
+        "sha256_in_prefix": "e21a524719b0e9ebde8d282f564373c3e9f06b10aa83cf7d9d24f3bc4e269486",
+        "size_in_bytes": 4175
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_clean.py",
+        "path_type": "hardlink",
+        "sha256": "c9355c8197812a99e8598c5aad2343d18da9d0f8548a8ac21dcab0eb9778f267",
+        "sha256_in_prefix": "c9355c8197812a99e8598c5aad2343d18da9d0f8548a8ac21dcab0eb9778f267",
+        "size_in_bytes": 7450
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_eventrelated.py",
+        "path_type": "hardlink",
+        "sha256": "99cb3b29bf4b861967b252f64bb44d2f2fd5dac813c980598f7a63dbe260efb1",
+        "sha256_in_prefix": "99cb3b29bf4b861967b252f64bb44d2f2fd5dac813c980598f7a63dbe260efb1",
+        "size_in_bytes": 7174
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_findpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "2f646911edcc57dabbf6bf8990ca975e9518671abd7c7d0a72d7cf966b526b01",
+        "sha256_in_prefix": "2f646911edcc57dabbf6bf8990ca975e9518671abd7c7d0a72d7cf966b526b01",
+        "size_in_bytes": 8895
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_fixpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "fde55a18e5471bcd6be18c0b45e2d419d959b3ee18c699c372e5794f20d1d654",
+        "sha256_in_prefix": "fde55a18e5471bcd6be18c0b45e2d419d959b3ee18c699c372e5794f20d1d654",
+        "size_in_bytes": 2410
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_intervalrelated.py",
+        "path_type": "hardlink",
+        "sha256": "c6314fc5c4f6eede60d022e673794f15c5adfc9ca65eebe785b17035231635f0",
+        "sha256_in_prefix": "c6314fc5c4f6eede60d022e673794f15c5adfc9ca65eebe785b17035231635f0",
+        "size_in_bytes": 5865
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_methods.py",
+        "path_type": "hardlink",
+        "sha256": "1ac681e05f4a9168b0995a2d5044bbd739430b3ade1838e6dcecc8f05a0ffd9c",
+        "sha256_in_prefix": "1ac681e05f4a9168b0995a2d5044bbd739430b3ade1838e6dcecc8f05a0ffd9c",
+        "size_in_bytes": 8486
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_peaks.py",
+        "path_type": "hardlink",
+        "sha256": "0c958fe382d21ad1ffbdfdcbe923cba871cdc5ff91a72ab7031aaedc8402d402",
+        "sha256_in_prefix": "0c958fe382d21ad1ffbdfdcbe923cba871cdc5ff91a72ab7031aaedc8402d402",
+        "size_in_bytes": 3311
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_phase.py",
+        "path_type": "hardlink",
+        "sha256": "9f8bd31b19a1ce3e301fd8871ef7a1ddd27303507455f35b918b7eb4ae466005",
+        "sha256_in_prefix": "9f8bd31b19a1ce3e301fd8871ef7a1ddd27303507455f35b918b7eb4ae466005",
+        "size_in_bytes": 2733
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_plot.py",
+        "path_type": "hardlink",
+        "sha256": "22d27cec19eb58868e9631ca04626ea1023a3bb0754532b932fcb6ff072ddd22",
+        "sha256_in_prefix": "22d27cec19eb58868e9631ca04626ea1023a3bb0754532b932fcb6ff072ddd22",
+        "size_in_bytes": 12063
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_process.py",
+        "path_type": "hardlink",
+        "sha256": "2011fccb59201fcedc3ba76ed17eca462f49ba8e83e59e64358c36dce08d8ebd",
+        "sha256_in_prefix": "2011fccb59201fcedc3ba76ed17eca462f49ba8e83e59e64358c36dce08d8ebd",
+        "size_in_bytes": 5399
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_rate.py",
+        "path_type": "hardlink",
+        "sha256": "b0de706f6b9f5851ccf5b590ff86bfe23de2af3628b13487d2a87972e1f1bd1b",
+        "sha256_in_prefix": "b0de706f6b9f5851ccf5b590ff86bfe23de2af3628b13487d2a87972e1f1bd1b",
+        "size_in_bytes": 5651
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_rav.py",
+        "path_type": "hardlink",
+        "sha256": "2028ea89e3eb05839ba604709b8e14f192d4fc194780e20807f5c6f89773935d",
+        "sha256_in_prefix": "2028ea89e3eb05839ba604709b8e14f192d4fc194780e20807f5c6f89773935d",
+        "size_in_bytes": 2833
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_rrv.py",
+        "path_type": "hardlink",
+        "sha256": "496088eed227301cb523f64ef7484f445522ac9e51d719d3bf652c9c60b6fab6",
+        "sha256_in_prefix": "496088eed227301cb523f64ef7484f445522ac9e51d719d3bf652c9c60b6fab6",
+        "size_in_bytes": 12079
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_rvt.py",
+        "path_type": "hardlink",
+        "sha256": "cdb8ad3b367b9988cb93ba0bbbfe76cc864a3b5f996a7b2dcf46c90c8dac56f9",
+        "sha256_in_prefix": "cdb8ad3b367b9988cb93ba0bbbfe76cc864a3b5f996a7b2dcf46c90c8dac56f9",
+        "size_in_bytes": 13112
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "958e13f6c6d0b930c4132c07aee72cbd66878784246c204bc05ad126f4f004f1",
+        "sha256_in_prefix": "958e13f6c6d0b930c4132c07aee72cbd66878784246c204bc05ad126f4f004f1",
+        "size_in_bytes": 14964
+      },
+      {
+        "_path": "site-packages/neurokit2/rsp/rsp_symmetry.py",
+        "path_type": "hardlink",
+        "sha256": "3a0b60d7e85d481cc4fce95d368ef3eaa2168ad2b64db6b5870eb8f4cd755bc1",
+        "sha256_in_prefix": "3a0b60d7e85d481cc4fce95d368ef3eaa2168ad2b64db6b5870eb8f4cd755bc1",
+        "size_in_bytes": 6702
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dd719cbdd5a5ab9f178dda57868f33cc5b1e9ec83a5ce099cbaf5b033fa6d614",
+        "sha256_in_prefix": "dd719cbdd5a5ab9f178dda57868f33cc5b1e9ec83a5ce099cbaf5b033fa6d614",
+        "size_in_bytes": 2067
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_autocor.py",
+        "path_type": "hardlink",
+        "sha256": "fa98da9ea347f9295230346ebdd6e85982dc810d4e2ecad12f6573e103b60b3c",
+        "sha256_in_prefix": "fa98da9ea347f9295230346ebdd6e85982dc810d4e2ecad12f6573e103b60b3c",
+        "size_in_bytes": 4067
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_binarize.py",
+        "path_type": "hardlink",
+        "sha256": "53138353e13eb5540bc72e10a5944d98c4580e70e81beb07807362f2ff2757ad",
+        "sha256_in_prefix": "53138353e13eb5540bc72e10a5944d98c4580e70e81beb07807362f2ff2757ad",
+        "size_in_bytes": 3745
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_changepoints.py",
+        "path_type": "hardlink",
+        "sha256": "1f73bfc49dee3671de1edf9a4d9e431a86707fe8881f4b745ab77d999729c918",
+        "sha256_in_prefix": "1f73bfc49dee3671de1edf9a4d9e431a86707fe8881f4b745ab77d999729c918",
+        "size_in_bytes": 4929
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_decompose.py",
+        "path_type": "hardlink",
+        "sha256": "6415c6414ef7e736c645b4237c1ffb14f15ce93530352ed0e103262da63b8666",
+        "sha256_in_prefix": "6415c6414ef7e736c645b4237c1ffb14f15ce93530352ed0e103262da63b8666",
+        "size_in_bytes": 6075
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_detrend.py",
+        "path_type": "hardlink",
+        "sha256": "5803690900f6bdf47ce892fe4d97a83e57eaee7327f51ad631e077e66aa5a322",
+        "sha256_in_prefix": "5803690900f6bdf47ce892fe4d97a83e57eaee7327f51ad631e077e66aa5a322",
+        "size_in_bytes": 10124
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_distort.py",
+        "path_type": "hardlink",
+        "sha256": "477f68e8a1ee31fcb80177dda7dd25430d8851b3463e420b530ebe736522d7bc",
+        "sha256_in_prefix": "477f68e8a1ee31fcb80177dda7dd25430d8851b3463e420b530ebe736522d7bc",
+        "size_in_bytes": 10658
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_fillmissing.py",
+        "path_type": "hardlink",
+        "sha256": "68889f329973c5426ad3118bea8f8f53b60e8a53caf044aa149209ffdea86477",
+        "sha256_in_prefix": "68889f329973c5426ad3118bea8f8f53b60e8a53caf044aa149209ffdea86477",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_filter.py",
+        "path_type": "hardlink",
+        "sha256": "c4c05ec753866445bff594ba65287351d01f499f26d66ffcefaf6adc33f3673d",
+        "sha256_in_prefix": "c4c05ec753866445bff594ba65287351d01f499f26d66ffcefaf6adc33f3673d",
+        "size_in_bytes": 15399
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_findpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "21b74cbde5d689492ba3217765ff056e4bf5aecbd18ec1de49969dd77fd589bd",
+        "sha256_in_prefix": "21b74cbde5d689492ba3217765ff056e4bf5aecbd18ec1de49969dd77fd589bd",
+        "size_in_bytes": 7447
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_fixpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "c57616c72f807cf39a9c3d9fd2dec261bba67be47fd839a25f6e6d246b802502",
+        "sha256_in_prefix": "c57616c72f807cf39a9c3d9fd2dec261bba67be47fd839a25f6e6d246b802502",
+        "size_in_bytes": 24596
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_flatline.py",
+        "path_type": "hardlink",
+        "sha256": "a5415f6796b869dbbb1f0bee0b0583264a5205052219ef3d8c18f802c7dafe59",
+        "sha256_in_prefix": "a5415f6796b869dbbb1f0bee0b0583264a5205052219ef3d8c18f802c7dafe59",
+        "size_in_bytes": 978
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_formatpeaks.py",
+        "path_type": "hardlink",
+        "sha256": "d13c16b3bc525a287f8231749898848f1a4ba8e7eab30c8036bf3825cedfaa8c",
+        "sha256_in_prefix": "d13c16b3bc525a287f8231749898848f1a4ba8e7eab30c8036bf3825cedfaa8c",
+        "size_in_bytes": 4331
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_interpolate.py",
+        "path_type": "hardlink",
+        "sha256": "ff0618e482f678652d55d5bed8cd125ca3dfd77083a3379fd3ecd2e8362ec83e",
+        "sha256_in_prefix": "ff0618e482f678652d55d5bed8cd125ca3dfd77083a3379fd3ecd2e8362ec83e",
+        "size_in_bytes": 8375
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_merge.py",
+        "path_type": "hardlink",
+        "sha256": "45fc46c0336ecbfbb6cd1d035c8d4f62d1ae1534a79abc228ee4bc474f40d1df",
+        "sha256_in_prefix": "45fc46c0336ecbfbb6cd1d035c8d4f62d1ae1534a79abc228ee4bc474f40d1df",
+        "size_in_bytes": 2770
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_noise.py",
+        "path_type": "hardlink",
+        "sha256": "e783ad730c8c803f9e8de4e5099903ada44ff5bc4b73f9c6eb73f3902d2c053a",
+        "sha256_in_prefix": "e783ad730c8c803f9e8de4e5099903ada44ff5bc4b73f9c6eb73f3902d2c053a",
+        "size_in_bytes": 4052
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_period.py",
+        "path_type": "hardlink",
+        "sha256": "c4b96294e056c208debda64669e10cd321f04e3f640199b4f796117cb91d3a3b",
+        "sha256_in_prefix": "c4b96294e056c208debda64669e10cd321f04e3f640199b4f796117cb91d3a3b",
+        "size_in_bytes": 4293
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_phase.py",
+        "path_type": "hardlink",
+        "sha256": "7734cf4726ab43ff0a85ce4cfe3ce08bd6c288311447a956c8dc959a768463cf",
+        "sha256_in_prefix": "7734cf4726ab43ff0a85ce4cfe3ce08bd6c288311447a956c8dc959a768463cf",
+        "size_in_bytes": 3303
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_plot.py",
+        "path_type": "hardlink",
+        "sha256": "4ca2cb9aa3647a250086d2cb4189082c7979b5e0d0b13a5a1c8bd6f5476a960d",
+        "sha256_in_prefix": "4ca2cb9aa3647a250086d2cb4189082c7979b5e0d0b13a5a1c8bd6f5476a960d",
+        "size_in_bytes": 6532
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_power.py",
+        "path_type": "hardlink",
+        "sha256": "b307b92acd3fa8af49327abfdeeb562fdf4dab841300ac0775d9697e96550791",
+        "sha256_in_prefix": "b307b92acd3fa8af49327abfdeeb562fdf4dab841300ac0775d9697e96550791",
+        "size_in_bytes": 7874
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_psd.py",
+        "path_type": "hardlink",
+        "sha256": "1199f7f6935698e2d896fa58f7e15d4fc9e3068547680abf60c222b73662cd3d",
+        "sha256_in_prefix": "1199f7f6935698e2d896fa58f7e15d4fc9e3068547680abf60c222b73662cd3d",
+        "size_in_bytes": 19000
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_rate.py",
+        "path_type": "hardlink",
+        "sha256": "36066141bfb2021f350e59c09a19a2a9fd057b22b40ff04305f5f9ea8347d78d",
+        "sha256_in_prefix": "36066141bfb2021f350e59c09a19a2a9fd057b22b40ff04305f5f9ea8347d78d",
+        "size_in_bytes": 5345
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_recompose.py",
+        "path_type": "hardlink",
+        "sha256": "4f43703056e43ccce9b4a4e1f99c2881027a9eac672ace8604189060635837b2",
+        "sha256_in_prefix": "4f43703056e43ccce9b4a4e1f99c2881027a9eac672ace8604189060635837b2",
+        "size_in_bytes": 6336
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_resample.py",
+        "path_type": "hardlink",
+        "sha256": "043cd08b6656b02c7f4e3bdf3a092e5837e0db1eea4c93ed67934fe324eb13e4",
+        "sha256_in_prefix": "043cd08b6656b02c7f4e3bdf3a092e5837e0db1eea4c93ed67934fe324eb13e4",
+        "size_in_bytes": 6388
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_sanitize.py",
+        "path_type": "hardlink",
+        "sha256": "7364884a77745bea15b73b3fce0d6bbc6fed9e0f73760655b5925f98463fd7a7",
+        "sha256_in_prefix": "7364884a77745bea15b73b3fce0d6bbc6fed9e0f73760655b5925f98463fd7a7",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_simulate.py",
+        "path_type": "hardlink",
+        "sha256": "621e059c41791c6f5cb7018d27019f054ac36844d294b78c8d441fcaaea7838e",
+        "sha256_in_prefix": "621e059c41791c6f5cb7018d27019f054ac36844d294b78c8d441fcaaea7838e",
+        "size_in_bytes": 3880
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_smooth.py",
+        "path_type": "hardlink",
+        "sha256": "6efb14ae59eb94a1d7b24c545682c6e57edc6619ae03da0309ddf20621e157c8",
+        "sha256_in_prefix": "6efb14ae59eb94a1d7b24c545682c6e57edc6619ae03da0309ddf20621e157c8",
+        "size_in_bytes": 5358
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_surrogate.py",
+        "path_type": "hardlink",
+        "sha256": "411cbf532b137c57f6d419d9a9450f9500a660a139a4fe5ecfa4b91a210fc3cc",
+        "sha256_in_prefix": "411cbf532b137c57f6d419d9a9450f9500a660a139a4fe5ecfa4b91a210fc3cc",
+        "size_in_bytes": 5520
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_synchrony.py",
+        "path_type": "hardlink",
+        "sha256": "da44a8364564b26d57eb7628a5f0a52f6e2204e3a11fef9fa9be1046ef25b47d",
+        "sha256_in_prefix": "da44a8364564b26d57eb7628a5f0a52f6e2204e3a11fef9fa9be1046ef25b47d",
+        "size_in_bytes": 4293
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_timefrequency.py",
+        "path_type": "hardlink",
+        "sha256": "4cbcc268c5d7357ffd5dfe6ecdc73847747961863eb4a439fcd448f454b8c9f1",
+        "sha256_in_prefix": "4cbcc268c5d7357ffd5dfe6ecdc73847747961863eb4a439fcd448f454b8c9f1",
+        "size_in_bytes": 21039
+      },
+      {
+        "_path": "site-packages/neurokit2/signal/signal_zerocrossings.py",
+        "path_type": "hardlink",
+        "sha256": "0d2349cd2c80f5756003e33c2a0f6832d7f793a1685ac17eb54ebd38e56732f2",
+        "sha256_in_prefix": "0d2349cd2c80f5756003e33c2a0f6832d7f793a1685ac17eb54ebd38e56732f2",
+        "size_in_bytes": 1564
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4d4f85bab919221bfcec7e5bafe5f03e2f5194206deeab2068ca47013340e504",
+        "sha256_in_prefix": "4d4f85bab919221bfcec7e5bafe5f03e2f5194206deeab2068ca47013340e504",
+        "size_in_bytes": 1009
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/cluster.py",
+        "path_type": "hardlink",
+        "sha256": "937ebe296f325b4499842b2e2563e0e98a74c174a10c9c29ee7864d25064773e",
+        "sha256_in_prefix": "937ebe296f325b4499842b2e2563e0e98a74c174a10c9c29ee7864d25064773e",
+        "size_in_bytes": 28345
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/cluster_findnumber.py",
+        "path_type": "hardlink",
+        "sha256": "e682726260f3696be59d7aace4eb03106c69a2e7b71b9580041d65611e61d869",
+        "sha256_in_prefix": "e682726260f3696be59d7aace4eb03106c69a2e7b71b9580041d65611e61d869",
+        "size_in_bytes": 2697
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/cluster_quality.py",
+        "path_type": "hardlink",
+        "sha256": "bf12c1044fbd842c77a29ed47eeb96d1758c4f86bf65feacb259a97306d7fc21",
+        "sha256_in_prefix": "bf12c1044fbd842c77a29ed47eeb96d1758c4f86bf65feacb259a97306d7fc21",
+        "size_in_bytes": 12509
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/correlation.py",
+        "path_type": "hardlink",
+        "sha256": "865ce6e7549ce866f477480e82d14672e7825ef0dc2f5790724c901f1a2ff539",
+        "sha256_in_prefix": "865ce6e7549ce866f477480e82d14672e7825ef0dc2f5790724c901f1a2ff539",
+        "size_in_bytes": 1874
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/density.py",
+        "path_type": "hardlink",
+        "sha256": "805c769100f68798697804cdc0e443bebd71da8fdbca8ca54cf7c8652bc1aba8",
+        "sha256_in_prefix": "805c769100f68798697804cdc0e443bebd71da8fdbca8ca54cf7c8652bc1aba8",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/density_bandwidth.py",
+        "path_type": "hardlink",
+        "sha256": "1dd9359e5b56668c253a8f8d0014612f2b5e514825dc01b85f85a3da61da5709",
+        "sha256_in_prefix": "1dd9359e5b56668c253a8f8d0014612f2b5e514825dc01b85f85a3da61da5709",
+        "size_in_bytes": 4949
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/distance.py",
+        "path_type": "hardlink",
+        "sha256": "468d2841a85663f1d13c173aaed6c3cfee614c00d19e2544834b8e8d0fc2cf21",
+        "sha256_in_prefix": "468d2841a85663f1d13c173aaed6c3cfee614c00d19e2544834b8e8d0fc2cf21",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/fit_error.py",
+        "path_type": "hardlink",
+        "sha256": "32a53590f0f95a083bd9f3e44d6edeaed4264e284a782d8a5cc51394b0358772",
+        "sha256_in_prefix": "32a53590f0f95a083bd9f3e44d6edeaed4264e284a782d8a5cc51394b0358772",
+        "size_in_bytes": 3199
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/fit_loess.py",
+        "path_type": "hardlink",
+        "sha256": "409ffde09cc0a1dd7bfa0efe13aa34d77d295481007e1739d8ec4bdad093e98f",
+        "sha256_in_prefix": "409ffde09cc0a1dd7bfa0efe13aa34d77d295481007e1739d8ec4bdad093e98f",
+        "size_in_bytes": 2919
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/fit_mixture.py",
+        "path_type": "hardlink",
+        "sha256": "8950306be47a09292dea1d20418465fee61a5bbf653dc0f37397408ccc2003dd",
+        "sha256_in_prefix": "8950306be47a09292dea1d20418465fee61a5bbf653dc0f37397408ccc2003dd",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/fit_polynomial.py",
+        "path_type": "hardlink",
+        "sha256": "1ca77e26dd7d4fff385dc3cd51f6e7dc545d77605be4688ce88e6a80664ecdd7",
+        "sha256_in_prefix": "1ca77e26dd7d4fff385dc3cd51f6e7dc545d77605be4688ce88e6a80664ecdd7",
+        "size_in_bytes": 4961
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/hdi.py",
+        "path_type": "hardlink",
+        "sha256": "1d2c1e27a058527c7357e55173224bbf09573115894cb152f40ceefb075b7759",
+        "sha256_in_prefix": "1d2c1e27a058527c7357e55173224bbf09573115894cb152f40ceefb075b7759",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/mad.py",
+        "path_type": "hardlink",
+        "sha256": "7ca9d89a66a100493c867db9533c91dd25a980cbccb08e833e41f136fc73242f",
+        "sha256_in_prefix": "7ca9d89a66a100493c867db9533c91dd25a980cbccb08e833e41f136fc73242f",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/rescale.py",
+        "path_type": "hardlink",
+        "sha256": "9a67366c582b3e3068dc734bb03fbb7e9c5b7469ab58fa6d04929d6158e98772",
+        "sha256_in_prefix": "9a67366c582b3e3068dc734bb03fbb7e9c5b7469ab58fa6d04929d6158e98772",
+        "size_in_bytes": 1945
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/standardize.py",
+        "path_type": "hardlink",
+        "sha256": "9b349fab46f607e91499a3b7d05761f9e27e38e49d8eaa927f24ff1f1ffaed08",
+        "sha256_in_prefix": "9b349fab46f607e91499a3b7d05761f9e27e38e49d8eaa927f24ff1f1ffaed08",
+        "size_in_bytes": 4697
+      },
+      {
+        "_path": "site-packages/neurokit2/stats/summary.py",
+        "path_type": "hardlink",
+        "sha256": "90e7facbf1f219503b369eee5e5e43559e175063e5bfe10a72089d46f86120a6",
+        "sha256_in_prefix": "90e7facbf1f219503b369eee5e5e43559e175063e5bfe10a72089d46f86120a6",
+        "size_in_bytes": 1845
+      },
+      {
+        "_path": "site-packages/neurokit2/video/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bc85853cd04c4b4431cb42516660ad68356522b6ae41a8a9107e5141cc5338aa",
+        "sha256_in_prefix": "bc85853cd04c4b4431cb42516660ad68356522b6ae41a8a9107e5141cc5338aa",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "site-packages/neurokit2/video/video_blinks.py",
+        "path_type": "hardlink",
+        "sha256": "860d5e92e5a1d2899fcbc0ea6fe583ae3d8610fac6149808fc16afc250397f52",
+        "sha256_in_prefix": "860d5e92e5a1d2899fcbc0ea6fe583ae3d8610fac6149808fc16afc250397f52",
+        "size_in_bytes": 2574
+      },
+      {
+        "_path": "site-packages/neurokit2/video/video_face.py",
+        "path_type": "hardlink",
+        "sha256": "c00ca035a266930777979abe506045abbfcbee40498ce6e98b1ed6520e3fff83",
+        "sha256_in_prefix": "c00ca035a266930777979abe506045abbfcbee40498ce6e98b1ed6520e3fff83",
+        "size_in_bytes": 2665
+      },
+      {
+        "_path": "site-packages/neurokit2/video/video_plot.py",
+        "path_type": "hardlink",
+        "sha256": "6eea7676a78a7b8101400d28ffccca850848f5eda209285e21375e27c96b1efb",
+        "sha256_in_prefix": "6eea7676a78a7b8101400d28ffccca850848f5eda209285e21375e27c96b1efb",
+        "size_in_bytes": 3435
+      },
+      {
+        "_path": "site-packages/neurokit2/video/video_ppg.py",
+        "path_type": "hardlink",
+        "sha256": "6e8e7718f18225776e12f34857cedbf209537680103628bc3d67993fc50a9002",
+        "sha256_in_prefix": "6e8e7718f18225776e12f34857cedbf209537680103628bc3d67993fc50a9002",
+        "size_in_bytes": 3488
+      },
+      {
+        "_path": "site-packages/neurokit2/video/video_skin.py",
+        "path_type": "hardlink",
+        "sha256": "da02f9b0bf39de4674d5396d5db07f04c25e2c219c01e220b5f461f2b6dd67ae",
+        "sha256_in_prefix": "da02f9b0bf39de4674d5396d5db07f04c25e2c219c01e220b5f461f2b6dd67ae",
+        "size_in_bytes": 4237
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/benchmark/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/benchmark/__pycache__/benchmark_ecg.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/benchmark/__pycache__/benchmark_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/bio/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/bio/__pycache__/bio_analyze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/bio/__pycache__/bio_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/TODO_entropy_wiener.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/TODO_fractal_capacity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/complexity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_decorrelation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_hjorth.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_lempelziv.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_lyapunov.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_relativeroughness.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/complexity_rqa.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_angular.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_approximate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_attention.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_bubble.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_coalition.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_cosinesimilarity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_cumulativeresidual.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_differential.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_dispersion.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_distribution.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_fuzzy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_grid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_hierarchical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_increment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_kl.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_kolmogorov.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_maximum.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_multiscale.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_ofentropy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_permutation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_phase.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_power.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_quadratic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_range.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_rate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_renyi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_sample.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_shannon.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_shannon_joint.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_slope.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_spectral.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_svd.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_symbolicdynamic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/entropy_tsallis.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_correlation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_density.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_dfa.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_higuchi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_hurst.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_katz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_linelength.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_nld.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_petrosian.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_psdslope.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_sda.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_sevcik.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/fractal_tmf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/information_fisher.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/information_fishershannon.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/information_gain.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/information_mutual.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_delay.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_dimension.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_k.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_optimize.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/optim_complexity_tolerance.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_attractor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_coarsegraining.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_embedding.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_ordinalpatterns.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_complexity_symbolize.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_entropy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_fractal_mandelbrot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/complexity/__pycache__/utils_recurrence_matrix.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/database.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/read_acqknowledge.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/read_bitalino.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/read_video.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/read_xdf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/data/__pycache__/write_csv.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_analyze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_clean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_delineate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_eventrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_findpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_intervalrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_invert.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_peaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_phase.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_quality.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_rsp.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_segment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ecg/__pycache__/ecg_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_analyze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_autocor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_changepoints.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_clean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_eventrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_findpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_fixpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_intervalrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_methods.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_peaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_phasic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eda/__pycache__/eda_sympathetic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_1f.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_badchannels.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_diss.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_gfp.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_power.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_rereference.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_source.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/eeg_source_extract.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/mne_channel_add.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/mne_channel_extract.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/mne_crop.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/mne_data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/mne_templateMRI.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/mne_to_df.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eeg/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_activation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_amplitude.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_analyze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_clean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_eventrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_intervalrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_methods.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/emg/__pycache__/emg_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_analyze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_clean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_eventrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_findpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_intervalrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_peaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/eog/__pycache__/eog_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/epochs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_average.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_create.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_to_array.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/epochs/__pycache__/epochs_to_df.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/epochs/__pycache__/eventrelated_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/events/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/events/__pycache__/events_create.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/events/__pycache__/events_find.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/events/__pycache__/events_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/events/__pycache__/events_to_mne.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/hrv.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_frequency.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_nonlinear.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_rqa.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_rsa.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/hrv_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/intervals_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/intervals_to_peaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/hrv/__pycache__/intervals_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/markov_mixingtime.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/markov_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_homogeneity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_markovity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_random.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/markov_test_symmetry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/markov/__pycache__/transition_matrix.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_classify.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_clean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_complexity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_dynamic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_findnumber.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_peaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_segment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/microstates/__pycache__/microstates_static.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/_warnings.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/check_random_state.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/check_type.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/copyfunction.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/expspace.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/fig2img.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/find_closest.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/find_consecutive.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/find_groups.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/find_knee.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/find_outliers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/find_plateau.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/listify.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/parallel_run.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/progress_bar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/replace.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/report.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/misc/__pycache__/type_converters.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_analyze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_clean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_eventrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_findpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_intervalrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_methods.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_peaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_quality.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_segment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/ppg/__pycache__/ppg_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_amplitude.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_analyze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_clean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_eventrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_findpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_fixpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_intervalrelated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_methods.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_peaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_phase.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rav.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rrv.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_rvt.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/rsp/__pycache__/rsp_symmetry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_autocor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_binarize.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_changepoints.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_decompose.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_detrend.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_distort.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_fillmissing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_filter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_findpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_fixpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_flatline.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_formatpeaks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_interpolate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_merge.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_noise.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_period.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_phase.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_power.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_psd.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_rate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_recompose.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_resample.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_sanitize.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_simulate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_smooth.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_surrogate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_synchrony.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_timefrequency.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/signal/__pycache__/signal_zerocrossings.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/cluster.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/cluster_findnumber.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/cluster_quality.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/correlation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/density.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/density_bandwidth.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/distance.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/fit_error.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/fit_loess.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/fit_mixture.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/fit_polynomial.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/hdi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/mad.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/rescale.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/standardize.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/stats/__pycache__/summary.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/video/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/video/__pycache__/video_blinks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/video/__pycache__/video_face.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/video/__pycache__/video_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/video/__pycache__/video_ppg.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/neurokit2/video/__pycache__/video_skin.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "neurokit2",
+  "sha256": "8e14d332eb7e0ebfafa46c5d2f874f089d9e2c552d1b6b06a7090b05d3d22328",
+  "size": 376478,
+  "subdir": "noarch",
+  "timestamp": 1735222618000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/neurokit2-0.2.10-pyhecae5ae_1.conda",
+  "version": "0.2.10"
+}
