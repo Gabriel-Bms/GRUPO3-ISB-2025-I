@@ -47,3 +47,9 @@
 
 ### 5. Simulación de las dos señales ECG: La pimera con frecuencia cardíaca de 60 bpm y la segunda con 90 bpm y se les añadió un ruido de 0.01 y 0.05 respectivamente 
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/7.png">
+
+### 6. 
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/8.png">
+  
+### 7.
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/9.png">
