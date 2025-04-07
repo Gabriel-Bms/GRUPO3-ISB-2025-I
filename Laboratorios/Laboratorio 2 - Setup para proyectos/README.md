@@ -28,12 +28,22 @@
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/Lab2-VerificarLibrerias.png">
 
 ## Código para plotear 2 señales EMG y 2 señales ECG simuladas
-### 1. Importamos la librería matplotlib.pyplot para graficar las señales y la función welch para el cálculo del PSD
+
+### 1. Importamos las librerías necesarias para el análisis como numpy, pandas, scipy, sklearn y el neurokit2 para la simulación de señales. Además verificamos las librerías y que nos encontremos en el entorno virtual correcto
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/1.png">
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/2.png">
+
+### 2. Importamos la librería matplotlib.pyplot para graficar las señales y la función welch para el cálculo del PSD
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/3.png">
   
-### 2. Definimos los parámetros de frecuencia de muestreo y duración 
+### 3. Definimos los parámetros de frecuencia de muestreo y duración 
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/4.png">
   
-### 3. Importamos la librería matplotlib.pyplot
+### 3. Simulación de la primera señal EMG: Generamos 7 explosiones de actividad muscular con duraciones aleatorias entre 0.1 y 0.5 segundos.
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/5.png">
 
-### 4. Importamos la librería matplotlib.pyplot
+### 4. Simulación de la segunda señal EMG: Generamos 3 explosiones de actividad muscular con duraciones aleatorias entre 0.2 y 0.6 segundos.
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/6.png">
+
+### 5. Simulación de las dos señales ECG: La pimera con frecuencia cardíaca de 60 bpm y la segunda con 90 bpm y se les añadió un ruido de 0.01 y 0.05 respectivamente 
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/7.png">
