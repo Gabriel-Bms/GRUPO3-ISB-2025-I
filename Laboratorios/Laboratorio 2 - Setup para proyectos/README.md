@@ -53,3 +53,9 @@
   
 ### 7.
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/9.png">
+
+### 8. imagen del emg
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/10.png">
+
+### 9. imagen de ecg
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/11.png">
