@@ -54,8 +54,8 @@
 ### 7. Definición de la función plot_psd que calcula la densidad espectral de potencia (PSD). Posteriormente, se grafica cada señal en dominio de frecuencia, separando en subplots que permiten observar la distribución de energía en distintas bandas de frecuencia. Finalmente, se usa plt.tight_layout() para ordenar las gráficas y plt.show() para mostrarlas.
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/9.png">
 
-### 8. Gráficas de las señales EMG 
+### 8. Gráficas de las señales EMG en el dominio de tiempo y frecuencia
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/10.png">
 
-### 9. Gráficas de las señales ECG
+### 9. Gráficas de las señales ECG en el dominio de tiempo y frecuencia
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/11.png">
