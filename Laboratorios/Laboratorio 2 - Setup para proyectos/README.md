@@ -28,8 +28,12 @@
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/Lab2-VerificarLibrerias.png">
 
 ## Código para plotear 2 señales EMG y 2 señales ECG simuladas
-### 1. Primero debemos verificar que estamos usando el entorno virtual correcto
-<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/1.png">
+### 1. Importamos la librería matplotlib.pyplot para graficar las señales y la función welch para el cálculo del PSD
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/3.png">
   
-### 2. Importamos las librerías necesarias y verificamos las versiones
-<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/2.png">
+### 2. Definimos los parámetros de frecuencia de muestreo y duración 
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/4.png">
+  
+### 3. Importamos la librería matplotlib.pyplot
+
+### 4. Importamos la librería matplotlib.pyplot
