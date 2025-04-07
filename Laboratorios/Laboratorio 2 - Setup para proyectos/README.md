@@ -29,7 +29,7 @@
 
 ## Código para plotear 2 señales EMG y 2 señales ECG simuladas
 
-### 1. Importamos las librerías necesarias para el análisis como numpy, pandas, scipy, sklearn y el neurokit2 para la simulación de señales. Además verificamos las librerías y que nos encontremos en el entorno virtual correcto
+### 1. Importamos las librerías necesarias para el análisis como numpy, pandas, scipy, sklearn y el neurokit2 para la simulación de señales. Además, verificamos las versiones librerías y que nos encontremos en el entorno virtual correcto.
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/1.png">
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/2.png">
 
@@ -48,7 +48,7 @@
 ### 5. Simulación de las dos señales ECG: La pimera con frecuencia cardíaca de 60 bpm y la segunda con 90 bpm y se les añadió un ruido de 0.01 y 0.05 respectivamente 
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/7.png">
 
-### 6. 
+### 6. Creación de un vector tiempo para graficar las cuatro señales, dos EMG y dos ECG, como subplots separados. Se utilizó colores distintos para identificar cada señal, se añadió títulos y etiquetas a los ejes.
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/8.png">
   
 ### 7.
