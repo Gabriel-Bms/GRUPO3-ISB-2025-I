@@ -29,7 +29,7 @@
 
 ## Código para plotear 2 señales EMG y 2 señales ECG simuladas
 
-### 1. Importamos las librerías necesarias para el análisis como numpy, pandas, scipy, sklearn y el neurokit2 para la simulación de señales. Además, verificamos las versiones librerías y que nos encontremos en el entorno virtual correcto.
+### 1. Importamos las librerías necesarias para el análisis como numpy, pandas, scipy, sklearn y el neurokit2 para la simulación de señales. Además, verificamos las versiones de las librerías y que nos encontremos en el entorno virtual correcto.
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/1.png">
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/2.png">
 
@@ -51,11 +51,11 @@
 ### 6. Creación de un vector tiempo para graficar las cuatro señales, dos EMG y dos ECG, como subplots separados. Se utilizó colores distintos para identificar cada señal, se añadió títulos y etiquetas a los ejes.
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/8.png">
   
-### 7.
+### 7. Definición de la función plot_psd que calcula la densidad espectral de potencia (PSD). Posteriormente, se grafica cada señal en dominio de frecuencia, separando en subplots que permiten observar la distribución de energía en distintas bandas de frecuencia. Finalmente, se usa plt.tight_layout() para ordenar las gráficas y plt.show() para mostrarlas.
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/9.png">
 
-### 8. imagen del emg
+### 8. Gráficas de las señales EMG 
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/10.png">
 
-### 9. imagen de ecg
+### 9. Gráficas de las señales ECG
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/11.png">
