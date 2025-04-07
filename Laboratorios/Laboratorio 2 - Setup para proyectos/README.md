@@ -26,3 +26,5 @@
 
 ### 9. Verificar que estamos trabajando en el entorno correcto y que las librerias estan instaladas correctamente
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/Lab2-VerificarLibrerias.png">
+
+## Código para plotear 2 señales EMG y 2 señales ECG simuladas
