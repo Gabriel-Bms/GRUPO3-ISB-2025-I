@@ -30,5 +30,6 @@
 ## Código para plotear 2 señales EMG y 2 señales ECG simuladas
 ### 1. Primero debemos verificar que estamos usando el entorno virtual correcto
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/1.png">
+  
 ### 2. Importamos las librerías necesarias y verificamos las versiones
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Imagenes/Laboratorio 2/2.png">
