@@ -5,12 +5,14 @@ La contracción muscular se basa en dos variables: longitud y tensión. A travé
 
 La electromiografía de superficie (sEMG) es una técnica principal para detectar las actividades eléctricas de los músculos a través de electrodos de superficie.[2]
 
-Esta técnica ha sido ampliamente investigada en las últimas dos décadas, con avances significativos tanto en el hardware como en los métodos de procesamiento de señales utilizados para recopilar y analizar las señales de sEMG.[3]
-
 A su vez ha sido ampliamente utilizada en evaluación, tratamiento, rehabilitación y entrenamiento en clínicas de deportes y fisioterapia. Específicamente, las mediciones de sEMG se han utilizado para identificar la tensión en la musculatura de las extremidades, así como en los músculos de otras partes del cuerpo humano.
 La ventaja de la electromiografía de superficie es ser una medida objetiva y, en teoría, evaluar las actividades musculares de manera directa.[4]
 
-En este informe se utilizará la electromiografía de superficie para analizar las señales EMG producidas por el sujeto de prueba y se procederá a analizar dichas señales con el fin de explorar más a fondo el tema, y reconocer los patrones generados en la contracción muscular humana.
+Esta técnica ha sido ampliamente investigada en las últimas dos décadas, con avances significativos tanto en el hardware como en los métodos de procesamiento de señales utilizados para recopilar y analizar las señales de sEMG.[3]
+
+Una de las muchas tecnologías desarrolladas para analizar sEMG es el BITalino, el cual es una plataforma asequible y de código abierto para biosignales, diseñada para la educación y creación de prototipos. Incluye un software fácil de usar (OpenSignals) y bloques de hardware con sensores para ECG, EMG, EDA, EEG, movimiento y más, ideales para entornos de laboratorio y aula.[5]
+
+En este informe, se utilizará el software de BITalino junto con su kit de herramientas para ejecutar la electromiografía de superficie y analizar las señales EMG generadas por el sujeto de prueba. Posteriormente, se procederá a examinar estas señales con el objetivo de profundizar en el tema y identificar los patrones asociados a la contracción muscular humana.
 
 ## 2. PROPÓSITO DE LA PRÁCTICA
 ### 2.1. Objetivos
