@@ -91,6 +91,7 @@ Condiciones:
 - Contracción con carga (mochila)
 
 Resultados:
+
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/tabla1.png">
 
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/tabla2.png">
@@ -113,7 +114,9 @@ Condiciones:
 - Carga máxima: Resistencia máxima aplicada por la persona
 
 Resultados: 
+
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/bicepsresultados1.png">
+  
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/bicepsresultados2.png">
 
 ## 5. Análisis y Discusión
