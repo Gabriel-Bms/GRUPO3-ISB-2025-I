@@ -104,4 +104,19 @@ Condiciones:
 - Movimiento muscular con una carga
 - Carga moderada: Resistencia ligera aplicada por la persona
 - Carga máxima: Resistencia máxima aplicada por la persona
+Fundamento Fisiológico:
+Basado en evidencia científica, el bíceps braquial presenta patrones característicos de activación durante movimientos de flexión del codo. Estudios electromiográficos demuestran que:
+La activación muscular aumenta progresivamente con el ángulo de flexión, alcanzando su máximo alrededor de los 90° de flexión [9].
+Mantiene una activación estable tanto en posiciones neutras como rotadas (supinación/pronación) del antebrazo [9].
+Participa activamente tanto en contracciones dinámicas (concéntricas/excéntricas) como isométricas [9].
+Resultados:
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/tabla1.png">
 
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/tabla2.png">
+
+Con respecto a las gráficas obtenidas, se puede observar que:
+En la condición de reposo, las señales obtenidas muestran un patrón de inactividad muscular. La señal cruda presenta pequeñas fluctuaciones, con amplitudes que no superan los ±0.3 mV, lo cual corresponde principalmente a ruido del sistema. La señal filtrada, por su parte, se mantiene estable, con valores entre 0.0002 y 0.0008 mV, confirmando que no hay actividad muscular significativa durante este estado de relajación.
+Durante el movimiento sin carga, la señal cambia. Se observan picos definidos de aproximadamente 0.1-0.2 mV en la señal cruda, sincronizados con cada fase del movimiento de flexión. La señal procesada muestra una actividad más limpia, con oscilaciones entre 0.0002 y 0.0006 mV, mostrando la activación rítmica del músculo durante este tipo de contracción moderada.
+Al aplicar la carga externa, los resultados se muestran según la intensidad:
+Con carga moderada, la amplitud de la señal aumenta, alcanzando valores de 2 a 3 veces los observados en el movimiento sin carga. La actividad muscular se vuelve más constante durante toda la contracción.
+En condiciones de carga máxima, la señal muestra un esfuerzo muscular mucho más intenso, con momentos de saturación que superan 1 mV en la señal cruda. La activación se mantiene constante, sin los periodos de relajación que se observan en las condiciones menos exigentes.
