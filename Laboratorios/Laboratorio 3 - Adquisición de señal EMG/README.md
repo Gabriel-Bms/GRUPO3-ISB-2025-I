@@ -1,3 +1,5 @@
+# Uso de BITalino para EMG
+
 ## 1. Introducción
 La contracción muscular se basa en dos variables: longitud y tensión. A través de la interacción de los filamentos de actina y miosina, los músculos se acortan y generan fuerza, sin necesariamente cambiar de longitud, como al sostener un objeto o mantener una postura. Este proceso se inicia con un potencial de acción que libera calcio del retículo sarcoplásmico, activando la contracción en los músculos estriados y lisos. La actividad eléctrica generada durante la contracción puede ser medida mediante electromiografía de superficie (sEMG).[1]
 
