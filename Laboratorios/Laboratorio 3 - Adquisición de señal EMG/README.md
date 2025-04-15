@@ -60,3 +60,15 @@ Contracción con carga (fuerza con peso)
 
 8. Almacenamiento y análisis de datos
 Guardar los archivos generados por la sesión de adquisición. Posteriormente, analizarlos utilizando herramientas de procesamiento de señales para evaluar los patrones de activación muscular en cada condición.
+
+## 4. Resultados 
+Se analizaron tres grupos musculares en diferentes condiciones:
+- Músculos del antebrazo (flexión/extensión de muñeca)
+- Bíceps braquial (flexión de codo)
+
+Condiciones de evaluación:
+- Reposo 
+- Contracción voluntaria sin carga
+- Contracción contra resistencia externa
+
+### Prueba 1: Análisis del antebrazo
