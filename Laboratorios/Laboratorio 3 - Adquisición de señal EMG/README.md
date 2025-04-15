@@ -12,3 +12,14 @@ La ventaja de la electromiografía de superficie es ser una medida objetiva y, e
 
 En este informe se utilizará la electromiografía de superficie para analizar las señales EMG producidas por el sujeto de prueba y se procederá a analizar dichas señales con el fin de explorar más a fondo el tema, y reconocer los patrones generados en la contracción muscular humana.
 
+## 2. PROPÓSITO DE LA PRÁCTICA
+2.1. Objetivos
+- Adquirir señales biomédicas de electromiografía (EMG) y electrocardiografía (ECG) utilizando el módulo BITalino.
+- Realizar una correcta configuración de BiTalino y conectarlo al software OpenSignals.
+- Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution para procesarlas posteriormente. 
+
+2.2. Justificación de la práctica
+Se realizará el análisis de las señales EMG y ECG con el objetivo de analizar las respuestas del sistema neuromuscular y cardiovascular ante estímulos como aplicación de fuerzas externas. Se utilizará el módulo BITalino como herramienta para adquirir estas señales biomédicas, para luego convertirlas en señales digitales por medio de un ADC. Además, el software OpenSignals permite visualizar y guardar estas señales en una pantalla al conectarse mediante bluetooth. 
+
+2.3. Aplicación biomédica
+El módulo BITalino fue utilizado y evaluado como herramienta para adquirir señales ECG en experimentos psicofisiológicos, esto se realizó mediante el registro de la actividad cardíaca en participantes expuestos a estímulos emocionales. El estudió demostró que el módulo es adecuado para el uso en aplicaciones clínicas y en investigaciones de salud mental, debido a que facilita el monitoreo en contextos que no requieren equipos médicos de costo elevado. [5]
