@@ -1,6 +1,4 @@
-#Horizontal-Swiper
-For starting screen
-#npm install
+
 https://github.com/user-attachments/assets/978174ae-a173-4126-9cd1-d9561a3685b9
 https://github.com/user-attachments/assets/edfd7e0a-2b44-4402-877c-0ed74399b0fa
 https://github.com/user-attachments/assets/10f8ed67-d71d-479d-bbb6-434a9a4763fe
