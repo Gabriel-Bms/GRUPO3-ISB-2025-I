@@ -78,14 +78,17 @@ Condiciones de evaluación:
 Configuración experimental:
 - Músculo estudiado: Flexor radial del carpo
 - Movimiento evaluado: Flexión/extensión de la muñeca 
+
 Posición de los electrodos:
 - Electrodo positivo: Línea media del flexor radial del carpo, región proximal del antebrazo
 - Electrodo negativo: Región distal del flexor radial del carpo
 - Tierra: Epicóndilo medial
+
 Condiciones:
 - Reposo (brazo extendido relajado)
 - Contracción sin carga (solo peso del antebrazo)
 - Contracción con carga (mochila)
+
 Resultados:
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/tabla1.png">
 
@@ -95,10 +98,12 @@ Resultados:
 Configuración experimental:
 - Músculo estudiado: Bíceps braquial (cabeza larga y corta)
 - Movimiento evaluado: Flexión de codo (90° de rango)
+
 Posición de electrodos:
 - Electrodo positivo: Línea media del vientre muscular
 - Electrodo negativo: Inserción distal
 - Tierra: Epicóndilo lateral
+
 Condiciones:
 - Reposo (brazo relajado)
 - Movimiento muscular sin carga (Flexión de codo utilizando solo el peso del antebrazo)
@@ -106,6 +111,7 @@ Condiciones:
 - Carga moderada: Resistencia ligera aplicada por la persona
 - Carga máxima: Resistencia máxima aplicada por la persona
 
+Resultados: 
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/bicepsresultados1.png">
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/bicepsresultados2.png">
 
