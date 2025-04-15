@@ -23,3 +23,39 @@ Se realizará el análisis de las señales EMG y ECG con el objetivo de analizar
 
 ### 2.3. Aplicación biomédica
 El módulo BITalino fue utilizado y evaluado como herramienta para adquirir señales ECG en experimentos psicofisiológicos, esto se realizó mediante el registro de la actividad cardíaca en participantes expuestos a estímulos emocionales. El estudió demostró que el módulo es adecuado para el uso en aplicaciones clínicas y en investigaciones de salud mental, debido a que facilita el monitoreo en contextos que no requieren equipos médicos de costo elevado. [5]
+
+## 3. Materiales y Métodos
+
+### 3.1. Materiales
+
+### 3.1.2 Métodos
+1. Selección de músculos a evaluar
+Consultar guías clínicas especializadas para identificar los músculos adecuados para el estudio.
+
+2. Revisión de protocolos de electromiografía (EMG)
+Buscar documentación técnica y científica que describa protocolos de adquisición de señales EMG en los músculos seleccionados, para asegurar una toma de datos estandarizada y confiable.
+
+3. Preparación del sistema de adquisición
+Encender la placa BITalino y emparejarla con el dispositivo de adquisición (computadora o dispositivo móvil) a través de conexión Bluetooth.
+
+4.Colocación de electrodos EMG
+- Rojo (electrodo activo +): Se coloca sobre el vientre del músculo que se desea evaluar, donde se espera captar mayor actividad mioeléctrica.
+
+- Blanco (electrodo de referencia -): Se posiciona aproximadamente a dos dedos de distancia del electrodo activo, alineado con las fibras musculares. Trabaja en conjunto con el rojo para medir la diferencia de potencial eléctrico.
+
+- Negro (electrodo de tierra - GND): No capta señal, pero es esencial para estabilizar el sistema y reducir interferencias eléctricas. Se coloca sobre una zona ósea o eléctricamente neutra.
+
+5. Registro audiovisual del procedimiento
+Grabar en vídeo el proceso de colocación de electrodos y la adquisición de datos, mostrando en pantalla los resultados en tiempo real mediante la aplicación correspondiente (por ejemplo, OpenSignals).
+
+6. Adquisición de datos EMG
+Iniciar la toma de datos con BITalino, registrando la actividad muscular en tres condiciones distintas:
+
+7. Reposo muscular
+Contracción sin carga (fuerza sin peso)
+Contracción con carga (fuerza con peso)
+
+- Se recomienda realizar tres repeticiones por cada estadio para obtener datos representativos y comparables.
+
+8. Almacenamiento y análisis de datos
+Guardar los archivos generados por la sesión de adquisición. Posteriormente, analizarlos utilizando herramientas de procesamiento de señales para evaluar los patrones de activación muscular en cada condición.
