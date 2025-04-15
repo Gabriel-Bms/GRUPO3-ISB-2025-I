@@ -14,7 +14,7 @@ Una de las muchas tecnologías desarrolladas para analizar sEMG es el BITalino, 
 
 En este informe, se utilizará el software de BITalino junto con su kit de herramientas para ejecutar la electromiografía de superficie y analizar las señales EMG generadas por el sujeto de prueba. Posteriormente, se procederá a examinar estas señales con el objetivo de profundizar en el tema y identificar los patrones asociados a la contracción muscular humana.
 
-## 2. PROPÓSITO DE LA PRÁCTICA
+## 2. Propósito de la práctica
 ### 2.1. Objetivos
 - Adquirir señales biomédicas de electromiografía (EMG) y electrocardiografía (ECG) utilizando el módulo BITalino.
 - Realizar una correcta configuración de BiTalino y conectarlo al software OpenSignals.
