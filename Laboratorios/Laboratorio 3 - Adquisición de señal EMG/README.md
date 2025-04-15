@@ -27,6 +27,7 @@ El módulo BITalino fue utilizado y evaluado como herramienta para adquirir señ
 ## 3. Materiales y Métodos
 
 ### 3.1. Materiales
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/materiales.png">
 
 ### 3.1.2 Métodos
 1. Selección de músculos a evaluar
@@ -38,7 +39,7 @@ Buscar documentación técnica y científica que describa protocolos de adquisic
 3. Preparación del sistema de adquisición
 Encender la placa BITalino y emparejarla con el dispositivo de adquisición (computadora o dispositivo móvil) a través de conexión Bluetooth.
 
-4.Colocación de electrodos EMG
+4. Colocación de electrodos EMG
 - Rojo (electrodo activo +): Se coloca sobre el vientre del músculo que se desea evaluar, donde se espera captar mayor actividad mioeléctrica.
 
 - Blanco (electrodo de referencia -): Se posiciona aproximadamente a dos dedos de distancia del electrodo activo, alineado con las fibras musculares. Trabaja en conjunto con el rojo para medir la diferencia de potencial eléctrico.
