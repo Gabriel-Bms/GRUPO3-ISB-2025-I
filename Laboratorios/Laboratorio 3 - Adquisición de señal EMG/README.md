@@ -31,6 +31,8 @@ El módulo BITalino fue utilizado y evaluado como herramienta para adquirir señ
 ### 3.1. Materiales
 <image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/master/Laboratorios/Laboratorio%203%20-%20Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Imagenes/materiales.png">
 
+![WhatsApp Image 2025-04-14 at 23 24 00 (2)](https://github.com/user-attachments/assets/65918d2c-8717-4e2e-9b04-e7af710ec733)
+
 ### 3.1.2 Métodos
 1. Selección de músculos a evaluar
 Consultar guías clínicas especializadas para identificar los músculos adecuados para el estudio.
