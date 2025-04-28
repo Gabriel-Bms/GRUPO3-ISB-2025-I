@@ -1,4 +1,3 @@
-"# Introducci¢n a Se¤ales Biom‚dicas 2025-1" 
 # LABORATORIO 5: Uso de BITalino para ECG
 
 ## **Tabla de contenidos:**
