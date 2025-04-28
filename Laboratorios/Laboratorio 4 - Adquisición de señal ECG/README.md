@@ -15,6 +15,6 @@
 <br>
 
 ## **1) Introducción** 
-El uso de sistemas de adquisición de señales en el campo de ingenieria biomédica se utiliza para la monitorización y el análisis de diversas señales fisiológicas. El electrocardiograma (ECG) es una herramienta utilizada para registrar la actividad eléctrica del corazón, participa en el diagnóstico de trastornos cardíacos como arritmias, infartos y enfermedades relacionadas ((Johns Hopkins Medicine, 2023). 
+El uso de sistemas de adquisición de señales es ampliamente utilizado para la monitorización y el análisis de diversas señales fisiológicas. El electrocardiograma (ECG) es una herramienta utilizada para registrar la actividad eléctrica del corazón, participa en el diagnóstico de trastornos cardíacos como arritmias, infartos y enfermedades relacionadas ((Johns Hopkins Medicine, 2023). 
 
 La monitorización de esta señal es posible mediante dispositivos portátiles como el Bitalino, un sistema flexible y accesible que permite la captura de diferentes señales biomédicas (Monroy, J. P., et al. (2017).).
