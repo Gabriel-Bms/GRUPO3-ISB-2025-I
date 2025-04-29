@@ -51,6 +51,21 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 |<image src="https://github.com/user-attachments/assets/dc61dbe9-3b72-49a1-8222-89b186306f07" width="1500px" height="270px">|**Durante el ejercicio:** <p align="justify"> Se observa un aumento significativo en la frecuencia cardíaca (>99 bpm), lo cual está dentro de los valores normales para un esfuerzo físico [C].Se produce una reducción en los intervalos RR, lo que indica una aceleración en la frecuencia cardíaca.Las ondas P y T muestran variaciones que son típicas como respuesta simpática al esfuerzo físico.</p>**Post-ejercicio (Recuperación):**<p align="justify">Inmediatamente después del ejercicio, la frecuencia cardíaca sigue elevada (>99 bpm), pero comienza a disminuir progresivamente.A pesar de la disminución de la frecuencia, se mantienen fluctuaciones ligeras en los intervalos RR debido al proceso fisiológico de recuperación.Durante la respiración post-ejercicio, se vuelve a observar el fenómeno de arritmia sinusal respiratoria, lo que es normal durante el proceso de recuperación.</p>|
 |<image src="https://github.com/user-attachments/assets/8a7636d2-931f-4dc2-b0ce-8446779ba310" width="1500px" height="270px">|**Sosteniendo la respiración:** <p align="justify"> Al mantener la respiración, se observa un aumento en los intervalos RR, lo que indica una disminución de la frecuencia cardíaca. Este fenómeno es conocido como bradicardia por apnea y es típico cuando se interrumpe la respiración voluntariamente.</p><p align="justify">Durante este periodo, los intervalos RR se mantienen estables, lo que refleja una estabilización temporal de la frecuencia cardíaca debido a la falta de intercambio respiratorio.</p><p align="justify">No se observan alteraciones significativas en las ondas P, QRS y T, lo que indica que la conducción eléctrica se mantiene dentro de parámetros normales.</p><p align="justify">El proceso refleja una respuesta fisiológica controlada, donde el sistema nervioso autónomo regula la frecuencia cardíaca para adaptarse a la falta temporal de oxígeno.</p>|
 
+## **6) Limitaciones y conclusiones**
+
+**Limitaciones Identificadas**
+
+-Artefactos de Movimiento:Movimiento del sujeto afectó la estabilidad de la señal del BITalino.
+-Colocación de Electrodos:Aunque se intentó seguir el protocolo, se reconoce que podría no haber sido perfecta.
+-Condición del Sujeto:Fatiga y somnolencia durante la fase de reposo pudieron alterar los BPM.
+
+**Conclusiones Generales**
+
+-El ECG capturó de manera adecuada los eventos fisiológicos esperados: ritmo cardíaco normal, respuesta respiratoria, y respuesta ante el esfuerzo físico.
+-Se observó un patrón normal de taquicardia durante el ejercicio y recuperación post-ejercicio progresiva.
+-Importancia de las derivaciones:Las tres derivaciones permitieron una visión complementaria del estado eléctrico del corazón, reforzando el análisis multiaxial.Condiciones externas, colocación imperfecta de electrodos y artefactos de movimiento son fuentes potenciales de error, pero no invalidan los resultados principales.
+
+
 ## **7) Referencias**
 
 <div align="justify">
