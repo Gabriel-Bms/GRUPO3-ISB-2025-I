@@ -41,6 +41,7 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 
 
 <br>
+
 ## **5) Resultados** 
 
 | Foto  | Descripción |
