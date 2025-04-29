@@ -21,7 +21,7 @@ El uso de sistemas de adquisición de señales es ampliamente utilizado para la 
 <div align="center">
   <img src="./fig1.png" alt="EKG" width="350"><p>
 
-  **Figura 1: Electrocardiograma con sus ondas e intervalos**
+  **Figura 2: Electrocardiograma con sus ondas e intervalos**
   </p>
 </div>
 <br>
@@ -77,6 +77,14 @@ En primer lugar, la toma de datos se divide en 4 actividades que deben ser reali
 Adicionalmente, en cada actividad se realizo el cambio de posición de los electrodos tomando como referencia las indicaciones brindadas durante la clase [6]. Este cambio de posición nos permite registrar 3 derivadas diferentes para cada actividad. Por otro lado, se repitió 2 veces cada toma para reducir el porcentaje de error al momento de analizar los resultados, a excepción de la tercera actividad ya que esto requería más tiempo y el cansancio del usuario disminuiría en cada derivada. 
 </div>
 
+<br>
+</p>
+<div align="center">
+  <img src="./fig1.png" alt="EKG" width="350"><p>
+
+  **Figura 3: Posición de los electrodos en la persona**
+  </p>
+</div>
 <br>
 
 ## **5) Resultados** 
