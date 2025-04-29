@@ -57,17 +57,13 @@ El presente análisis de señales ECG tiene como finalidad evaluar las respuesta
 El módulo BITalino ha sido validado como una herramienta eficaz para la adquisición de señales ECG en investigaciones psicofisiológicas. En 2021, un estudio demostró que las señales obtenidas con BITalino presentan una alta concordancia con las registradas por equipos médicos estándar, lo que respalda su uso en contextos clínicos y de investigación donde se requiere una solución económica y portátil para el monitoreo cardíaco [5].
 
 ## **3) Materiales y métodos**
-
 <br>
-
 ### **Materiales:**
-
 <div align="justify">
 - 01 Kit BITalino
 - 01 Laptop
 - 03 Electrodos superficiales
 </div>
-
 <br>
 
 ### **Métodos:**
