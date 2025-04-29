@@ -38,8 +38,6 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 
 </div>
 
-
-
 <br>
 
 # 2) Propósito de la práctica
@@ -57,6 +55,35 @@ El presente análisis de señales ECG tiene como finalidad evaluar las respuesta
 ### 2.3) Aplicación biomédica
 
 El módulo BITalino ha sido validado como una herramienta eficaz para la adquisición de señales ECG en investigaciones psicofisiológicas. En 2021, un estudio demostró que las señales obtenidas con BITalino presentan una alta concordancia con las registradas por equipos médicos estándar, lo que respalda su uso en contextos clínicos y de investigación donde se requiere una solución económica y portátil para el monitoreo cardíaco [5].
+
+## **Materiales y métodos**
+
+<br>
+
+### **Materiales:**
+
+<div align="justify">
+- 01 Kit BITalino
+- 01 Laptop
+- 03 Electrodos superficiales
+</div>
+
+<br>
+
+### **Métodos:**
+
+<div align="justify">
+En primer lugar, la toma de datos se divide en 4 actividades que deben ser realizadas por el usuario:
+1. Estado basal: El sujeto de prueba se quedó quieto y manteniendo la calma
+2. Manteniendo la respiración por 10 segundos: El sujeto de prueba mantuvo la respiración por 10 segundos y se midió la inspiración y expiración
+3. Después de una acvidad física: El sujeto de prueba realizó movimientos aeróbicos por 5 minutos
+4. Reposo basal: Reposo después de mantener la respiración
+
+Adicionalmente, en cada actividad se realizo el cambio de posición de los electrodos tomando como referencia las indicaciones brindadas durante la clase [6]. Este cambio de posición nos permite registrar 3 derivadas diferentes para cada actividad. Por otro lado, se repitió 2 veces cada toma para reducir el porcentaje de error al momento de analizar los resultados, a excepción de la tercera actividad ya que esto requería más tiempo y el cansancio del usuario disminuiría en cada derivada. 
+</div>
+
+<br>
+
 
 ## **5) Resultados** 
 
@@ -97,4 +124,5 @@ El módulo BITalino ha sido validado como una herramienta eficaz para la adquisi
 3. PLUX – Wireless Biosignals. BITalino: A low-cost, open-source biosignal acquisition platform. Available from: https://www.pluxbiosignals.com/pages/bitalino​
 4. Wasimuddin M, Elleithy K, Abuzneid S, et al. Stages-based ECG signal analysis: From traditional signal processing to machine learning approaches: A survey. 2020. Available from: https://www.researchgate.net/publication/346065771_Stages-Based_ECG_Signal_Analysis_From_Traditional_Signal_Processing_to_Machine_Learning_Approaches_A_Survey​
 5. Koch M, Heuer S, Scholler J, Siebert C, Ehlis AC. Validation of a Low-Cost Electrocardiography (ECG) System for Psychophysiological Experiments. Sensors (Basel). 2021 Jul 7;21(14):4753.
+6. https://support.pluxbiosignals.com/knowledge-base/where-should-i-place-my-electrocardiocraphy-ecg-electrodes/
 </div>
