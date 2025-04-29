@@ -4,7 +4,7 @@
 <div style="border: 2px solid gray; padding: 20px;border-radius: 15px; width: 40%; height: 180px;">
 
 1. [**Introducción**](#1-introducción)  
-2. [**Objetivos**](#2-objetivos)
+2. [**Propósito de la práctica**](#2-propósito-de-la-práctica)
 3. [**Materiales y equipos**](#3-materiales-y-equipos)
 4. [**Procedimiento**](#4-procedimiento)
 5. [**Resultados**](#5-resultados)
@@ -42,6 +42,22 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 
 <br>
 
+# 2) Propósito de la práctica
+
+## 2.1) Objetivos 
+
+- Realizar una correcta configuración de BiTalino y conectarlo al software OpenSignals para la adquisición de las  señales biomédicas de electrocardiografía (ECG).
+- Adquirir y extraer la información de las señales  ECG del software OpenSignals (r)evolution para procesarlas posteriormente. 
+- Realizar el análisis de las señales ECG mediante su visualización gráfica. 
+
+## 2.2) Justificación de la práctica: 
+
+El presente análisis de señales ECG tiene como finalidad evaluar las respuestas del sistema cardiovascular bajo distintos escenarios: en reposo, durante el ciclo respiratorio (inhalación y exhalación) y posterior a la realización de actividad física intensa durante 5 minutos. Para registrar las señales biomédicas se empleará el módulo BITalino, el cual digitaliza las señales analógicas a través de un conversor analógico-digital (ADC). Asimismo, el software OpenSignals permitirá la visualización y el almacenamiento de los datos capturados, gracias a su conexión inalámbrica mediante Bluetooth.
+
+## 2.3) Aplicación biomédica
+
+El módulo BITalino ha sido validado como una herramienta eficaz para la adquisición de señales ECG en investigaciones psicofisiológicas. En 2021, un estudio demostró que las señales obtenidas con BITalino presentan una alta concordancia con las registradas por equipos médicos estándar, lo que respalda su uso en contextos clínicos y de investigación donde se requiere una solución económica y portátil para el monitoreo cardíaco [5].
+
 ## **5) Resultados** 
 
 | Foto  | Descripción |
@@ -55,19 +71,19 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 
 **Limitaciones Identificadas**
 <p align ="justify">
--Artefactos de Movimiento:Movimiento del sujeto afectó la estabilidad de la señal del BITalino.</p>
+- Artefactos de Movimiento:Movimiento del sujeto afectó la estabilidad de la señal del BITalino.</p>
 <p align ="justify">
--Colocación de Electrodos:Aunque se intentó seguir el protocolo, se reconoce que podría no haber sido perfecta.</p>
+- Colocación de Electrodos:Aunque se intentó seguir el protocolo, se reconoce que podría no haber sido perfecta.</p>
 <p align ="justify">
--Condición del Sujeto:Fatiga y somnolencia durante la fase de reposo pudieron alterar los BPM.</p>
+- Condición del Sujeto:Fatiga y somnolencia durante la fase de reposo pudieron alterar los BPM.</p>
 
 **Conclusiones Generales**
 <p align ="justify">
--El ECG capturó de manera adecuada los eventos fisiológicos esperados: ritmo cardíaco normal, respuesta respiratoria, y respuesta ante el esfuerzo físico.</p>
+- El ECG capturó de manera adecuada los eventos fisiológicos esperados: ritmo cardíaco normal, respuesta respiratoria, y respuesta ante el esfuerzo físico.</p>
 <p align ="justify">
--Se observó un patrón normal de taquicardia durante el ejercicio y recuperación post-ejercicio progresiva.</p>
+- Se observó un patrón normal de taquicardia durante el ejercicio y recuperación post-ejercicio progresiva.</p>
 <p align ="justify">
--Importancia de las derivaciones:Las tres derivaciones permitieron una visión complementaria del estado eléctrico del corazón, reforzando el análisis multiaxial.Condiciones externas, colocación imperfecta de electrodos y artefactos de movimiento son fuentes potenciales de error, pero no invalidan los resultados principales.</p>
+- Importancia de las derivaciones:Las tres derivaciones permitieron una visión complementaria del estado eléctrico del corazón, reforzando el análisis multiaxial.Condiciones externas, colocación imperfecta de electrodos y artefactos de movimiento son fuentes potenciales de error, pero no invalidan los resultados principales.</p>
 
 
 ## **7) Referencias**
@@ -78,4 +94,5 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 2. Monroy JP, Silva H, Alves AP, Fred AL. BITalino: A low-cost, open-source bio-signal acquisition platform. Int J Biomed Eng Technol. 2017;24(4):324-336. Available from: https://www.researchgate.net/publication/236131119_BITalino_A_Biosignal_Acquisition_System_based_on_Arduino
 3. PLUX – Wireless Biosignals. BITalino: A low-cost, open-source biosignal acquisition platform. Available from: https://www.pluxbiosignals.com/pages/bitalino​
 4. Wasimuddin M, Elleithy K, Abuzneid S, et al. Stages-based ECG signal analysis: From traditional signal processing to machine learning approaches: A survey. 2020. Available from: https://www.researchgate.net/publication/346065771_Stages-Based_ECG_Signal_Analysis_From_Traditional_Signal_Processing_to_Machine_Learning_Approaches_A_Survey​
+5. Koch M, Heuer S, Scholler J, Siebert C, Ehlis AC. Validation of a Low-Cost Electrocardiography (ECG) System for Psychophysiological Experiments. Sensors (Basel). 2021 Jul 7;21(14):4753.
 </div>
