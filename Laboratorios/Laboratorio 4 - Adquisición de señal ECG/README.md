@@ -32,7 +32,7 @@ El ECG se obtiene utilizando derivadas espec√≠ficas que permiten observar la se√
 </p> 
 
 <div align="center">
-   <img src="./fig2.png" alt="Derivaciones" width="350">
+   <img src="./fig2.png" alt="Derivaciones" width="370">
 
 **Figura 2: Derivaciones del ECG**  
 </div>
