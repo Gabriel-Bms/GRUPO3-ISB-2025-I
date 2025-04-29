@@ -70,6 +70,7 @@ El módulo BITalino ha sido validado como una herramienta eficaz para la adquisi
 ## **6) Conclusiones**
 
 **Limitaciones Identificadas**
+
 <p align ="justify">
 - Artefactos de Movimiento:Movimiento del sujeto afectó la estabilidad de la señal del BITalino.</p>
 <p align ="justify">
@@ -78,6 +79,7 @@ El módulo BITalino ha sido validado como una herramienta eficaz para la adquisi
 - Condición del Sujeto:Fatiga y somnolencia durante la fase de reposo pudieron alterar los BPM.</p>
 
 **Conclusiones Generales**
+
 <p align ="justify">
 - El ECG capturó de manera adecuada los eventos fisiológicos esperados: ritmo cardíaco normal, respuesta respiratoria, y respuesta ante el esfuerzo físico.</p>
 <p align ="justify">
