@@ -38,8 +38,20 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 </div>
 <br>
 ## **5) Resultados** 
+| Estado Basal (Reposo)  | Descripción |
+|-------|------------|
+| ![Image](https://github.com/user-attachments/assets/89595d2a-77b8-4f45-b09f-4f5b0770f754) | Señal ECG:
+Las ondas P, QRS y T son claramente visibles en todas las derivaciones (I, II, III).
+La frecuencia cardíaca promedio oscila entre 65.5 y 70.6 bpm, dentro del rango normal (60-90 bpm) [A].
+No se observan alteraciones evidentes en la conducción eléctrica o en el ritmo cardíaco.
+Dominio de la Frecuencia:
+El contenido de energía del ECG se concentra aproximadamente entre 0.5 y 50 Hz, lo cual es fisiológicamente normal para las señales de ECG en reposo.
+Se detecta algo de ruido, el cual es típicamente producto del ambiente de laboratorio o de artefactos menores debido al movimiento.
+Observaciones Importantes:
+El ruido eléctrico fue filtrado efectivamente.
+Se destaca la calidad de adquisición, aunque se pueden observar artefactos menores de movimiento en algunas de las derivaciones.
+|
 
-![Image](https://github.com/user-attachments/assets/89595d2a-77b8-4f45-b09f-4f5b0770f754)
 
 ## **7) Referencias**
 
