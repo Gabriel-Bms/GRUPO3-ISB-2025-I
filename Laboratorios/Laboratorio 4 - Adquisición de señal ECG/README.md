@@ -1,4 +1,4 @@
-# LABORATORIO 5: Uso de Bitalino para ECG
+# LABORATORIO 4: Uso de Bitalino para ECG
 
 ## **Tabla de contenidos:**
 <div style="border: 2px solid gray; padding: 20px;border-radius: 15px; width: 40%; height: 180px;">
