@@ -38,6 +38,7 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 </div>
 <br>
 ## **5) Resultados** 
+
 | Foto  | Descripción |
 |-------|------------|
 |<image src="https://github.com/user-attachments/assets/89595d2a-77b8-4f45-b09f-4f5b0770f754" width="1500px" height="270px">|**Señal ECG:**<br>análisis<br> <p align="justify"> Las ondas P, QRS y T son claramente visibles en todas las derivaciones (I, II, III).La frecuencia cardíaca promedio oscila entre 65.5 y 70.6 bpm, dentro del rango normal (60-90 bpm) [A].No se observan alteraciones evidentes en la conducción eléctrica o en el ritmo cardíaco.</p>|
