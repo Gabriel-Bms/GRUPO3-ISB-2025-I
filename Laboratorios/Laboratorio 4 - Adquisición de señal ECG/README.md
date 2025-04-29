@@ -60,9 +60,9 @@ El módulo BITalino ha sido validado como una herramienta eficaz para la adquisi
 
 ### **Materiales:**
 <div align="justify">
-- 01 Kit BITalino
-- 01 Laptop
-- 03 Electrodos superficiales
+- 01 Kit BITalino  
+- 01 Laptop  
+- 03 Electrodos superficiales  
 </div>
 <br>
 
