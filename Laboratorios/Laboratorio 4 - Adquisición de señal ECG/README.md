@@ -44,17 +44,17 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 
 # 2) Propósito de la práctica
 
-## 2.1) Objetivos 
+### 2.1) Objetivos 
 
 - Realizar una correcta configuración de BiTalino y conectarlo al software OpenSignals para la adquisición de las  señales biomédicas de electrocardiografía (ECG).
 - Adquirir y extraer la información de las señales  ECG del software OpenSignals (r)evolution para procesarlas posteriormente. 
 - Realizar el análisis de las señales ECG mediante su visualización gráfica. 
 
-## 2.2) Justificación de la práctica: 
+### 2.2) Justificación de la práctica: 
 
 El presente análisis de señales ECG tiene como finalidad evaluar las respuestas del sistema cardiovascular bajo distintos escenarios: en reposo, durante el ciclo respiratorio (inhalación y exhalación) y posterior a la realización de actividad física intensa durante 5 minutos. Para registrar las señales biomédicas se empleará el módulo BITalino, el cual digitaliza las señales analógicas a través de un conversor analógico-digital (ADC). Asimismo, el software OpenSignals permitirá la visualización y el almacenamiento de los datos capturados, gracias a su conexión inalámbrica mediante Bluetooth.
 
-## 2.3) Aplicación biomédica
+### 2.3) Aplicación biomédica
 
 El módulo BITalino ha sido validado como una herramienta eficaz para la adquisición de señales ECG en investigaciones psicofisiológicas. En 2021, un estudio demostró que las señales obtenidas con BITalino presentan una alta concordancia con las registradas por equipos médicos estándar, lo que respalda su uso en contextos clínicos y de investigación donde se requiere una solución económica y portátil para el monitoreo cardíaco [5].
 
