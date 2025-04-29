@@ -19,7 +19,7 @@
 El uso de sistemas de adquisición de señales es ampliamente utilizado para la monitorización y el análisis de diversas señales fisiológicas. El electrocardiograma (ECG) es una herramienta utilizada para registrar la actividad eléctrica del corazón, participa en el diagnóstico de trastornos cardíacos como arritmias, infartos y enfermedades relacionadas. Estas enfermedades pueden identificarse analizando las distintas ondas que posee un ECG: la onda P, que refleja la despolarización de las aurículas; el complejo QRS, que indica la despolarización de los ventrículos, y la onda T, que representa la repolarización ventricular. Las variaciones en estas ondas pueden indicar diversas condiciones del corazón. Por ejemplo, un complejo QRS más ancho de lo esperado puede ser indicativo de un engrosamiento ventricular, lo cual es común en enfermedades como la hipertrofia ventricular [1]. 
 </p>
 <div align="center">
-  <img src="./Imagenes/fig1.jpg" alt="EKG" width="250"><p>
+  <img src="./fig1.png" alt="EKG" width="250"><p>
 
   **Figura 1: Electrocardiograma con sus ondas e intervalos**
   </p>
@@ -32,7 +32,7 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 </p> 
 
 <div align="center">
-   <img src="./Imagenes/fig2.png" alt="Derivaciones" width="350">
+   <img src="./fig2.png" alt="Derivaciones" width="350">
 
 **Figura 2: Derivaciones del ECG**  
 </div>
