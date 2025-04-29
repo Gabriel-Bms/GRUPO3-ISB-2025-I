@@ -25,10 +25,19 @@ El uso de sistemas de adquisición de señales es ampliamente utilizado para la 
   </p>
 </div>
 <br>
-
+<p align ="justify">
 La monitorización de esta señal es posible mediante dispositivos portátiles como el Bitalino, un sistema flexible y accesible que permite la captura de diferentes señales biomédicas [2]. El dispositivo Bitalino, es una plataforma accesible para capturar señales biomédicas, incluyendo el ECG. A través del Bitalino, es posible obtener representaciones gráficas detalladas de las ondas cardíacas, lo que facilita la monitorización de la salud cardiovascular en tiempo real [3].
 
 El ECG se obtiene utilizando derivadas específicas que permiten observar la señal desde diferentes ángulos. Las derivadas bipolares (como DI, DII, DIII) ofrecen vistas del corazón desde el plano frontal, mientras que las derivadas precordiales (como V1 a V6) proporcionan una visión más detallada desde el plano horizontal. Las derivadas unipolares (como aVR, aVL, aVF) permiten una mayor sensibilidad en el análisis de la actividad eléctrica del corazón [4].
+</p> 
+
+<div align="center">
+   <img src="./Imagenes/fig2.png" alt="Derivaciones" width="350">
+
+**Figura 2: Derivaciones del ECG**  
+</div>
+<br>
+
 ## **7) Referencias**
 
 <div align="justify">
