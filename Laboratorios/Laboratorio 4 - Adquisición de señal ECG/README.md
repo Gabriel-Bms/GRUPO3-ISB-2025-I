@@ -80,7 +80,7 @@ Adicionalmente, en cada actividad se realizo el cambio de posición de los elect
 <br>
 </p>
 <div align="center">
-  <img src="./fig3.png" alt="EKG" width="350"><p>
+  <img src="./fig3.jpeg" alt="EKG" width="350"><p>
 
   **Figura 3: Posición de los electrodos en la persona**
   </p>
