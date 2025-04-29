@@ -54,16 +54,20 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 ## **6) Limitaciones y conclusiones**
 
 **Limitaciones Identificadas**
-
--Artefactos de Movimiento:Movimiento del sujeto afectó la estabilidad de la señal del BITalino.
--Colocación de Electrodos:Aunque se intentó seguir el protocolo, se reconoce que podría no haber sido perfecta.
--Condición del Sujeto:Fatiga y somnolencia durante la fase de reposo pudieron alterar los BPM.
+<p align ="justify">
+-Artefactos de Movimiento:Movimiento del sujeto afectó la estabilidad de la señal del BITalino.</p>
+<p align ="justify">
+-Colocación de Electrodos:Aunque se intentó seguir el protocolo, se reconoce que podría no haber sido perfecta.</p>
+<p align ="justify">
+-Condición del Sujeto:Fatiga y somnolencia durante la fase de reposo pudieron alterar los BPM.</p>
 
 **Conclusiones Generales**
-
--El ECG capturó de manera adecuada los eventos fisiológicos esperados: ritmo cardíaco normal, respuesta respiratoria, y respuesta ante el esfuerzo físico.
--Se observó un patrón normal de taquicardia durante el ejercicio y recuperación post-ejercicio progresiva.
--Importancia de las derivaciones:Las tres derivaciones permitieron una visión complementaria del estado eléctrico del corazón, reforzando el análisis multiaxial.Condiciones externas, colocación imperfecta de electrodos y artefactos de movimiento son fuentes potenciales de error, pero no invalidan los resultados principales.
+<p align ="justify">
+-El ECG capturó de manera adecuada los eventos fisiológicos esperados: ritmo cardíaco normal, respuesta respiratoria, y respuesta ante el esfuerzo físico.</p>
+<p align ="justify">
+-Se observó un patrón normal de taquicardia durante el ejercicio y recuperación post-ejercicio progresiva.</p>
+<p align ="justify">
+-Importancia de las derivaciones:Las tres derivaciones permitieron una visión complementaria del estado eléctrico del corazón, reforzando el análisis multiaxial.Condiciones externas, colocación imperfecta de electrodos y artefactos de movimiento son fuentes potenciales de error, pero no invalidan los resultados principales.</p>
 
 
 ## **7) Referencias**
