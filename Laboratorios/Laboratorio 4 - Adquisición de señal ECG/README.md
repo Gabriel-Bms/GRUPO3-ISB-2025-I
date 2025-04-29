@@ -87,6 +87,8 @@ Adicionalmente, en cada actividad se realizo el cambio de posición de los elect
 </div>
 <br>
 
+## **4) Materiales y métodos**
+
 ## **5) Resultados** 
 
 | Foto  | Descripción |
