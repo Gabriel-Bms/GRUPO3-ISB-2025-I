@@ -37,6 +37,9 @@ El ECG se obtiene utilizando derivadas específicas que permiten observar la se�
 **Figura 2: Derivaciones del ECG**  
 </div>
 <br>
+## **3) Materiales y métodos** 
+<p align="justify">
+#Materiales
 
 ## **5) Resultados** 
 
