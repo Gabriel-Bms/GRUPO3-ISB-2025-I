@@ -6,7 +6,7 @@
 
 ### 2.1 Dataset
 
-####**Dataset General:** bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset
+###**Dataset General:** bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset
 
 **Fuente:** PhysioNet
 
@@ -22,7 +22,7 @@
 - Dispositivo para seguimiento ocular: Tobii Pro X2-30
 - Sincronización: Señales EEG y datos de seguimiento ocular sincronizados a través de BCI2000.
 
-**Datos extraídos: **
+**Datos extraídos:**
 - Señales crudas de EEG.
 - Eventos del codificador BCI ( P300).
 - Caracteres objetivo y retroalimentación visual del speller.
@@ -30,7 +30,7 @@
 - Información demográfica del sujeto (edad, sexo, raza/etnia).
 - Diagnóstico médico (presencia o no de esclerosis lateral amiotrófica(ELA)) y puntuaciones funcionales (ALSFRS-R).
 
-####**Dataset:** Online Evaluation of Dynamic Stopping Algorithms for the P300 Speller in People with ALS
+###**Dataset:** Online Evaluation of Dynamic Stopping Algorithms for the P300 Speller in People with ALS
 
 **Fuente:**  PMC PubMed
 
