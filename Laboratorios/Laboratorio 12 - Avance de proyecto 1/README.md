@@ -11,21 +11,8 @@
 
 ### 2.2 Pre Procesamiento
 '''python
+
 def obtener_epochs_target(sujeto_id, canal_eeg, fs=256, base_path="./StudyF"):
-    """
-    Carga todos los archivos de entrenamiento de un sujeto, encuentra los eventos 
-    StimulusType == 1 y StimulusBegin == 1, y extrae las ventanas EEG alrededor 
-    de esos eventos.
-
-    Args:
-        sujeto_id (str): ID del sujeto (e.g., 'F_03')
-        canal_eeg (str): Nombre del canal EEG a usar (e.g., 'EEG_Pz')
-        fs (int): Frecuencia de muestreo (Hz). Por defecto 256.
-        base_path (str): Ruta base donde están los datos EDF
-
-    Returns:
-        epochs_target (np.ndarray): Matriz de epocas shape (n_eventos, muestras)
-    """
     # Paso 1: Obtener archivos del sujeto
     archivos = listar_archivos_train(base_path)
     df, raw_info = cargar_edf_sujeto(sujeto_id, archivos)
