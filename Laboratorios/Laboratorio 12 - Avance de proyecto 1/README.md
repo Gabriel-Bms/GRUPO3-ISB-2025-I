@@ -84,6 +84,20 @@ def plot_erps_by_channel(channel):
 |:----------------------------------:|:--------------------------------------:|
 | ![Filtered](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/P300%20Mean%20F.png?raw=true) | ![NonFiltered](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/P300%20Mean%20NF.png?raw=true) |
 
+Las imágenes muestran la media de las señales EEG por sujeto, comparando los resultados sin filtrar y posterior al filtrado.
+Se comparan las respuestas a estímulos Target (línea verde) y Non-Target (línea azul) a lo largo del tiempo.
+Target: Refiere a los estímulos visuales (flash de caracteres o grupos de caracteres en la matriz del speller) en los que el usuario está concentrando su atención porque corresponde al carácter que desea escribir.
+Non ‑Target: son los estímulos que se presentan pero que no coinciden con el carácter objetivo; el usuario no los está observando intencionalmente
+
+La componente P300 se caracteriza por ser una deflexión positiva en el potencial eléctrico del EEG que ocurre aproximadamente entre los 0 y 800 milisegundos después de la presentación de un estímulo relevante o inesperado (Target). Esta deflexión positiva significa que, en esa ventana temporal se observa un aumento en la amplitud de la señal eléctrica hacia valores positivos respecto a la línea base, principalmente en electrodos centro parietales (como Pz y Cz). 
+
+En diversos sujetos, se observa una clara diferencia entre Target y Non-Target, por ejemplo, en los 2 primeros sujetos de la parte superior. Para explicar esta diferencia cabe resaltar que el filtrado permite resaltar la componente P300 en canales relevantes como Cz y Pz, donde se evidencia una amplitud positiva entre 0 - 800 ms post estímulo.
+
+Por otro lado, en las señales sin filtrar, la distinción entre Target y Non -Target es menos clara debido al ruido presente en las señales, lo que justifica la aplicación de preprocesamiento en etapas posteriores.
+
+Así mismo, existe una variabilidad intersujeto: algunos presentan P300 más marcada, mientras que en otros es difícil de distinguir, esto es esperado en señales EEG reales debido a factores como diferencias anatómicas, atención del sujeto o ruido externo.
+
+
 ### 2.3 Filtrado de la señal EEG
 El filtro Butterworth pasabanda es ideal para señales EEG porque permite conservar las frecuencias relevantes, mientras atenúa el ruido de baja frecuencia (artefactos de movimiento, drift) y de alta frecuencia (ruido muscular, interferencia eléctrica). Además, su respuesta en frecuencia es suave y sin distorsiones dentro de la banda, y al aplicarse con filtfilt, se logra un filtrado sin desplazamiento de fase, lo cual es crucial para mantener la forma y latencia original de los potenciales evocados.
 
