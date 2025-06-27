@@ -2,6 +2,9 @@
 
 ## 1. Introducción
 
+La interfaz cerebro-computadora (BCI, por sus siglas en inglés) es una tecnología que permite la interacción directa entre el cerebro y un dispositivo externo sin la participación de ningún componente muscular. Esta comunicación se logra mediante el registro y análisis de señales eléctricas cerebrales, principalmente a través de electroencefalografía (EEG), con gran potencial de aplicación en personas con discapacidades motoras severas como la esclerosis lateral amiotrófica (ELA) o parálisis, así como en procesos de neurorehabilitación [1] [2]. Dentro de este campo, el P300 Speller es un tipo específico de BCI diseñado para facilitar la comunicación mediante el pensamiento. Este sistema se basa en la detección del potencial evocado P300, una señal cerebral positiva que aparece aproximadamente 300 milisegundos después de que el usuario reconoce un estímulo relevante. Para ello, se utiliza el paradigma oddball visual, en el que se presenta una matriz de caracteres cuyos elementos (filas y columnas) se iluminan de forma pseudoaleatoria, generando respuestas cerebrales diferenciales al estímulo objetivo. Estas señales EEG, que contienen información espectral útil, son procesadas y clasificadas posteriormente mediante algoritmos como redes neuronales. Sin embargo, estos sistemas enfrentan limitaciones importantes, como la velocidad de escritura lenta, la fatiga cognitiva y la necesidad de atención sostenida [3]. Ante estos desafíos, el uso de modelos de deep learning representa una alternativa prometedora para mejorar la detección de la señal P300, aumentando la precisión y la eficiencia del sistema en contextos clínicos y de asistencia personalizada. Por ello, en el presente trabajo se propone el diseño e implementación de un modelo de deep learning orientado a mejorar la detección de la señal P300 en un sistema BCI tipo Speller, con el objetivo de incrementar la precisión, reducir la latencia de respuesta y facilitar su aplicación en entornos clínicos reales.
+
+
 ## 2. Metodología y Resultados
 
 ### 2.1 Dataset
@@ -168,4 +171,4 @@ La función obtener_epochs_target carga los archivos EEG de entrenamiento de un 
 | ![Epoch NF](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/Epoching%20NF.png) |
 
 
-
+## Referencias
