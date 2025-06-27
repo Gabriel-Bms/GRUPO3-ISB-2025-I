@@ -15,7 +15,7 @@
 | Segmento de la señal EEG filtrada, con los segmentos del potencial relacionado a eventos P300 resaltados en azul |
 | ![Epoch F](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/Epoch%20F.png) |
 | Segmento de la señal EEG no filtrada, con los segmentos del potencial relacionado a eventos P300 resaltados en azul |
-| ![Epoch NF](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/Epoching%20NF%20.png?raw=true) |
+| ![Epoch NF](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/Epoching%20NF.png) |
 
 
 ## 3. Conclusiones
