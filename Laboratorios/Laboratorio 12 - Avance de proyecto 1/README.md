@@ -6,7 +6,7 @@
 
 ### 2.1 Dataset
 
-###**Dataset General:** bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset
+### **Dataset General:** bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset
 
 **Fuente:** PhysioNet
 
@@ -30,7 +30,7 @@
 - Información demográfica del sujeto (edad, sexo, raza/etnia).
 - Diagnóstico médico (presencia o no de esclerosis lateral amiotrófica(ELA)) y puntuaciones funcionales (ALSFRS-R).
 
-###**Dataset:** Online Evaluation of Dynamic Stopping Algorithms for the P300 Speller in People with ALS
+### **Dataset:** Online Evaluation of Dynamic Stopping Algorithms for the P300 Speller in People with ALS
 
 **Fuente:**  PMC PubMed
 
