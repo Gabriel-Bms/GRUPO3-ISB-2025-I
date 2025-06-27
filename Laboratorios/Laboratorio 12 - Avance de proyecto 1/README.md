@@ -7,7 +7,7 @@
 ### 2.1 Analisis Exploratorio de Datos
 | Mean P300 of all subjects filtered | Mean P300 of all subjects Non filtered |
 |:----------------------------------:|:--------------------------------------:|
-| ![Filtered](Laboratorios/Laboratorio%2012%20-%20Avance%20de%20Proyecto%201/imagenes/P300%20Mean%20F.png) | ![NonFiltered](Laboratorios/Laboratorio%2012%20-%20Avance%20de%20Proyecto%201/imagenes/P300%20Mean%20NF.png) |
+| ![Filtered](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/P300%20Mean%20F.png?raw=true) | ![NonFiltered](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/P300%20Mean%20NF.png?raw=true) |
 
 ### 2.2 Pre Procesamiento
 
