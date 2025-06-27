@@ -4,7 +4,50 @@
 
 ## 2. Metodología y Resultados
 
-### 2.1 Analisis Exploratorio de Datos
+### 2.1 Dataset
+
+####**Dataset General:** bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset
+
+**Fuente:** PhysioNet
+
+**Objetivo:** Este dataset fue desarrollado para estudiar sistemas híbridos de interfaz cerebro-computadora (BCI), combinando señales EEG con datos de seguimiento ocular durante el uso de un speller BCI basado en P300.
+
+**Adquisición de datos:**
+- Sistema utilizado: Plataforma BCI2000 
+- Dispositivo EEG: Amplificadores de bioseñales de g.tec medical engineering GmbH.
+- Electrodos: Pasivos con gel y activos secos.
+- Frecuencia de muestreo: 256 Hz.
+- Filtros: Paso de banda y notch 
+- Frecuencia de muestreo del eye tracker: 30 Hz.
+- Dispositivo para seguimiento ocular: Tobii Pro X2-30
+- Sincronización: Señales EEG y datos de seguimiento ocular sincronizados a través de BCI2000.
+
+**Datos extraídos: **
+- Señales crudas de EEG.
+- Eventos del codificador BCI ( P300).
+- Caracteres objetivo y retroalimentación visual del speller.
+- Datos de seguimiento ocular (coordenadas, diámetro de pupila).
+- Información demográfica del sujeto (edad, sexo, raza/etnia).
+- Diagnóstico médico (presencia o no de esclerosis lateral amiotrófica(ELA)) y puntuaciones funcionales (ALSFRS-R).
+
+####**Dataset:** Online Evaluation of Dynamic Stopping Algorithms for the P300 Speller in People with ALS
+
+**Fuente:**  PMC PubMed
+
+**Objetivo:** Evaluar algoritmos adaptativos de recolección de datos (dynamic stopping (DS) y dynamic stopping with language model (DSLM)) para mejorar la velocidad y precisión de un deletreador P300 en participantes con esclerosis lateral amiotrófica (ELA). 
+
+**Adquisición de datos:**
+- Fases:
+    Entrenamiento: 3 palabras de 6 letras.
+    Prueba: 2 palabras por algoritmo (static, DS y DSLM).
+- Total de caracteres evaluados por algoritmo: 36 por participante.
+- Software de adquisición de señales EEG: BCI2000 
+- Dispositivo: Gorros de 32 y 16 canales
+- Frecuencia de muestreo: 256 Hz.
+- Canales usados para procesamiento: Fz, Cz, P3, Pz, P4, PO7, PO8, Oz.
+
+
+### 2.2 Analisis Exploratorio de Datos
 En la etapa de análisis exploratorio de datos buscamos, entre otras cosas, visualizar patrones generales en la señal EEG, como la presencia y latencia del componente P300; identificar los canales más representativos y distinguir la forma de onda entre condiciones (por ejemplo, estímulos target vs non-target); así como detectar posibles anomalías, ruido excesivo o sujetos que no presenten una respuesta clara. Este análisis inicial también funciona como un paso diagnóstico previo a la aplicación de modelos más complejos. Por ello, consideramos que la mejor forma de representar visualmente esta información es mediante la gráfica de la media de los potenciales evocados por sujeto, ya que resalta de forma clara y robusta la respuesta neuronal típica, facilitando su interpretación y comparación.
 
 ```python
@@ -38,7 +81,7 @@ def plot_erps_by_channel(channel):
 |:----------------------------------:|:--------------------------------------:|
 | ![Filtered](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/P300%20Mean%20F.png?raw=true) | ![NonFiltered](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/P300%20Mean%20NF.png?raw=true) |
 
-### 2.2 Filtrado de la señal EEG
+### 2.3 Filtrado de la señal EEG
 El filtro Butterworth pasabanda es ideal para señales EEG porque permite conservar las frecuencias relevantes, mientras atenúa el ruido de baja frecuencia (artefactos de movimiento, drift) y de alta frecuencia (ruido muscular, interferencia eléctrica). Además, su respuesta en frecuencia es suave y sin distorsiones dentro de la banda, y al aplicarse con filtfilt, se logra un filtrado sin desplazamiento de fase, lo cual es crucial para mantener la forma y latencia original de los potenciales evocados.
 
 ```python
@@ -81,7 +124,7 @@ def cargar_edf_sujeto(sujeto_id, archivos_train):
 ```
 
 
-### 2.3 Pre Procesamiento
+### 2.4 Pre Procesamiento
 
 ```python
 def obtener_epochs_target(sujeto_id, canal_eeg, fs=256, base_path="./StudyF"):
@@ -125,5 +168,4 @@ La función obtener_epochs_target carga los archivos EEG de entrenamiento de un 
 | ![Epoch NF](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2012%20-%20Avance%20de%20proyecto%201/Imagenes/Epoching%20NF.png) |
 
 
-## 3. Conclusiones
 
