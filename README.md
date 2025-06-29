@@ -14,7 +14,7 @@ En este repositorio encontrarás:
   
 <table>
   <tr>
-    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Gabriel.png?raw=true" width="800px" height="270px"></td>
+    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Gabriel.png?raw=true" width="1080px" height="270px"></td>
     <td>
       <strong>Gabriel Sanchez</strong><br>
       <a href="mailto:gabriel.marcos@upch.pe">gabriel.marcos@upch.pe</a><br>
@@ -22,7 +22,7 @@ En este repositorio encontrarás:
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Valery.jpg?raw=true" width="800px" height="270px"></td>
+    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Valery.jpg?raw=true" width="1080px" height="270px"></td>
     <td>
       <strong>Valery Huarcaya</strong><br>
       <a href="mailto:valery.huarcaya@upch.pe">valery.huarcaya@upch.pe</a><br>
@@ -30,7 +30,7 @@ En este repositorio encontrarás:
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Leo.jpeg?raw=true" width="800px" height="270px"></td>
+    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Leo.jpeg?raw=true" width="1080px" height="270px"></td>
     <td>
       <strong>Leonardo Eulogio</strong><br>
       <a href="mailto:leonardo.eulogio@upch.pe">leonardo.eulogio@upch.pe</a><br>
@@ -38,7 +38,7 @@ En este repositorio encontrarás:
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Luis.jpg" width="800px" height="270px"></td>
+    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Luis.jpg" width="1080px" height="270px"></td>
     <td>
       <strong>Luis Uziel Mancilla Ramos</strong><br>
       <a href="mailto:luis.mancilla.r@upch.pe">luis.mancilla.r@upch.pe</a><br>
@@ -46,7 +46,7 @@ En este repositorio encontrarás:
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Alejandra.png?raw=true" width="800px" height="270px"></td>
+    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/Alejandra.png?raw=true" width="1080px" height="270px"></td>
     <td>
       <strong>Alexandra Espinoza Terrazos</strong><br>
       <a href="mailto:alexandra.espinoza@upch.pe">alexandra.espinoza@upch.pe</a><br>
@@ -54,7 +54,7 @@ En este repositorio encontrarás:
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/nat.jpeg?raw=true" width="800px" height="270px"></td>
+    <td><img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2001%20-%20Git%20y%20GitHub/Imagenes/nat.jpeg?raw=true" width="1080px" height="270px"></td>
     <td>
       <strong>Nataly Asto Garay</strong><br>
       <a href="mailto:nataly.asto@upch.pe">nataly.asto@upch.pe</a><br>
