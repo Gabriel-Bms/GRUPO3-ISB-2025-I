@@ -29,7 +29,7 @@ El módulo BITalino fue utilizado y evaluado como herramienta para adquirir señ
 ## 3. Materiales y Métodos
 
 ### 3.1. Materiales
-<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 3 - Adquisicion de EMG/Imagenes/materiales.png">
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 03 - Adquisicion de EMG/Imagenes/materiales.png">
 
 
 ### 3.1.2 Métodos
@@ -92,9 +92,9 @@ Condiciones:
 
 Resultados:
 
-<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 3 - Adquisicion de EMG/Imagenes/tabla1.png">
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 03 - Adquisicion de EMG/Imagenes/tabla1.png">
 
-<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 3 - Adquisicion de EMG/Imagenes/tabla2.png">
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 03 - Adquisicion de EMG/Imagenes/tabla2.png">
 
 ### Prueba 2: Análisis del Bíceps Braquial
 Configuración experimental:
@@ -115,9 +115,9 @@ Condiciones:
 
 Resultados: 
 
-<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 3 - Adquisicion de EMG/Imagenes/tabla3.png">
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 03 - Adquisicion de EMG/Imagenes/tabla3.png">
   
-<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 3 - Adquisicion de EMG/Imagenes/tabla4.png">
+<image src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 03 - Adquisicion de EMG/Imagenes/tabla4.png">
 
 ## 5. Análisis y Discusión
 ### Prueba 1: Análisis del antebrazo
