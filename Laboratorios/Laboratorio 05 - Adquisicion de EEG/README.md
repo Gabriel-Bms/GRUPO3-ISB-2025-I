@@ -19,7 +19,7 @@ La electroencefalografía (EEG) permite registrar la actividad eléctrica cerebr
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/444.jpeg><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/444.jpeg><p>
 
   **Figura 1: Bandas de EEG, ocurrencias y tareas para activar las bandas. [2]**
   </p>
@@ -73,7 +73,7 @@ El dispositivo BiTalino ha sido validado como una herramienta efectiva para la a
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/111.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/111.png><p>
 
   **Figura 2: Posición de los electrodos**
   </p>
@@ -83,7 +83,7 @@ El dispositivo BiTalino ha sido validado como una herramienta efectiva para la a
 <br>
 </p>
 <div align="center">
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/555.jpeg" width="350"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/555.jpeg" width="350"><p>
 
   **Figura 3: Posición de los electrodos en el usuario**
   </p>
@@ -93,7 +93,7 @@ El dispositivo BiTalino ha sido validado como una herramienta efectiva para la a
 <br>
 </p>
 <div align="center">
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/666.jpeg" width="350"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/666.jpeg" width="350"><p>
 
   **Figura 4: Posición de los electrodos en el usuario**
   </p>
@@ -108,7 +108,7 @@ El dispositivo BiTalino ha sido validado como una herramienta efectiva para la a
     <br>
 </p>
 <div align="center">
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/777.png" width="550"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/777.png" width="550"><p>
 
   **Figura 5: Preguntas simples y complejas**
   </p>
@@ -133,7 +133,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/Punto%20fijo.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/Punto%20fijo.png><p>
 
   **Figura 6: Señal EEG mirando a un punto fijo.**
   </p>
@@ -143,7 +143,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/Parpadeo1.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/Parpadeo1.png><p>
 
   **Figura 7: Señal EEG con parpadeos consecutivos.**
   </p>
@@ -153,7 +153,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/Masticar.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/Masticar.png><p>
 
   **Figura 8: Señal EEG mientras el usuario mastica.**
   </p>
@@ -163,7 +163,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/Ojos%20cerrados.jpg><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/Ojos%20cerrados.jpg><p>
 
   **Figura 9: Señal EEG con ojos cerrados.**
   </p>
@@ -173,7 +173,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/musica%20que%20no%20le%20gusta.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/musica%20que%20no%20le%20gusta.png><p>
 
   **Figura 10: Señal EEG mientras el usuario escucha música que no le gusta.**
   </p>
@@ -183,7 +183,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/musica%20que%20le%20gusta.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/musica%20que%20le%20gusta.png><p>
 
   **Figura 11: Señal EEG mientras el usuario escucha música que sí le gusta.**
   </p>
@@ -193,7 +193,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/Ejercicios%20cognitivos.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/Ejercicios%20cognitivos.png><p>
 
   **Figura 12: Señal EEG mientras el usuario realiza ejercicios cognitivos.**
   </p>
@@ -203,7 +203,7 @@ Para evaluar diferencias en el ritmo alfa entre condiciones de ojos abiertos y c
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%205%20-%20Adquisicion%20de%20EEG/Imagenes/comparacion.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/comparacion.png><p>
 
   **Figura 13: Comparacion de la PSD de las señales EEG de todas las actividades.**
   </p>
