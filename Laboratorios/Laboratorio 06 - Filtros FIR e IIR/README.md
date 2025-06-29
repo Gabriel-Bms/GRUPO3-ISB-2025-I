@@ -15,9 +15,9 @@
 <br>
 </p>
 <div align="center">
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 6 - Filtros FIR e IIR/Imagenes/1.%20tabla.png" width="450"><p>
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 6 - Filtros FIR e IIR/Imagenes/1.%20tabla%202.png" width="450"><p>
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 6 - Filtros FIR e IIR/Imagenes/1.%20tabla%203.png" width="450"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 06 - Filtros FIR e IIR/Imagenes/1.%20tabla.png" width="450"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 06 - Filtros FIR e IIR/Imagenes/1.%20tabla%202.png" width="450"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 06 - Filtros FIR e IIR/Imagenes/1.%20tabla%203.png" width="450"><p>
     
   **Figura 1: Comparación de las señales crudas y filtradas del ECG**
   </p>
@@ -45,9 +45,9 @@ Se utilizaron 3 señales EEG obtenidas con BITalino en distintos estados: Ojos a
 <br>
 </p>
 <div align="center">
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 6 - Filtros FIR e IIR/Imagenes/EEG_1.png" width="450"><p>
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 6 - Filtros FIR e IIR/Imagenes/EEG_2.png" width="450"><p>
-  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 6 - Filtros FIR e IIR/Imagenes/EEG_3.png" width="450"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 06 - Filtros FIR e IIR/Imagenes/EEG_1.png" width="450"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 06 - Filtros FIR e IIR/Imagenes/EEG_2.png" width="450"><p>
+  <img src="https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 06 - Filtros FIR e IIR/Imagenes/EEG_3.png" width="450"><p>
     
   **Figura 3: Comparación de las señales crudas y filtradas del EEG**
   </p>
