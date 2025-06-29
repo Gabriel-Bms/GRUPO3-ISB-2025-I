@@ -90,7 +90,7 @@ plt.show()
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%208%20-%20Procesamiento%20de%20EMG/Imagenes/8-1.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2008%20-%20Procesamiento%20de%20EMG/Imagenes/8-1.png><p>
 
   </p>
 </div>
