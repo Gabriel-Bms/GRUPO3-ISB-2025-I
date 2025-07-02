@@ -70,15 +70,11 @@ En las tres sesiones del protocolo P300 Speller se presentaron 84 flashes Target
 
 Se puede ver que el modelo identificó correctamente 47 de los 50 eventos (sensibilidad ≈ 0,94) y clasificó 376 de 404 eventos Non-Target (especificidad ≈ 0,93), con una exactitud global cercana al 93 %. Este desempeño supera lo reportado históricamente por métodos clásicos de clasificación de P300 (p. ej., SWLDA, LDA o bayesianos), que suelen rondar sensibilidades del 70-85 % bajo las mismas condiciones experimentales y requieren ingeniería de características manual (promediado de ERPs, selección de ventanas y canales, etc.). La red aprovecha convoluciones espaciales y temporales para captar firmas P300 incluso con variabilidad inter-sesión, reduciendo la dependencia del preprocesado artesanal y abriendo la puerta a mayores tasas de comunicación (bit rate) con menos flashes por carácter. 
 
-  **Figura 1: Resultados.**
-  </p>
-</div>
-<br>
-
-<br>
-</p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2013%20-%20Avance%20del%20proyecto%202/figresultados.png><p>
+  <img src="https://raw.githubusercontent.com/Gabriel-Bms/GRUPO3-ISB-2025-I/main/Laboratorios/Laboratorio%2013%20-%20Avance%20del%20proyecto%202/figresultados.png" />
+  <p><b>Figura 1: Resultados.</b></p>
+</div>
+
 
 ## 4. Conclusiones
 Los resultados obtenidos confirman que el enfoque de aprendizaje profundo implementado es capaz de distinguir de manera confiable entre los eventos Target y Non-Target. El modelo basado en la red neuronal convolucional EEGNet, adaptado específicamente a los datos de pacientes con ALS y señales EEG del dataset big3BCI, logró un buen rendimiento, con una sensibilidad de 0.94 y una especificidad de 0.93. Estos resultados son superiores a los obtenidos con métodos tradicionales como SWLDA, LDA y modelos bayesianos, que generalmente muestran sensibilidades entre 70% y 85% en condiciones similares y requieren una gran cantidad de procesamiento manual de las características.
