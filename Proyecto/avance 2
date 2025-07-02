@@ -1,1 +1,9 @@
-ADSCASDA
+# AVANCE 2
+
+## 1. Introducción
+En la actualidad, el P300 speeler continua siendo uno de los mas estudiados de las interfaces cerebro - computadora (BCI) basadas en potenciales relacionados con eventos. Sin embargo, la adopción de este, fuera del laboratorio sigue siendo baja debido a varios factores [1]. En primer lugar,  la baja tasa de transferencia de informacion (ITR), la cual es inferior a 10 bit.min ^-1 en la mayoria de los estudios, lo que reduce la experiencia de usuario y limita la comunicacion en tiempo real [2] [3]. A ello se le suma el alto costo de los sistemas EEG de grado médico, lo que aumenta la exploración de dispositivos de consumo que sean más asequibles, aunque traigan consigo nuevos retos de calidad de señal [4].
+La complejidad para adquirir las señales EEG de alta calidad en entornos que no están controlados tambien ha sido otra de las dificultades, ya que cuando estamos en situaciones cotidianas, existen factores que pueden afectar la calidad de la señal registrada. Estos artefactos (ruidos o distorsiones) que alteran las señales electricas del cerebro pueden ser: el parpadeo, movimiento ocular y contraccion muscular, que pueden hacer que la respuesta del P300 sea dificil de distinguir en medio de estos ruidos [5]. En este contexto, un pre-procesamiento de la señal es importante para mejorar la relación señal-ruido antes de cualquier clasificación [6]. 
+El presente trabajo presenta un protocolo integral de Análisis de Datos Exploratorio (EDA) y propone un pipeline de pre-procesamiento reproducible, con el objetivo de mejorar la eficiencia comunicativa y reducir las barreras económicas para futuros desarrollos de interfaces cerebro-computadora (BCI), especialmente en contextos de telemedicina y rehabilitación remota. Al mismo tiempo, las estrategias de pre-procesamiento de última generación como pipelines modulares, algoritmos de rechazo de artefactos basados en aprendizaje automático y referencias comunes virtuales, han demostrado mejoras en la precisión y ITR, además de acelerar el entrenamiento de modelos [7], [8].
+
+## 2. Metodología
+
