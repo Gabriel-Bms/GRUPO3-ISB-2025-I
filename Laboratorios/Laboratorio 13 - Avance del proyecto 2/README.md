@@ -72,15 +72,37 @@ Se puede ver que el modelo identificó correctamente 47 de los 50 eventos (sensi
 
 
 ## 4. Conclusiones
+Los resultados obtenidos confirman que el enfoque de aprendizaje profundo implementado es capaz de distinguir de manera confiable entre los eventos Target y Non-Target. El modelo basado en la red neuronal convolucional EEGNet, adaptado específicamente a los datos de pacientes con ALS y señales EEG del dataset big3BCI, logró un buen rendimiento, con una sensibilidad de 0.94 y una especificidad de 0.93. Estos resultados son superiores a los obtenidos con métodos tradicionales como SWLDA, LDA y modelos bayesianos, que generalmente muestran sensibilidades entre 70% y 85% en condiciones similares y requieren una gran cantidad de procesamiento manual de las características.
+El uso de convoluciones espaciales y temporales ha sido clave para mejorar la detección de las firmas P300, incluso cuando hay variabilidad entre las sesiones, permitió reducir la dependencia de técnicas de preprocesamiento manual. Esto también ha mejorado la tasa de comunicación (bit rate) con menos flashes por carácter, lo que hace que el sistema sea más eficiente y accesible.
+Estos avances demuestran que el aprendizaje profundo puede ser una herramienta potente para el análisis de señales EEG complejas, y que también abren nuevas oportunidades para su uso en dispositivos portátiles y en aplicaciones de tele-rehabilitación. Con estos avances, el P300 speller podría convertirse en una herramienta más práctica y accesible, lo que sería un gran paso hacia la mejora de la calidad de vida de las personas con discapacidades motoras severas.
 
-Estos resultados confirman que la estrategia de aprendizaje profundo implementada distingue de forma robusta entre eventos Target y Non-Target, constituyendo un avance significativo dentro del proyecto de detección de P300.
 
 ## Referencias
-[1] 
+1. Interfaz cerebro-ordenador P300: retos actuales y tendencias emergentes
+ R. S. O'Keefe, J. M. Cohen, and D. H. Silver, "A review of the P300 speller: The challenges and trends," Sensors, vol. 21, no. 17, p. 5746, Aug. 2021. [Online]. Available: https://www.mdpi.com/1424-8220/21/17/5746.
 
-[2] 
-[3] 
 
-[4] 
+2. A systematic review of the efficiency of P300-based digital spellers
+ A. M. Pérez, A. R. Valencia, and M. G. Fernández, "A systematic review of the efficiency of P300-based digital spellers," Proceedings of the 2024 8th International Conference on Advances in Artificial Intelligence, pp. 3704137–3704196, 2024. [Online]. Available: https://dl.acm.org/doi/10.1145/3704137.3704196.
 
-[5]
+
+3. Performance improvement of P300-based home appliances control classification using convolution neural network
+ M. Yağan, H. Ozkan, “Performance improvement of P300-based home appliances control classification using convolution neural network,” Biomedical Signal Processing and Control, vol. 70, p. 103950, 2022. [Online]. Available: https://doi.org/10.1016/j.bspc.2021.103950.
+
+
+4. Una revisión exploratoria sobre el uso de dispositivos de EEG para el consumidor para la investigación
+ F. J. López, P. Ruiz, "Una revisión exploratoria sobre el uso de dispositivos de EEG para el consumidor para la investigación," PubMed, [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10917334/.
+
+
+5. Los algoritmos automatizados de rechazo de artefactos dañan el rendimiento de la interfaz cerebro-computadora del deletreador P3
+ M. Pérez-Rodríguez et al., "The impact of automated artifact rejection algorithms on P300 speller BCI performance," Journal of Real-Time Image Processing, vol. 21, pp. 334-345, 2023. [Online]. Available: https://link.springer.com/article/10.1007/s11042-023-15653-x.
+
+
+6. Assessment of Preprocessing on Classifiers Used in the P300 Speller Paradigm C. Wang et al., "Assessment of preprocessing on classifiers used in the P300 speller paradigm," IEEE Trans. Biomed. Eng., vol. 63, no. 12, pp. 2187-2196, Dec. 2016. [Online]. Available: https://ieeexplore.ieee.org/document/4462003.
+
+
+7. W. Kwon, M. J. Kim, "EEG dataset for RSVP and P300 speller brain-computer interfaces," Scientific Data, vol. 9, p. 388, 2022. [Online]. Available: https://doi.org/10.1038/s41597-022-01509-w.
+
+
+8. A new benchmark dataset for P300 ERP-based BCI applications
+ M. Yağan, H. Özkan, "A new benchmark dataset for P300 ERP-based BCI applications," Digital Signal Processing, vol. 135, p. 103950, 2023. [Online]. Available: https://doi.org/10.1016/j.dsp.2023.103950.
