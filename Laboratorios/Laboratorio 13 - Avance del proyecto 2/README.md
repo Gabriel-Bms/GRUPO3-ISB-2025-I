@@ -106,3 +106,29 @@ Estos avances demuestran que el aprendizaje profundo puede ser una herramienta p
 
 8. A new benchmark dataset for P300 ERP-based BCI applications
  M. Yağan, H. Özkan, "A new benchmark dataset for P300 ERP-based BCI applications," Digital Signal Processing, vol. 135, p. 103950, 2023. [Online]. Available: https://doi.org/10.1016/j.dsp.2023.103950.
+
+9. A. Mostafa, Y. Ma, Y. Liu, M. Aly, and G. Chen, “Deep Learning-Based EEG Classification for P300 Detection in Brain–Computer Interface Applications,” Applied Sciences, vol. 14, no. 14, art. 6347, 2024. [Online]. Available: https://www.mdpi.com/2076-3417/14/14/6347
+10. R. Sharma and R. B. Pachori, “A review on hybrid brain–computer interface systems,” Brain Informatics, vol. 9, no. 1, p. 3, 2022. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9774292/
+11. A. Kübler, B. Kotchoubey, J. Kaiser, J. Wolpaw, and N. Birbaumer, “Brain–computer communication: unlocking the locked in,” Psychological Bulletin, vol. 127, no. 3, pp. 358–375, 2001. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3432970/
+12. D. J. Krusienski et al., “A comparison of classification techniques for the P300 Speller,” Journal of Neural Engineering, vol. 3, no. 4, pp. 299–305, 2006. doi: 10.1088/1741-2560/3/4/007
+13. M. Schirrmeister et al., “Deep learning with convolutional neural networks for EEG decoding and visualization,” Human Brain Mapping, vol. 38, no. 11, pp. 5391–5420, 2017. doi: 10.1002/hbm.23730
+14. S. Sakhavi, C. Guan, and S. Yan, “Parallel convolutional-linear neural network for classification of EEG signals,” in Proc. 2015 23rd European Signal Processing Conference (EUSIPCO), Nice, France, 2015, pp. 2749–2753.
+15.  H. Raza, S. M. Asif, S. Khan, and T. R. Choudhury, “EEG-based brain-computer interface using deep learning for emotion recognition,” Biomedical Signal Processing and Control, vol. 82, p. 104529, 2023. doi: 10.1016/j.bspc.2022.104529
+16. MSMK University, “El learning rate, o tasa de aprendizaje,” MSMK University, [En línea]. Disponible: https://msmk.university/learning-rate/. [Accedido: 1-Jul-2025].
+17. Encord, “Fine-tuning models and hyperparameter optimization,” Encord Blog, [En línea]. Disponible: https://encord.com/blog/fine-tuning-models-hyperparameter-optimization/. [Accedido: 1-Jul-2025].
+18. KeepCoding, “Batch size en Deep Learning,” KeepCoding Blog, [En línea]. Disponible: https://keepcoding.io/blog/batch-size-deep-learning/. [Accedido: 1-Jul-2025].
+19. LYZR AI, “Epochs,” LYZR AI Glossary, [En línea]. Disponible: https://www.lyzr.ai/glossaries/epochs/. [Accedido: 1-Jul-2025].
+20. Number Analytics, “Optimizing loss functions for better AI models,” Number Analytics Blog, [En línea]. Disponible: https://www.numberanalytics.com/blog/optimizing-loss-functions-for-ai. [Accedido: 1-Jul-2025].
+21. GeeksforGeeks, “How does the class_weight parameter in Scikit-Learn work?,” GeeksforGeeks, 07-Aug-2024. [En línea]. Disponible: https://www.geeksforgeeks.org/machine-learning/how-does-the-classweight-parameter-in-scikit-learn-work/. [Accedido: 1-Jul-2025].
+
+22.  C. He, J. Liu, Y. Zhu y W. Du, "Data Augmentation for Deep Neural Networks Model in EEG Classification Task: A Review," Frontiers in Human Neuroscience, vol. 15, 17-Dec-2021. [En línea]. Disponible: https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.765525/full. [Accedido: 02-Jul-2025].
+23.  C. C. Williams, D. Weinhardt, J. Hewson, M. B. Plomecka, N. Langer y S. Musslick, “EEG‑GAN: A Generative EEG Augmentation Toolkit for Enhancing Neural Classification,” bioRxiv, preprint, 25‑Jun‑2025. [En línea]. Disponible: https://www.biorxiv.org/content/10.1101/2025.06.23.661164v1. [Accedido: 02‑Jul‑2025].
+24.  C. Rommel, J. Paillard, T. Moreau y A. Gramfort, “Data augmentation for learning predictive models on EEG: a systematic comparison,” arXiv preprint arXiv:2206.14483, 29‑Jun‑2022. [En línea]. Disponible: https://arxiv.org/abs/2206.14483?utm_source=chatgpt.com. [Accedido: 02‑Jul‑2025].
+25.  E. Lashgari, D. Liang y U. Maoz, “Data augmentation for deep‑learning‑based electroencephalography,” Journal of Neuroscience Methods, vol. 346, p. 108885, 31‑Jul‑2020. [En línea]. Disponible: https://pubmed.ncbi.nlm.nih.gov/32745492/. [Accedido: 02‑Jul‑2025].
+26.  M. Tveter, T. Tveitstøl, C. Hatlestad‑Hall, A. S. Pérez Teseyra, E. Taubøll, A. Yazidi y H. L. Hammer, “Advancing EEG prediction with deep learning and uncertainty estimation,” Brain Informatics, vol. 11, art. 27, 28‑Jun‑2025. [En línea]. Disponible: https://braininformatics.springeropen.com/articles/10.1186/s40708-024-00239-6?utm_source=chatgpt.com. [Accedido: 02‑Jul‑2025].
+27. H. Song, M. Kim, D. Park y J.-G. Lee, “How does Early Stopping Help Generalization against Label Noise?,” arXiv preprint arXiv:1911.08059, 8‑Sep‑2020. [En línea]. Disponible: https://arxiv.org/abs/1911.08059. [Accedido: 02‑Jul‑2025].
+28. D. M. W. Powers, “Evaluation: From Precision, Recall and F-Measure to ROC, Informedness, Markedness and Correlation,” Journal of Biomedical Informatics, vol. 42, no. 2, pp. 335–339, Apr. 2011. doi: 10.1016/j.jbi.2010.09.001.
+29. D. M. W. Powers, “Evaluation: From Precision, Recall and F-Measure to ROC, Informedness, Markedness and Correlation,” Journal of Biomedical Informatics, vol. 42, no. 2, pp. 335–339, Apr. 2011. doi: 10.1016/j.jbi.2010.09.001.
+30. T. Fawcett, “An introduction to ROC analysis,” Pattern Recognition Letters, vol. 27, no. 8, pp. 861–874, Jun. 2006. doi: 10.1016/j.patrec.2005.10.010.
+31. T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLoS ONE, vol. 10, no. 3, p. e0118432, Mar. 2015. doi: 10.1371/journal.pone.0118432.
+
