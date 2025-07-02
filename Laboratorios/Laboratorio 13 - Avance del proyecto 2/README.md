@@ -78,7 +78,7 @@ Se puede ver que el modelo identificó correctamente 47 de los 50 eventos (sensi
 <br>
 </p>
 <div align="center">
-  <img src=[https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 13 - Avance del proyecto 2/figresultados.png](https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2013%20-%20Avance%20del%20proyecto%202/figresultados.png)><p>
+  <img src=[https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2013%20-%20Avance%20del%20proyecto%202/figresultados.png)><p>
   
 
 ## 4. Conclusiones
