@@ -78,7 +78,8 @@ Se puede ver que el modelo identificó correctamente 47 de los 50 eventos (sensi
 <br>
 </p>
 <div align="center">
-  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio%2005%20-%20Adquisicion%20de%20EEG/Imagenes/figresultados.png><p>
+  <img src=https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/Laboratorios/Laboratorio 13 - Avance del proyecto 2/figresultados.png><p>
+  
 
 ## 4. Conclusiones
 Los resultados obtenidos confirman que el enfoque de aprendizaje profundo implementado es capaz de distinguir de manera confiable entre los eventos Target y Non-Target. El modelo basado en la red neuronal convolucional EEGNet, adaptado específicamente a los datos de pacientes con ALS y señales EEG del dataset big3BCI, logró un buen rendimiento, con una sensibilidad de 0.94 y una especificidad de 0.93. Estos resultados son superiores a los obtenidos con métodos tradicionales como SWLDA, LDA y modelos bayesianos, que generalmente muestran sensibilidades entre 70% y 85% en condiciones similares y requieren una gran cantidad de procesamiento manual de las características.
