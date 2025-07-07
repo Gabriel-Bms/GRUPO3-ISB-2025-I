@@ -5,14 +5,11 @@
 
 ## 1. Resumen
 
+## 2. Propuesta de solución
 
-## 2. Introducción
+## 3. Principales hallazgos 
 
-## 3. Problematica
-
-## 4. Propuesta de solución
-
-## 5. Principales hallazgos 
+## 4. Motivación
 
 
 
