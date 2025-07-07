@@ -16,6 +16,8 @@ Se trabajó con el estudio F del dataset público bigP3BCI, que contiene señale
 
 Los pacientes con ELA, especialmente en etapas avanzadas, enfrentan una pérdida casi total del habla y del movimiento, lo que hace que su única forma de comunicación sea mediante tecnologías asistidas. Si bien existen BCI comerciales, su costo y requerimientos técnicos los hacen poco viables en hospitales públicos o contextos con recursos limitados. Este proyecto nace de la necesidad de desarrollar una alternativa funcional  y portátil, que permita a estos pacientes comunicarse de forma efectiva usando su actividad cerebral.
 
+La conformación del equipo de trabajo, así como la descripción general del proyecto, sus objetivos y los datos de contacto, fueron establecidos en el [Primer entregable del curso]([https://github.com/Gabriel-Bms/GRUPO3-ISB-2025-I/blob/main/README.md]), el cual sirvió como base para el desarrollo de esta propuesta.
+
 ## 3. Principales hallazgos 
 
 - Se entrenó un modelo CNN ligero (EEGNet) capaz de detectar potenciales P300 en señales EEG de pacientes con ELA.
