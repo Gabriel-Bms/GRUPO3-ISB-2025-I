@@ -1,15 +1,15 @@
 # A Lightweight Deep Learning Model for P300 Detection on Microcontroller-Based BCI Systems for communication in ALS patients
 
 
-### **Un modelo ligero de aprendizaje profundo para la detección de P300 en sistemas BCI basados en microcontroladores para la comunicación en pacientes con ELA**
+### **Proyecto: Un modelo ligero de aprendizaje profundo para la detección de P300 en sistemas BCI basados en microcontroladores para la comunicación en pacientes con ELA**
 
 ## 1. Resumen
 
-## 2. Propuesta de solución
+## 2. Motivación
 
 ## 3. Principales hallazgos 
 
-## 4. Motivación
+
 
 
 
