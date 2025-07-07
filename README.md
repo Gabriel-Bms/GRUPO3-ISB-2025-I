@@ -65,7 +65,7 @@ En este repositorio encontrarás:
 
 
 ## Proyecto
-Proyecto: A Lightweight Deep Learning Model for P300 Detection on Microcontroller-Based BCI Systems for communication in ALS patients </p> 
+Proyecto: **A Lightweight Deep Learning Model for P300 Detection on Microcontroller-Based BCI Systems for communication in ALS patients** </p> 
 
 Resumen: 
 La esclerosis lateral amiotrófica (ELA) es una enfermedad neurodegenerativa progresiva que afecta gravemente las funciones motoras voluntarias, incluyendo el habla, lo que genera la necesidad de tecnologías de comunicación asistida. Las interfaces cerebro-computadora (BCI) basadas en potenciales relacionados con eventos como el P300 han mostrado potencial para permitir la comunicación sin necesidad de actividad muscular. Sin embargo, los sistemas BCI convencionales requieren altos recursos computacionales y, con frecuencia, son inaccesibles en entornos clínicos o con recursos limitados. En este proyecto, presentamos un modelo ligero de aprendizaje profundo optimizado para detectar respuestas P300 en señales EEG, específicamente en pacientes con ELA, y adecuado para ser implementado en plataformas basadas en microcontroladores.
